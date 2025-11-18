@@ -1,0 +1,10978 @@
+#LyX file created by tex2lyx 2.4
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin D:/Users/migue/Documents/Proyectos/markitdown/ProcesamientoDeImagenes/lyx_final/
+\textclass article
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig}% disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "pdflang={es},hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -\maxdimen
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+\lang spanish
+Capítulo 11: Operaciones Morfológicas Binarias
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "capuxedtulo-11-operaciones-morfoluxf3gicas-binarias"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+Respuestas a las Preguntas 11.10
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "respuestas-a-las-preguntas-11.10"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+Preguntas sobre hechos indicados en el texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-sobre-hechos-indicados-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Qué es la morfología matemática y en qué área de estudio se utiliza principalmente?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-es-la-morfologuxeda-matemuxe1tica-y-en-quuxe9-uxe1rea-de-estudio-se-utiliza-principalmente"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La morfología matemática es una técnica con base en la teoría de conjuntos y en la topología que se utiliza para extraer información sobre la forma y estructura de los objetos. Esta es altamente utilizada en el 
+\series bold
+procesamiento de imágenes
+\series default
+ para analizar y manipular formas geométricas, lo que permite que sea utilizada comúnmente para extraer características útiles de una imagen, como:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Bordes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Contornos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Regiones 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Áreas de interés 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las operaciones morfológicas se pueden aplicar a imágenes binarias o en escala de grises. En el caso de las imágenes binarias, se definen de forma natural en términos de conjuntos, siendo más comunes ya que las operaciones se pueden definir de manera más clara de forma binaria.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. ¿Cuál es la función del elemento estructurante en las operaciones de morfología matemática?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1l-es-la-funciuxf3n-del-elemento-estructurante-en-las-operaciones-de-morfologuxeda-matemuxe1tica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El 
+\series bold
+elemento estructurante
+\series default
+ 
+\begin_inset Formula \((S)\)
+\end_inset
+
+ es una plantilla de ceros y unos que define el vecindario de cada píxel de la imagen a operar en relación con algún origen sobre la máscara. Sus funciones principales son:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Definir la vecindad
+\series default
+: Se recorre sobre toda la imagen binaria a transformar buscando las coincidencias entre píxeles de la imagen y el elemento estructurante. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Determinar el área de operación
+\series default
+: Define el área a expandir o reducir dentro de una vecindad para cada píxel. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Influir en el resultado
+\series default
+: El elemento estructurante puede tener diferentes formas y tamaños, como:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Rectángulo 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Disco 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Cruz 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Línea 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Cuadrado 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Diamante 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+La elección del elemento estructurante es dependiente de la aplicación específica y de los objetivos del procesamiento de la imagen. El origen del 
+\begin_inset Formula \(S\)
+\end_inset
+
+ no tiene que estar en su centro, pero a menudo lo está.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. ¿Qué condición debe cumplirse para que un píxel central se mantenga blanco (1) durante una operación de erosión?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-condiciuxf3n-debe-cumplirse-para-que-un-puxedxel-central-se-mantenga-blanco-1-durante-una-operaciuxf3n-de-erosiuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Durante una operación de erosión, la condición que debe cumplirse es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Todos los píxeles cubiertos por el elemento estructurante deben ser blancos (1)
+\series default
+ para que el píxel central del elemento estructurante se mantenga blanco (1).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Formalmente, la erosión del conjunto 
+\begin_inset Formula \(I\)
+\end_inset
+
+ por el elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ se denota como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I_e = I \ominus S = \{p \in \mathbb{Z}^2 \mid S_p \subseteq I\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde: - 
+\begin_inset Formula \(I_e\)
+\end_inset
+
+ es la imagen erosionada resultante - 
+\begin_inset Formula \(\ominus\)
+\end_inset
+
+ denota la operación de erosión - 
+\begin_inset Formula \(S_p\)
+\end_inset
+
+ es la traslación del elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ por el vector 
+\begin_inset Formula \(p\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S_p = \{s + p \mid s \in S\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+De lo contrario
+\series default
+, si algún píxel cubierto por el elemento estructurante es negro (0), el píxel central coincidente con la imagen se vuelve negro (0). Esto tiene el efecto de reducir el tamaño de los objetos en la imagen.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En el algoritmo de erosión, esto se implementa como una 
+\series bold
+operación AND
+\series default
+ entre el elemento estructurante y los píxeles de la imagen.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+4. ¿Cuáles son las operaciones morfológicas fundamentales descritas en el texto?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1les-son-las-operaciones-morfoluxf3gicas-fundamentales-descritas-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las operaciones morfológicas fundamentales descritas en el texto son:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Operaciones Básicas:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "operaciones-buxe1sicas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Erosión
+\series default
+ 
+\begin_inset Formula \((I \ominus S)\)
+\end_inset
+
+: Reduce el área de los objetos en la imagen. Implica comparar el elemento estructurante con cada píxel; si todos los píxeles cubiertos son blancos (1), el píxel central se mantiene blanco (1), de lo contrario se vuelve negro (0). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Dilatación
+\series default
+ 
+\begin_inset Formula \((I \oplus S)\)
+\end_inset
+
+: Expande el área de los objetos en la imagen. Si al menos un píxel cubierto por el elemento estructurante es blanco (1), el píxel central se mantiene blanco (1). 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Operaciones Compuestas:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "operaciones-compuestas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{enumi}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Apertura (Opening)
+\series default
+: Consiste en aplicar primero una erosión a la imagen, seguida de una dilatación. Se utiliza para eliminar pequeños objetos y detalles en los bordes de los objetos más grandes, ayudando a suavizar los bordes mientras se eliminan los detalles no deseados. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Cerramiento (Closing)
+\series default
+: Consiste en aplicar primero una dilatación a la imagen, seguida de una erosión. Se utiliza para eliminar los agujeros pequeños y estrechos en los objetos y para cerrar brechas entre ellos. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Además, el texto menciona la 
+\series bold
+dualidad entre erosión y dilatación
+\series default
+, expresada mediante las ecuaciones:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \ominus S = (I^c \oplus S^s)^c\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \oplus S = (I^c \ominus S^s)^c\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde 
+\begin_inset Formula \(I^c\)
+\end_inset
+
+ es el complemento de 
+\begin_inset Formula \(I\)
+\end_inset
+
+ y 
+\begin_inset Formula \(S^s\)
+\end_inset
+
+ es la reflexión de 
+\begin_inset Formula \(S\)
+\end_inset
+
+ respecto al origen.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. ¿Qué efecto tiene la operación de dilatación sobre los objetos de una imagen binaria?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-efecto-tiene-la-operaciuxf3n-de-dilataciuxf3n-sobre-los-objetos-de-una-imagen-binaria"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La operación de dilatación tiene el 
+\series bold
+efecto de expandir el tamaño de los objetos
+\series default
+ en una imagen binaria. Específicamente:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Efectos principales:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "efectos-principales"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Expansión de objetos
+\series default
+: Aumenta el área de los objetos blancos en la imagen. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Cierre de brechas
+\series default
+: Permite cerrar pequeñas discontinuidades entre objetos. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Relleno de huecos
+\series default
+: Ayuda a rellenar pequeños agujeros dentro de los objetos. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Conexión de regiones
+\series default
+: Conecta objetos que están próximos entre sí. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Definición formal:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "definiciuxf3n-formal"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dilatación del conjunto 
+\begin_inset Formula \(I\)
+\end_inset
+
+ por el elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ se denota como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I_d = I \oplus S = \{p \in \mathbb{Z}^2 \mid S_p \cap I \neq \emptyset\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde: - 
+\begin_inset Formula \(I_d\)
+\end_inset
+
+ es la imagen dilatada resultante - 
+\begin_inset Formula \(\oplus\)
+\end_inset
+
+ denota la operación de dilatación - 
+\begin_inset Formula \(S_p\)
+\end_inset
+
+ es la traslación del elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ por el vector 
+\begin_inset Formula \(p\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S_p = \{s + p \mid s \in S\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Proceso de dilatación:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "proceso-de-dilataciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El proceso implica comparar el elemento estructurante con cada píxel de la imagen y: - 
+\series bold
+Si al menos un píxel
+\series default
+ cubierto por el elemento estructurante es blanco (1), el píxel central se mantiene blanco (1) (operación OR). - De lo contrario, el píxel central coincidente con la imagen se vuelve negro (0).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dilatación se puede realizar varias veces en una imagen para expandar aún más el tamaño de los objetos, y se pueden utilizar diferentes formas y tamaños de elementos estructurantes para lograr diferentes efectos sobre la imagen.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+Preguntas de análisis y comprensión con base en el texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-anuxe1lisis-y-comprensiuxf3n-con-base-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. Explica por qué la morfología matemática es una herramienta útil en el procesamiento de imágenes binarias
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "explica-por-quuxe9-la-morfologuxeda-matemuxe1tica-es-una-herramienta-uxfatil-en-el-procesamiento-de-imuxe1genes-binarias"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La morfología matemática es una herramienta particularmente útil en el procesamiento de imágenes binarias por las siguientes razones:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Fundamento teórico sólido
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fundamento-teuxf3rico-suxf3lido"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La morfología matemática tiene su base en la 
+\series bold
+teoría de conjuntos y la topología
+\series default
+, lo que permite que las operaciones sobre imágenes binarias se definan de manera natural y clara. Las imágenes binarias se pueden representar como conjuntos de píxeles, donde cada píxel es un elemento que pertenece o no al conjunto (objeto o fondo).
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Definición clara de operaciones
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "definiciuxf3n-clara-de-operaciones"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En las imágenes binarias, las operaciones se pueden 
+\series bold
+definir de manera más clara
+\series default
+ que en imágenes en escala de grises. Esto se debe a que: - Los píxeles solo tienen dos valores posibles (0 o 1, negro o blanco) - Las operaciones morfológicas se traducen directamente en operaciones de conjuntos - No hay ambigüedad en la aplicación de los operadores lógicos
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Extracción de información estructural
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "extracciuxf3n-de-informaciuxf3n-estructural"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La morfología matemática permite extraer información crucial sobre la 
+\series bold
+forma y estructura
+\series default
+ de los objetos, facilitando:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Detección de bordes
+\series default
+: Identificación de los contornos de los objetos 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Segmentación
+\series default
+: Separación de regiones de interés 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Extracción de contornos
+\series default
+: Delimitación precisa de formas 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Análisis de regiones
+\series default
+: Estudio de áreas específicas 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Eliminación de ruido
+\series default
+: Limpieza de artefactos no deseados 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Operaciones fundamentales versátiles
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "operaciones-fundamentales-versuxe1tiles"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las dos operaciones básicas (erosión y dilatación) permiten construir operaciones más complejas que resuelven problemas prácticos: - 
+\series bold
+Apertura
+\series default
+: Elimina objetos pequeños y ruido - 
+\series bold
+Cerramiento
+\series default
+: Rellena huecos y conecta objetos cercanos - 
+\series bold
+Detección de bordes
+\series default
+: Mediante diferencias entre imágenes originales y procesadas
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Eficiencia computacional
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "eficiencia-computacional"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Al trabajar con valores binarios, las operaciones son computacionalmente eficientes, utilizando operadores lógicos básicos (AND, OR, NOT) que son extremadamente rápidos en hardware moderno.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Aplicabilidad práctica
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "aplicabilidad-pruxe1ctica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La morfología matemática es fundamental para: - Análisis de formas geométricas - Preprocesamiento de imágenes para reconocimiento de patrones - Análisis médico (detección de estructuras en imágenes médicas) - Control de calidad industrial - Visión por computadora
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. ¿Cuál es la relación entre los operadores de lógica binaria (AND, OR, NOT) y las operaciones de conjuntos aplicadas en morfología matemática?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1l-es-la-relaciuxf3n-entre-los-operadores-de-luxf3gica-binaria-and-or-not-y-las-operaciones-de-conjuntos-aplicadas-en-morfologuxeda-matemuxe1tica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La relación entre los operadores de lógica binaria y las operaciones de conjuntos es 
+\series bold
+fundamental y directa
+\series default
+, constituyendo la base matemática de la morfología matemática en imágenes binarias.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Correspondencia directa entre operadores
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "correspondencia-directa-entre-operadores"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La morfología matemática utiliza las operaciones de conjuntos y sus correspondientes operadores lógicos para analizar y procesar estructuras dentro de las imágenes digitales que se modelan como conjuntos de píxeles.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+1. Unión (∪) y OR Lógico (∨)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "uniuxf3n-y-or-luxf3gico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Operación de conjuntos:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[A \cup B = \{x \mid x \in A \text{ o } x \in B\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Operador lógico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[p \vee q = \begin{cases} 
+\text{Verdadero,} & \text{si } p \text{ es verdadero o } q \text{ es verdadero (o ambos)} \\
+\text{Falso,} & \text{si } p \text{ y } q \text{ son falsos}
+\end{cases}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Analogía
+\series default
+: La unión de conjuntos y el operador lógico OR son análogos porque ambos combinan elementos o proposiciones que cumplen 
+\series bold
+al menos una
+\series default
+ de las condiciones. Si se consideran conjuntos de valores de verdad, la unión corresponde al OR lógico.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicación en morfología
+\series default
+: En la operación de 
+\series bold
+dilatación
+\series default
+, se utiliza el OR lógico: si al menos un píxel cubierto por el elemento estructurante es blanco (1), el píxel central se mantiene blanco (1).
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+2. Intersección (∩) y AND Lógico (∧)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "intersecciuxf3n-y-and-luxf3gico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Operación de conjuntos:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[A \cap B = \{x \mid x \in A \text{ y } x \in B\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Operador lógico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[p \wedge q = \begin{cases} 
+\text{Verdadero,} & \text{si } p \text{ es verdadero y } q \text{ es verdadero} \\
+\text{Falso,} & \text{en cualquier otro caso}
+\end{cases}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Analogía
+\series default
+: La intersección de conjuntos y el operador lógico AND son análogos porque ambos requieren que se cumplan 
+\series bold
+simultáneamente
+\series default
+ dos condiciones. La intersección corresponde al AND lógico.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicación en morfología
+\series default
+: En la operación de 
+\series bold
+erosión
+\series default
+, se utiliza el AND lógico: todos los píxeles cubiertos por el elemento estructurante deben ser blancos (1) para que el píxel central se mantenga blanco (1).
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+3. Complemento (′ o ) y NOT Lógico (¬)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "complemento-o-y-not-luxf3gico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Operación de conjuntos:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[A' = U \setminus A = \{x \mid x \in U \text{ y } x \notin A\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Operador lógico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\neg p = \begin{cases} 
+\text{Verdadero,} & \text{si } p \text{ es falso} \\
+\text{Falso,} & \text{si } p \text{ es verdadero}
+\end{cases}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Analogía
+\series default
+: El complemento de un conjunto y el operador lógico NOT son análogos porque ambos consideran la 
+\series bold
+negación
+\series default
+ de una condición: en conjuntos, los elementos que no pertenecen a 
+\begin_inset Formula \(A\)
+\end_inset
+
+; en lógica, el valor de verdad opuesto de 
+\begin_inset Formula \(p\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicación en morfología
+\series default
+: Se utiliza en la 
+\series bold
+dualidad
+\series default
+ entre erosión y dilatación, donde el complemento de la imagen es fundamental para expresar una operación en términos de la otra.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Importancia de esta relación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "importancia-de-esta-relaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esta correspondencia permite:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Modelar imágenes digitales como conjuntos de píxeles
+\series default
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Modificar y extraer información relevante
+\series default
+ de las regiones 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Facilitar tareas complejas
+\series default
+ como detección de bordes, segmentación y eliminación de ruido 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Implementar algoritmos eficientes
+\series default
+ usando operaciones lógicas de hardware 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Fundamentar matemáticamente
+\series default
+ todas las operaciones morfológicas 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como indica el texto: 
+\emph on
+
+\begin_inset Quotes fls
+\end_inset
+
+La estrecha relación entre la teoría de conjuntos y la lógica binaria es fundamental en la morfología matemática, que es una herramienta clave en el procesamiento de imágenes.
+\begin_inset Quotes frs
+\end_inset
+
+
+\emph default
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. Describe la importancia de aplicar la reflexión al elemento estructurante S cuando este no es simétrico respecto al origen
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "describe-la-importancia-de-aplicar-la-reflexiuxf3n-al-elemento-estructurante-s-cuando-este-no-es-simuxe9trico-respecto-al-origen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La reflexión del elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ es un concepto fundamental para mantener la 
+\series bold
+dualidad exacta
+\series default
+ entre las operaciones de erosión y dilatación, especialmente cuando el elemento estructurante no es simétrico.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Definición de la reflexión
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "definiciuxf3n-de-la-reflexiuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La reflexión del elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ respecto al origen se define como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S^s = \{-s \mid s \in S\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esto implica que 
+\series bold
+cada punto del elemento estructurante se refleja respecto al origen
+\series default
+, es decir, se invierten sus coordenadas.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+La dualidad entre erosión y dilatación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "la-dualidad-entre-erosiuxf3n-y-dilataciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dualidad entre estas operaciones se expresa mediante las ecuaciones:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \ominus S = (I^c \oplus S^s)^c\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \oplus S = (I^c \ominus S^s)^c\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde: - 
+\begin_inset Formula \(I^c\)
+\end_inset
+
+ es el complemento de 
+\begin_inset Formula \(I\)
+\end_inset
+
+: 
+\begin_inset Formula \(I^c = \mathbb{Z}^2 \setminus I\)
+\end_inset
+
+ - 
+\begin_inset Formula \(S^s\)
+\end_inset
+
+ es la reflexión de 
+\begin_inset Formula \(S\)
+\end_inset
+
+ respecto al origen - 
+\begin_inset Formula \(\ominus\)
+\end_inset
+
+ denota la operación de erosión - 
+\begin_inset Formula \(\oplus\)
+\end_inset
+
+ denota la operación de dilatación
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Importancia de la reflexión
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "importancia-de-la-reflexiuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+1. Elementos estructurantes no simétricos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "elementos-estructurantes-no-simuxe9tricos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Si el elemento estructurante 
+\series bold
+no es simétrico
+\series default
+, la reflexión 
+\begin_inset Formula \(S^s\)
+\end_inset
+
+ se vuelve 
+\series bold
+necesaria
+\series default
+ para asegurar la dualidad exacta entre erosión y dilatación. Esto se debe a que:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La 
+\series bold
+posición relativa
+\series default
+ de 
+\begin_inset Formula \(S\)
+\end_inset
+
+ respecto al origen influye en cómo se aplican las operaciones morfológicas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Sin la reflexión, las operaciones duales no producirían resultados equivalentes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La orientación del elemento estructurante afecta directamente el resultado de la operación 
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+2. Elementos estructurantes simétricos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "elementos-estructurantes-simuxe9tricos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Cuando el elemento estructurante es 
+\series bold
+simétrico
+\series default
+ respecto al origen (por ejemplo, un cuadrado centrado, un disco, o una cruz simétrica), la reflexión no afecta el resultado ya que:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S = S^s\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En este caso, muchas aplicaciones prácticas y definiciones en el procesamiento digital de imágenes 
+\series bold
+omiten la reflexión
+\series default
+ en las fórmulas, simplificando así las definiciones.
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+3. Consistencia matemática
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "consistencia-matemuxe1tica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La reflexión garantiza que:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La erosión de una imagen sea exactamente equivalente al complemento de la dilatación del complemento con el elemento estructurante reflejado 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Las propiedades matemáticas de dualidad se mantengan válidas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Los resultados sean predecibles y consistentes independientemente del orden de las operaciones 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Casos prácticos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "casos-pruxe1cticos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Elemento estructurante asimétrico
+\series default
+ (ejemplo: línea orientada o rectángulo no centrado): - 
+\series bold
+Con reflexión
+\series default
+: La dualidad se mantiene correcta - 
+\series bold
+Sin reflexión
+\series default
+: Los resultados de erosión y dilatación no serían duales, produciendo inconsistencias
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Elemento estructurante simétrico
+\series default
+ (ejemplo: cuadrado 3×3 centrado, disco): - La reflexión puede omitirse sin afectar los resultados - Simplifica la implementación y el cálculo
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Conclusión
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conclusiuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como indica el texto: 
+\emph on
+
+\begin_inset Quotes fls
+\end_inset
+
+La necesidad de reflejar el elemento estructurante S depende de cómo se definan las operaciones de erosión y dilatación en el contexto específico.
+\begin_inset Quotes frs
+\end_inset
+
+
+\emph default
+ Sin embargo, para mantener la 
+\series bold
+rigurosidad matemática
+\series default
+ y la 
+\series bold
+dualidad exacta
+\series default
+, especialmente con elementos no simétricos, la reflexión es fundamental. Algunos autores omiten este paso cuando trabajan con elementos simétricos y en espacios discretos, pero su importancia teórica y práctica no debe subestimarse cuando se trabaja con formas asimétricas.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+4. Explica cómo se combinan las operaciones de erosión y dilatación en el cerramiento morfológico y cuál es la utilidad de esta combinación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "explica-cuxf3mo-se-combinan-las-operaciones-de-erosiuxf3n-y-dilataciuxf3n-en-el-cerramiento-morfoluxf3gico-y-cuuxe1l-es-la-utilidad-de-esta-combinaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El 
+\series bold
+cerramiento morfológico
+\series default
+ (closing en inglés) es una operación compuesta que combina dilatación y erosión en un orden específico para lograr efectos particulares sobre la estructura de los objetos en una imagen binaria.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Proceso del cerramiento morfológico
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "proceso-del-cerramiento-morfoluxf3gico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El cerramiento consiste en aplicar las operaciones en el siguiente orden:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+1. Primero: Dilatación
+\series default
+ - Se expanden los objetos en la imagen - Se cierran pequeñas brechas entre objetos cercanos - Se rellenan huecos pequeños dentro de los objetos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+2. Segundo: Erosión
+\series default
+ - Se reduce el tamaño de los objetos expandidos - Se devuelve a los objetos aproximadamente a su tamaño original - Se conservan los cambios topológicos (huecos rellenados, brechas cerradas)
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Algoritmo de cerramiento
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "algoritmo-de-cerramiento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Definir la imagen de entrada 
+\begin_inset Formula \(I\)
+\end_inset
+
+ y el elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Realizar una 
+\series bold
+dilatación
+\series default
+ en la imagen de entrada: 
+\begin_inset Formula \(I_d = I \oplus S\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Realizar una 
+\series bold
+erosión
+\series default
+ sobre la imagen dilatada usando el 
+\series bold
+mismo
+\series default
+ elemento estructurante: 
+\begin_inset Formula \(I_{cerrada} = I_d \ominus S\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Devolver la imagen resultante de la erosión como resultado final 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Matemáticamente, el cerramiento se puede expresar como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \bullet S = (I \oplus S) \ominus S\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Utilidad de esta combinación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "utilidad-de-esta-combinaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+1. Relleno de agujeros pequeños
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "relleno-de-agujeros-pequeuxf1os"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dilatación inicial rellena los huecos pequeños dentro de los objetos, y la erosión posterior no los vuelve a abrir si son lo suficientemente pequeños en relación con el elemento estructurante.
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+2. Cierre de brechas estrechas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cierre-de-brechas-estrechas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Los objetos que están separados por espacios pequeños se conectan durante la dilatación, y esta conexión se mantiene después de la erosión.
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+3. Suavizado de bordes
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "suavizado-de-bordes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El cerramiento ayuda a 
+\series bold
+suavizar los bordes
+\series default
+ de los objetos, eliminando irregularidades y concavidades pequeñas en el contorno exterior, mejorando la conectividad entre los objetos en la imagen.
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+4. Preservación del tamaño general
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preservaciuxf3n-del-tamauxf1o-general"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+A diferencia de aplicar solo dilatación (que agrandaría permanentemente los objetos), el cerramiento restaura aproximadamente el tamaño original de los objetos mientras mantiene las mejoras topológicas.
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+5. Mejora de la conectividad
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "mejora-de-la-conectividad"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Es útil para unir componentes que deberían estar conectados pero que fueron separados por: - Ruido en el proceso de binarización - Interrupciones en líneas o bordes - Artefactos de digitalización
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Aplicaciones prácticas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "aplicaciones-pruxe1cticas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El cerramiento es útil en:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Segmentación de objetos
+\series default
+: Conectar partes fragmentadas de un mismo objeto 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Preprocesamiento
+\series default
+: Preparar imágenes para análisis posterior eliminando discontinuidades 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Análisis de formas
+\series default
+: Rellenar huecos internos antes de calcular propiedades geométricas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Reconstrucción de estructuras
+\series default
+: Restaurar objetos que fueron parcialmente degradados 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Diferencia con la apertura
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "diferencia-con-la-apertura"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Mientras que: - 
+\series bold
+Cerramiento
+\series default
+ (dilatación + erosión): Rellena huecos, cierra brechas, suaviza concavidades - 
+\series bold
+Apertura
+\series default
+ (erosión + dilatación): Elimina objetos pequeños, separa objetos unidos, suaviza convexidades
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ambas operaciones son complementarias y se utilizan según las necesidades específicas del procesamiento.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Ejemplo visual
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejemplo-visual"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como se muestra en las figuras del texto: - La imagen binarizada puede tener pequeños agujeros en los objetos - Después de la dilatación, estos agujeros se rellenan - Tras la erosión, los objetos recuperan su tamaño pero mantienen los huecos cerrados - El resultado es una imagen con objetos más completos y mejor conectados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como indica el texto: 
+\emph on
+
+\begin_inset Quotes fls
+\end_inset
+
+El cerramiento es útil en el procesamiento de imágenes para suavizar los bordes de los objetos y mejorar la conectividad entre los objetos en la imagen. Además, se puede utilizar para rellenar pequeños agujeros y para suavizar la forma de los objetos en la imagen.
+\begin_inset Quotes frs
+\end_inset
+
+
+\emph default
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. ¿Qué ventajas ofrece la operación de erosión cuando se aplica a una imagen que contiene ruido?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-ventajas-ofrece-la-operaciuxf3n-de-erosiuxf3n-cuando-se-aplica-a-una-imagen-que-contiene-ruido"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La operación de 
+\series bold
+erosión
+\series default
+ es particularmente efectiva para tratar imágenes binarias que contienen ruido, ofreciendo múltiples ventajas en el proceso de limpieza y mejora de la calidad de la imagen.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Ventajas principales de la erosión en imágenes con ruido
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ventajas-principales-de-la-erosiuxf3n-en-imuxe1genes-con-ruido"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+1. Eliminación de objetos pequeños (ruido aislado)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "eliminaciuxf3n-de-objetos-pequeuxf1os-ruido-aislado"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La erosión es especialmente efectiva para 
+\series bold
+eliminar píxeles o pequeños grupos de píxeles
+\series default
+ que no forman parte de los objetos principales:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Ruido de sal
+\series default
+: Píxeles blancos aislados en el fondo negro son eliminados completamente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Artefactos pequeños
+\series default
+: Pequeños objetos que no son de interés desaparecen 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Píxeles espurios
+\series default
+: Píxeles blancos aleatorios son removidos 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Principio
+\series default
+: Si un objeto es más pequeño que el elemento estructurante, la erosión lo eliminará por completo, ya que no habrá ninguna posición donde el elemento estructurante completo quepa dentro del objeto.
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+2. Separación de objetos conectados incorrectamente
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "separaciuxf3n-de-objetos-conectados-incorrectamente"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Cuando el ruido causa que objetos que deberían estar separados aparezcan conectados por puentes estrechos o puntos de contacto:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La erosión 
+\series bold
+rompe estas conexiones débiles
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Separa objetos que están unidos solo por 
+\series bold
+píxeles finos
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Facilita el análisis individual de cada objeto 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicación
+\series default
+: Útil cuando la binarización produce uniones incorrectas entre objetos debido a variaciones de iluminación o umbralización inadecuada.
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+3. Reducción de protuberancias irregulares
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "reducciuxf3n-de-protuberancias-irregulares"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El ruido a menudo aparece como irregularidades en los bordes de los objetos:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La erosión 
+\series bold
+suaviza los bordes
+\series default
+ al eliminar protuberancias pequeñas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Reduce las irregularidades causadas por errores de digitalización 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Produce contornos más limpios y regulares 
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+4. Limpieza de detalles innecesarios
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "limpieza-de-detalles-innecesarios"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En imágenes donde hay 
+\series bold
+detalles finos que no son relevantes
+\series default
+ para el análisis:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La erosión elimina estos detalles manteniéndose solo las estructuras principales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Simplifica la imagen para procesamiento posterior 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Reduce la complejidad computacional de análisis subsecuentes 
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+5. Preparación para la operación de apertura
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preparaciuxf3n-para-la-operaciuxf3n-de-apertura"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La erosión es el primer paso en la 
+\series bold
+apertura morfológica
+\series default
+ (erosión seguida de dilatación):
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Elimina el ruido y objetos pequeños 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La dilatación posterior restaura el tamaño de los objetos principales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El resultado es una imagen limpia donde se conservan solo los objetos significativos 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como menciona el texto sobre la apertura: 
+\emph on
+
+\begin_inset Quotes fls
+\end_inset
+
+La erosión reduce el tamaño de los objetos en la imagen y, por lo tanto, elimina los detalles más pequeños, mientras que la dilatación tiene el efecto de expandir los objetos nuevamente al tamaño original, pero sin los detalles que se eliminaron durante la erosión.
+\begin_inset Quotes frs
+\end_inset
+
+
+\emph default
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Consideraciones importantes
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "consideraciones-importantes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+Desventajas a considerar
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "desventajas-a-considerar"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Reducción del tamaño de objetos
+\series default
+: La erosión reduce el área de todos los objetos, no solo del ruido 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Pérdida de información
+\series default
+: Detalles finos que sí son relevantes pueden perderse 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Selección del elemento estructurante
+\series default
+: El tamaño y forma del elemento estructurante deben elegirse cuidadosamente 
+\end_layout
+
+\begin_layout Subparagraph
+
+\lang spanish
+Estrategias de mitigación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "estrategias-de-mitigaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Aplicar apertura en lugar de solo erosión
+\series default
+: Para restaurar el tamaño original de los objetos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Usar elementos estructurantes pequeños
+\series default
+: Para minimizar la pérdida de información relevante 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Aplicar erosión múltiples veces
+\series default
+: Si el ruido es muy denso, con elementos estructurantes pequeños 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Combinar con otras técnicas
+\series default
+: Como filtros de mediana antes de la binarización 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Ejemplo práctico
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejemplo-pruxe1ctico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Según el algoritmo de erosión descrito en el texto:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Se define la imagen de entrada 
+\begin_inset Formula \(I\)
+\end_inset
+
+ (con ruido) y el elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Se explora cada píxel de la imagen 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Si 
+\series bold
+todos
+\series default
+ los píxeles cubiertos por el elemento estructurante son blancos (1), el píxel central se mantiene blanco 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Si 
+\series bold
+algún
+\series default
+ píxel cubierto es negro (0), el píxel central se vuelve negro 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Este proceso asegura que: - Los píxeles blancos aislados (ruido) se eliminan, ya que tendrán píxeles negros en su vecindad - Los objetos sólidos se reducen pero mantienen su estructura principal - Los puentes delgados entre objetos se rompen
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Aplicaciones específicas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "aplicaciones-especuxedficas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La erosión para eliminación de ruido es útil en:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Preprocesamiento de OCR
+\series default
+: Limpieza de documentos escaneados 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Análisis médico
+\series default
+: Eliminación de artefactos en imágenes de rayos X o resonancias 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Inspección industrial
+\series default
+: Limpieza de imágenes de piezas manufacturadas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Visión por computadora
+\series default
+: Preparación de imágenes para detección de objetos 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Conclusión
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conclusiuxf3n-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La erosión es una herramienta fundamental para el 
+\series bold
+preprocesamiento y limpieza
+\series default
+ de imágenes binarias con ruido. Su capacidad para eliminar selectivamente objetos pequeños mientras preserva las estructuras principales la convierte en una operación esencial en el pipeline de procesamiento de imágenes. Cuando se combina inteligentemente con la dilatación (en operaciones como la apertura), ofrece una solución robusta y eficiente para mejorar significativamente la calidad de las imágenes binarias afectadas por ruido.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+Ejercicios Numéricos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicios-numuxe9ricos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Ejercicio 1: Erosión directa y por dualidad
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicio-1-erosiuxf3n-directa-y-por-dualidad"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Enunciado
+\series default
+: Se propone realizar una erosión directa y por dualidad sobre una imagen binaria representada por una matriz 
+\begin_inset Formula \(I\)
+\end_inset
+
+ de 
+\begin_inset Formula \(10 \times 10\)
+\end_inset
+
+, utilizando un elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ cuadrado de 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Datos iniciales
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "datos-iniciales"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Imagen de entrada 
+\begin_inset Formula \(I\)
+\end_inset
+
+ (10×10):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Nota: En la representación visual, los 1 aparecen en negro y los 0 en blanco.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\
+1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ (3×3):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+S = \begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Solución 1a: Erosión Directa
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-1a-erosiuxf3n-directa"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La erosión se define como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I_e = I \ominus S = \{p \in \mathbb{Z}^2 \mid S_p \subseteq I\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Algoritmo de erosión directa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para cada píxel 
+\begin_inset Formula \((i,j)\)
+\end_inset
+
+ de la imagen: 1. Colocar el centro del elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ en la posición 
+\begin_inset Formula \((i,j)\)
+\end_inset
+
+ 2. Verificar si 
+\series bold
+todos
+\series default
+ los píxeles cubiertos por 
+\begin_inset Formula \(S\)
+\end_inset
+
+ son 1 (operación AND) 3. Si todos son 1, entonces 
+\begin_inset Formula \(I_e(i,j) = 1\)
+\end_inset
+
+ 4. Si al menos uno es 0, entonces 
+\begin_inset Formula \(I_e(i,j) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis paso a paso (considerando bordes):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para simplificar, consideraremos que los píxeles en el borde tienen vecinos con valor 0 (padding implícito). El elemento estructurante se aplica solo donde cabe completamente dentro de la imagen.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posiciones donde aplicar el elemento estructurante:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para un elemento estructurante de 3×3, el centro puede colocarse desde la posición (1,1) hasta (8,8) en una matriz 10×10 (usando indexación desde 0).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Analizando algunas posiciones clave:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (1,1):
+\series default
+ - Vecindad extraída de I: 
+\begin_inset Formula \[\begin{bmatrix} 1 & 1 & 1 \\ 1 & 0 & 0 \\ 1 & 0 & 0 \end{bmatrix}\]
+\end_inset
+
+- ¿Todos son 1? 
+\series bold
+No
+\series default
+ (hay 0s) - Resultado: 
+\begin_inset Formula \(I_e(1,1) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (0,0) - borde:
+\series default
+ - Con padding de 0s en el borde: No todos son 1 - Resultado: 
+\begin_inset Formula \(I_e(0,0) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (5,7):
+\series default
+ - Vecindad extraída de I: 
+\begin_inset Formula \[\begin{bmatrix} 0 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 1 & 1 \end{bmatrix}\]
+\end_inset
+
+- ¿Todos son 1? 
+\series bold
+No
+\series default
+ (hay un 0) - Resultado: 
+\begin_inset Formula \(I_e(5,7) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (4,7):
+\series default
+ - Vecindad extraída de I: 
+\begin_inset Formula \[\begin{bmatrix} 1 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 1 & 1 \end{bmatrix}\]
+\end_inset
+
+- ¿Todos son 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \(I_e(4,7) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (7,6):
+\series default
+ - Vecindad extraída de I: 
+\begin_inset Formula \[\begin{bmatrix} 0 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 1 & 1 \end{bmatrix}\]
+\end_inset
+
+- ¿Todos son 1? 
+\series bold
+No
+\series default
+ (hay 0s) - Resultado: 
+\begin_inset Formula \(I_e(7,6) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Realizando la erosión completa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Aplicando el algoritmo sistemáticamente a cada posición (recorriendo toda la matriz y verificando las vecindades 3×3), obtenemos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_e = I \ominus S = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Explicación del resultado:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La erosión eliminó casi toda la imagen excepto una región vertical en la columna 7 (filas 4 a 7). Esto ocurre porque:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Región con muchos 0s
+\series default
+: La gran área con 0s (lado izquierdo superior) hace que ninguna vecindad 3×3 pueda contener solo 1s en esa zona. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Región sólida preservada
+\series default
+: En la esquina superior derecha y centro-derecha hay una zona sólida de 1s. Al aplicar el elemento estructurante 3×3:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+En la posición (4,7): hay un bloque 3×3 completo de 1s → se preserva 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+En las posiciones (5,7), (6,7), (7,7): también hay bloques 3×3 completos → se preservan 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Bordes eliminados
+\series default
+: Los bordes de cualquier región se erosionan porque el elemento estructurante toca píxeles del borde o del fondo. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Objetos delgados eliminados
+\series default
+: Las regiones estrechas o diagonales desaparecen porque no tienen suficiente 
+\begin_inset Quotes fls
+\end_inset
+
+grosor
+\begin_inset Quotes frs
+\end_inset
+
+ para contener un bloque 3×3 completo de 1s. 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Solución 1b: Erosión por Dualidad
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-1b-erosiuxf3n-por-dualidad"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dualidad entre erosión y dilatación establece que:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \ominus S = (I^c \oplus S^s)^c\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde: - 
+\begin_inset Formula \(I^c\)
+\end_inset
+
+ es el complemento de 
+\begin_inset Formula \(I\)
+\end_inset
+
+ - 
+\begin_inset Formula \(S^s\)
+\end_inset
+
+ es la reflexión de 
+\begin_inset Formula \(S\)
+\end_inset
+
+ (pero como 
+\begin_inset Formula \(S\)
+\end_inset
+
+ es simétrico, 
+\begin_inset Formula \(S^s = S\)
+\end_inset
+
+) - 
+\begin_inset Formula \(\oplus\)
+\end_inset
+
+ denota dilatación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 1: Calcular el complemento de 
+\begin_inset Formula \(I\)
+\end_inset
+
+
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El complemento invierte todos los valores: los 1s se convierten en 0s y los 0s en 1s.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I^c = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 \\
+0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 2: Verificar la reflexión de 
+\begin_inset Formula \(S\)
+\end_inset
+
+
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como 
+\begin_inset Formula \(S\)
+\end_inset
+
+ es simétrico (cuadrado de 3×3 con todos unos):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S^s = S = \begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 3: Aplicar dilatación a 
+\begin_inset Formula \(I^c\)
+\end_inset
+
+ con 
+\begin_inset Formula \(S\)
+\end_inset
+
+
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dilatación se define como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I^c \oplus S = \{p \in \mathbb{Z}^2 \mid S_p \cap I^c \neq \emptyset\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En la dilatación, un píxel se establece en 1 si 
+\series bold
+al menos un píxel
+\series default
+ cubierto por el elemento estructurante es 1 (operación OR).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicando la dilatación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dilatación expande todas las regiones de 1s en 
+\begin_inset Formula \(I^c\)
+\end_inset
+
+. Cada píxel de valor 1 se expande a todos sus vecinos en un radio definido por el elemento estructurante (en este caso, una vecindad 3×3).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para cada posición, si al menos un píxel en la vecindad 3×3 es 1, el centro se vuelve 1.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I^c \oplus S = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 0 \\
+0 & 0 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 4: Calcular el complemento del resultado
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Finalmente, invertimos el resultado de la dilatación para obtener la erosión:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_e = (I^c \oplus S)^c = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Nota importante sobre el manejo de bordes:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Observamos que hay diferencias entre el resultado de la erosión directa y la erosión por dualidad. Esto se debe al 
+\series bold
+manejo de los bordes
+\series default
+:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Erosión directa
+\series default
+: Típicamente considera que los píxeles fuera de los límites son 0 (fondo), lo que hace que los bordes se erosionen más agresivamente. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Erosión por dualidad
+\series default
+: El resultado depende de cómo se maneje el padding en la dilatación del complemento. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Para obtener resultados equivalentes
+\series default
+, ambos métodos deben usar la misma convención de bordes. En aplicaciones prácticas:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Sin padding (bordes válidos)
+\series default
+: Solo se procesan píxeles donde el elemento estructurante cabe completamente. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Padding con 0s
+\series default
+: Los bordes se tratan como fondo. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Padding con replicación
+\series default
+: Los valores del borde se replican. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Si aplicamos la erosión directa solo en regiones válidas (donde el EE cabe completamente, es decir, de (1,1) a (8,8)), y consideramos que fuera de estos límites el resultado es 0, obtenemos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_e = I \ominus S = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Este es el resultado más consistente considerando padding con 0s en los bordes.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Verificación y Comparación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "verificaciuxf3n-y-comparaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado final de la erosión (con manejo consistente de bordes):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_e = I \ominus S = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación del resultado:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Solo se preserva una línea vertical de 4 píxeles en la columna 7, filas 4-7. Esta es la única región donde existe un bloque sólido 3×3 de píxeles con valor 1.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Características del resultado:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Reducción drástica
+\series default
+: El 96% de los píxeles se convierten en 0 (solo 4 de 100 píxeles permanecen como 1). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Solo regiones sólidas
+\series default
+: Solo permanecen píxeles donde existían bloques completos 3×3 de 1s:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+En posición (4,7): La vecindad 3×3 centrada aquí contiene solo 1s 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+En posición (5,7): La vecindad 3×3 centrada aquí contiene solo 1s 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+En posición (6,7): La vecindad 3×3 centrada aquí contiene solo 1s 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+En posición (7,7): La vecindad 3×3 centrada aquí contiene solo 1s 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Equivalencia matemática
+\series default
+: 
+\begin_inset Formula \[I \ominus S = (I^c \oplus S^s)^c\]
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Ambos métodos producen el mismo resultado cuando se aplica el mismo criterio de manejo de bordes. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Efecto de 
+\begin_inset Quotes fls
+\end_inset
+
+adelgazamiento
+\begin_inset Quotes frs
+\end_inset
+
+
+\series default
+: La imagen se adelgaza considerablemente, eliminando:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Toda la región con 0s internos (lado izquierdo) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Los bordes de todas las regiones de 1s 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Cualquier región donde los 1s no formen un bloque sólido de al menos 3×3 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Observaciones importantes:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Elemento estructurante 3×3
+\series default
+: Requiere bloques sólidos de 9 píxeles (3×3) con valor 1 para preservar el píxel central. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Efecto en la imagen original
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La gran región de 0s en el lado izquierdo-superior impide que se preserve cualquier píxel en esa área. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La esquina superior derecha tiene 1s, pero al estar en el borde, no puede formar bloques 3×3 completos. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La región central-derecha es donde se encuentra el área más sólida de 1s. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Geometría preservada
+\series default
+: Solo la región vertical más gruesa y sólida sobrevive a la erosión. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Utilidad práctica
+\series default
+: Esta operación es útil para:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Eliminar ruido (objetos pequeños) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Identificar regiones 
+\begin_inset Quotes fls
+\end_inset
+
+fuertes
+\begin_inset Quotes frs
+\end_inset
+
+ o sólidas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Separar objetos conectados débilmente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Reducir el grosor de objetos para análisis de esqueletos 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Verificación manual de una posición:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para verificar, tomemos la posición (5,7):
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Vecindad extraída de 
+\begin_inset Formula \(I\)
+\end_inset
+
+: 
+\begin_inset Formula \[\begin{bmatrix}
+  1 & 1 & 1 \\
+  1 & 1 & 1 \\
+  1 & 1 & 1
+  \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+: 
+\begin_inset Formula \[\begin{bmatrix}
+  1 & 1 & 1 \\
+  1 & 1 & 1 \\
+  1 & 1 & 1
+  \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Comparación: Todos los píxeles coinciden (todos son 1) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Resultado: 
+\begin_inset Formula \(I_e(5,7) = 1\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Ejercicio 2: Dilatación directa y por dualidad
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicio-2-dilataciuxf3n-directa-y-por-dualidad"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Enunciado
+\series default
+: Realizar una dilatación directa y por dualidad sobre una imagen binaria representada por una matriz 
+\begin_inset Formula \(I\)
+\end_inset
+
+ de 
+\begin_inset Formula \(10 \times 10\)
+\end_inset
+
+, utilizando un elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ en línea de 
+\begin_inset Formula \(1 \times 3\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Datos iniciales
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "datos-iniciales-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Imagen de entrada 
+\begin_inset Formula \(I\)
+\end_inset
+
+ (10×10):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Nota: Los 1 aparecen en negro y los 0 en blanco en la visualización.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 \\
+1 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\
+1 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ (1×3) - línea horizontal:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+S = \begin{bmatrix}
+1 & 1 & 1
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Este elemento estructurante representa una línea horizontal de 3 píxeles. El píxel central es el del medio.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Solución 2a: Dilatación Directa
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-2a-dilataciuxf3n-directa"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dilatación se define como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I_d = I \oplus S = \{p \in \mathbb{Z}^2 \mid S_p \cap I \neq \emptyset\}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Algoritmo de dilatación directa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para cada píxel 
+\begin_inset Formula \((i,j)\)
+\end_inset
+
+ de la imagen: 1. Colocar el centro del elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ en la posición 
+\begin_inset Formula \((i,j)\)
+\end_inset
+
+ 2. Verificar si 
+\series bold
+al menos un píxel
+\series default
+ cubierto por 
+\begin_inset Formula \(S\)
+\end_inset
+
+ es 1 (operación OR) 3. Si al menos uno es 1, entonces 
+\begin_inset Formula \(I_d(i,j) = 1\)
+\end_inset
+
+ 4. Si todos son 0, entonces 
+\begin_inset Formula \(I_d(i,j) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Características del elemento estructurante lineal 1×3:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Cubre 3 píxeles horizontales: izquierda, centro, derecha 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Afecta solo en dirección horizontal 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El centro del EE está en el píxel del medio 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis paso a paso:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Voy a analizar algunas posiciones clave para ilustrar el proceso:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (1,1) - valor original 0:
+\series default
+ - Vecindad horizontal: 
+\begin_inset Formula \([I(1,0), I(1,1), I(1,2)] = [1, 0, 0]\)
+\end_inset
+
+ - ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ (el de la izquierda) - Resultado: 
+\begin_inset Formula \(I_d(1,1) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (1,3) - valor original 0:
+\series default
+ - Vecindad horizontal: 
+\begin_inset Formula \([I(1,2), I(1,3), I(1,4)] = [0, 0, 0]\)
+\end_inset
+
+ - ¿Al menos un píxel es 1? 
+\series bold
+No
+\series default
+ - Resultado: 
+\begin_inset Formula \(I_d(1,3) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (2,4) - valor original 1:
+\series default
+ - Vecindad horizontal: 
+\begin_inset Formula \([I(2,3), I(2,4), I(2,5)] = [0, 1, 0]\)
+\end_inset
+
+ - ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ (el del centro) - Resultado: 
+\begin_inset Formula \(I_d(2,4) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (5,2) - valor original 0:
+\series default
+ - Vecindad horizontal: 
+\begin_inset Formula \([I(5,1), I(5,2), I(5,3)] = [1, 0, 0]\)
+\end_inset
+
+ - ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ (el de la izquierda) - Resultado: 
+\begin_inset Formula \(I_d(5,2) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Realizando la dilatación completa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Aplicando el algoritmo sistemáticamente a cada posición, la dilatación horizontal expande cada píxel de valor 1 hacia sus vecinos horizontales inmediatos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_d = I \oplus S = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Explicación del resultado:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Expansión horizontal
+\series default
+: Cada región de 1s se expande un píxel hacia la izquierda y hacia la derecha. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Regiones que cambian
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Fila 1: Los 0s en posiciones (1,1) cambian a 1 porque están junto a un 1 en (1,0) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Fila 2: El 0 en (2,3) se conecta con el 1 en (2,4), expandiéndose 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Fila 4: La región de 1s se expande, conectando áreas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Fila 5: El 0 en (5,2) se convierte en 1 por el 1 en (5,1) 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Efecto de puente horizontal
+\series default
+: La dilatación con elemento lineal horizontal tiende a:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Cerrar brechas horizontales pequeñas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Conectar píxeles que están separados por un solo píxel horizontalmente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+No afecta separaciones verticales 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Preservación de huecos grandes
+\series default
+: Los grupos de 0s que tienen más de 2 píxeles de ancho consecutivos permanecen como 0s en su centro, aunque sus bordes se reducen. 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Solución 2b: Dilatación por Dualidad
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-2b-dilataciuxf3n-por-dualidad"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dualidad entre erosión y dilatación establece que:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \oplus S = (I^c \ominus S^s)^c\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde: - 
+\begin_inset Formula \(I^c\)
+\end_inset
+
+ es el complemento de 
+\begin_inset Formula \(I\)
+\end_inset
+
+ - 
+\begin_inset Formula \(S^s\)
+\end_inset
+
+ es la reflexión de 
+\begin_inset Formula \(S\)
+\end_inset
+
+ (pero como 
+\begin_inset Formula \(S\)
+\end_inset
+
+ es simétrico, 
+\begin_inset Formula \(S^s = S\)
+\end_inset
+
+) - 
+\begin_inset Formula \(\ominus\)
+\end_inset
+
+ denota erosión
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 1: Calcular el complemento de 
+\begin_inset Formula \(I\)
+\end_inset
+
+
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Invertimos todos los valores: 1→0, 0→1.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I^c = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 0 & 1 & 1 & 1 & 0 & 0 \\
+0 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 \\
+0 & 0 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 \\
+0 & 1 & 1 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 2: Verificar la reflexión de 
+\begin_inset Formula \(S\)
+\end_inset
+
+
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El elemento estructurante 
+\begin_inset Formula \(S = [1, 1, 1]\)
+\end_inset
+
+ es simétrico horizontalmente, por lo tanto:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S^s = S = \begin{bmatrix}
+1 & 1 & 1
+\end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 3: Aplicar erosión a 
+\begin_inset Formula \(I^c\)
+\end_inset
+
+ con 
+\begin_inset Formula \(S\)
+\end_inset
+
+
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La erosión requiere que 
+\series bold
+todos
+\series default
+ los píxeles en la vecindad horizontal 1×3 sean 1 para preservar el píxel central.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para cada posición 
+\begin_inset Formula \((i,j)\)
+\end_inset
+
+: - Si 
+\begin_inset Formula \([I^c(i,j-1), I^c(i,j), I^c(i,j+1)]\)
+\end_inset
+
+ son 
+\series bold
+todos 1
+\series default
+, entonces 
+\begin_inset Formula \(I^c \ominus S(i,j) = 1\)
+\end_inset
+
+ - Si alguno es 0, entonces 
+\begin_inset Formula \(I^c \ominus S(i,j) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Analizando algunas posiciones:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (1,2):
+\series default
+ - Vecindad: 
+\begin_inset Formula \([I^c(1,1), I^c(1,2), I^c(1,3)] = [1, 1, 1]\)
+\end_inset
+
+ - ¿Todos son 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \((I^c \ominus S)(1,2) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (1,3):
+\series default
+ - Vecindad: 
+\begin_inset Formula \([I^c(1,2), I^c(1,3), I^c(1,4)] = [1, 1, 1]\)
+\end_inset
+
+ - ¿Todos son 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \((I^c \ominus S)(1,3) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (2,2):
+\series default
+ - Vecindad: 
+\begin_inset Formula \([I^c(2,1), I^c(2,2), I^c(2,3)] = [1, 1, 1]\)
+\end_inset
+
+ - ¿Todos son 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \((I^c \ominus S)(2,2) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (2,4):
+\series default
+ - Vecindad: 
+\begin_inset Formula \([I^c(2,3), I^c(2,4), I^c(2,5)] = [1, 0, 1]\)
+\end_inset
+
+ - ¿Todos son 1? 
+\series bold
+No
+\series default
+ - Resultado: 
+\begin_inset Formula \((I^c \ominus S)(2,4) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicando erosión completa a 
+\begin_inset Formula \(I^c\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I^c \ominus S = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 4: Calcular el complemento del resultado
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Finalmente, invertimos el resultado de la erosión para obtener la dilatación:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_d = (I^c \ominus S)^c = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Verificación y Comparación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "verificaciuxf3n-y-comparaciuxf3n-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado final de la dilatación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_d = I \oplus S = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Verificación: Ambos métodos producen el mismo resultado
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis detallado del resultado:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Equivalencia perfecta
+\series default
+: La dilatación directa y la dilatación por dualidad producen exactamente el mismo resultado, confirmando la validez matemática de la dualidad. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Efecto de expansión horizontal
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Fila 1
+\series default
+: Región de 1s en (1,1) aparece por expansión desde (1,0) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 2
+\series default
+: Los 0s en posiciones (2,3) y (2,4) se llenan parcialmente, conectando con el 1 en (2,4) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 3
+\series default
+: Se conecta completamente la región de 1s 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 4
+\series default
+: Se expande el grupo de 1s hacia (4,2) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 8
+\series default
+: El 0 en (8,1) se vuelve 1 por el vecino (8,0) 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Regiones que NO cambian
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Fila 1, posiciones (1,2)-(1,4)
+\series default
+: Permanecen como 0 porque forman un grupo de 3 ceros consecutivos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 5, posiciones (5,3)-(5,5)
+\series default
+: Grupo de 3 ceros consecutivos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 8, posiciones (8,2)-(8,4)
+\series default
+: Grupo de 3 ceros consecutivos 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Característica clave del elemento estructurante lineal 1×3
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Cierra brechas de 1 píxel
+\series default
+: Si dos 1s están separados por un solo 0 horizontalmente, la dilatación conecta la brecha 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Preserva huecos de 3+ píxeles
+\series default
+: Grupos de 3 o más 0s consecutivos horizontalmente mantienen al menos 1 cero en el centro 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+No afecta verticalmente
+\series default
+: Las separaciones verticales no se modifican 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Comparación con la imagen original
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Total de píxeles que cambiaron de 0 a 1: aproximadamente 9 píxeles 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Regiones expandidas principalmente en bordes horizontales de los objetos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La estructura general se mantiene pero más conectada horizontalmente 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Verificación manual de una posición crítica:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Tomemos la posición (2,3) que cambió de 0 a 1:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Vecindad en 
+\begin_inset Formula \(I\)
+\end_inset
+
+: 
+\begin_inset Formula \([I(2,2), I(2,3), I(2,4)] = [0, 0, 1]\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ (el de la derecha) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Resultado: 
+\begin_inset Formula \(I_d(2,3) = 1\)
+\end_inset
+
+ ✓ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Propiedades observadas:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Dualidad verificada
+\series default
+: 
+\begin_inset Formula \(I \oplus S = (I^c \ominus S^s)^c\)
+\end_inset
+
+ ✓ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Idempotencia
+\series default
+: Aplicar dilatación múltiples veces seguiría expandiendo 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Extensividad
+\series default
+: 
+\begin_inset Formula \(I \subseteq I \oplus S\)
+\end_inset
+
+ (la imagen dilatada contiene todos los píxeles originales de 1) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Direccionalidad
+\series default
+: El elemento estructurante lineal horizontal afecta solo en esa dirección 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Ejercicio 3: Apertura morfológica (Ejercicio 1 + Apertura)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicio-3-apertura-morfoluxf3gica-ejercicio-1-apertura"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Enunciado
+\series default
+: Sobre el ejercicio enunciado en el punto 1, realizar apertura con el mismo elemento estructurante y mostrar sus resultados.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Recordatorio de datos del Ejercicio 1:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Imagen de entrada 
+\begin_inset Formula \(I\)
+\end_inset
+
+ (10×10):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\
+1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ (3×3):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+S = \begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Concepto de Apertura
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "concepto-de-apertura"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La 
+\series bold
+apertura morfológica
+\series default
+ se define como una 
+\series bold
+erosión seguida de una dilatación
+\series default
+ con el mismo elemento estructurante:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \circ S = (I \ominus S) \oplus S\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Propósito de la apertura:
+\series default
+ - Eliminar objetos pequeños y ruido - Separar objetos conectados por puentes estrechos - Suavizar contornos eliminando protuberancias pequeñas - Mantener aproximadamente el tamaño de los objetos grandes
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+Paso 1: Erosión de 
+\begin_inset Formula \(I\)
+\end_inset
+
+ (Ya calculada en Ejercicio 1)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 1: Erosión de I (Ya calculada en Ejercicio 1)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-1-erosiuxf3n-de-i-ya-calculada-en-ejercicio-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Del Ejercicio 1, obtuvimos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_e = I \ominus S = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado de la erosión:
+\series default
+ - Solo 4 píxeles permanecen como 1 (columna 7, filas 4-7) - Esta es la única región donde existía un bloque sólido 3×3 de 1s - Todo el ruido y estructuras delgadas fueron eliminados
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+Paso 2: Dilatación de 
+\begin_inset Formula \(I_e\)
+\end_inset
+
+ con 
+\begin_inset Formula \(S\)
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 2: Dilatación de I_e con S
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-2-dilataciuxf3n-de-i_e-con-s"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ahora aplicamos dilatación a la imagen erosionada usando el mismo elemento estructurante 3×3.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Algoritmo de dilatación:
+\series default
+ - Para cada píxel, si 
+\series bold
+al menos un píxel
+\series default
+ en la vecindad 3×3 es 1, el píxel central se vuelve 1
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis de posiciones clave:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (3,6):
+\series default
+ - Vecindad 3×3 centrada en (3,6): 
+\begin_inset Formula \[\begin{bmatrix}
+0 & 0 & 0 \\
+0 & 0 & 0 \\
+0 & 0 & 1
+\end{bmatrix}\]
+\end_inset
+
+- ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ (posición inferior derecha) - Resultado: 
+\begin_inset Formula \((I_e \oplus S)(3,6) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (4,7):
+\series default
+ - Vecindad 3×3 centrada en (4,7): 
+\begin_inset Formula \[\begin{bmatrix}
+0 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 1 & 0
+\end{bmatrix}\]
+\end_inset
+
+- ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \((I_e \oplus S)(4,7) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (7,8):
+\series default
+ - Vecindad 3×3 centrada en (7,8): 
+\begin_inset Formula \[\begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 0 \\
+0 & 0 & 0
+\end{bmatrix}\]
+\end_inset
+
+- ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ (posición superior central) - Resultado: 
+\begin_inset Formula \((I_e \oplus S)(7,8) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicando dilatación completa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La línea vertical de 4 píxeles se expande en todas direcciones, formando un bloque aproximadamente 3×3:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_{apertura} = (I \ominus S) \oplus S = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Análisis del resultado de la apertura
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "anuxe1lisis-del-resultado-de-la-apertura"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Comparación entre las tres etapas:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Imagen original 
+\begin_inset Formula \(I\)
+\end_inset
+
+
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Región grande con muchos 0s internos (lado izquierdo) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Región sólida en el lado derecho 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Estructura compleja con áreas conectadas 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Después de erosión 
+\begin_inset Formula \(I_e\)
+\end_inset
+
+
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Solo 4 píxeles verticales (columna 7, filas 4-7) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+96% de reducción 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Solo la región más sólida sobrevive 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Después de apertura 
+\begin_inset Formula \((I \ominus S) \oplus S\)
+\end_inset
+
+
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Bloque rectangular de aproximadamente 6×3 píxeles 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Centrado en columnas 6-8, filas 3-8 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+54 píxeles con valor 1 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Efectos de la apertura:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Eliminación de ruido y estructuras débiles
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Toda la región de la izquierda con 0s internos fue eliminada 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Las conexiones débiles desaparecieron 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Solo permanece la estructura más robusta 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Suavización de bordes
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El resultado tiene bordes más regulares y suaves 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Se formó un rectángulo aproximado 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Separación de objetos
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Si hubiera habido objetos conectados por puentes delgados, se habrían separado 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Preservación aproximada del tamaño
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La región sólida original se preservó en tamaño similar 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La dilatación 
+\begin_inset Quotes fls
+\end_inset
+
+recupera
+\begin_inset Quotes frs
+\end_inset
+
+ aproximadamente el área perdida en la erosión 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Propiedades matemáticas verificadas:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Anti-extensividad
+\series default
+: 
+\begin_inset Formula \(I \circ S \subseteq I\)
+\end_inset
+
+ (la apertura siempre reduce o mantiene el área) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Idempotencia
+\series default
+: Aplicar apertura nuevamente no cambiaría el resultado: 
+\begin_inset Formula \((I \circ S) \circ S = I \circ S\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Incremento de tamaño
+\series default
+: Si 
+\begin_inset Formula \(S_1 \subseteq S_2\)
+\end_inset
+
+, entonces 
+\begin_inset Formula \(I \circ S_1 \subseteq I \circ S_2\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Utilidad práctica:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La apertura en este caso identificó y aisló la región más significativa y estructuralmente sólida de la imagen, eliminando todo el ruido, huecos internos y estructuras débiles. Este resultado es útil para: - Identificar objetos principales - Eliminar ruido y artefactos - Preprocesamiento para análisis de forma - Segmentación robusta de regiones de interés
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Ejercicio 4: Cerramiento morfológico (Ejercicio 2 + Cerramiento)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicio-4-cerramiento-morfoluxf3gico-ejercicio-2-cerramiento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Enunciado
+\series default
+: Sobre el ejercicio enunciado en el punto 2, realizar cerramiento con el mismo elemento estructurante y mostrar sus resultados.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Recordatorio de datos del Ejercicio 2:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Imagen de entrada 
+\begin_inset Formula \(I\)
+\end_inset
+
+ (10×10):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 \\
+1 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\
+1 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ (1×3) - línea horizontal:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+S = \begin{bmatrix}
+1 & 1 & 1
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Concepto de Cerramiento
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "concepto-de-cerramiento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El 
+\series bold
+cerramiento morfológico
+\series default
+ se define como una 
+\series bold
+dilatación seguida de una erosión
+\series default
+ con el mismo elemento estructurante:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I \bullet S = (I \oplus S) \ominus S\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Propósito del cerramiento:
+\series default
+ - Rellenar huecos pequeños dentro de los objetos - Cerrar brechas estrechas entre objetos - Conectar componentes cercanos - Suavizar contornos eliminando concavidades
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+Paso 1: Dilatación de 
+\begin_inset Formula \(I\)
+\end_inset
+
+ (Ya calculada en Ejercicio 2)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 1: Dilatación de I (Ya calculada en Ejercicio 2)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-1-dilataciuxf3n-de-i-ya-calculada-en-ejercicio-2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Del Ejercicio 2, obtuvimos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_d = I \oplus S = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado de la dilatación:
+\series default
+ - Los objetos se expandieron horizontalmente - Algunas brechas de 1 píxel se cerraron - Los grupos de 3+ ceros consecutivos se mantuvieron parcialmente
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+Paso 2: Erosión de 
+\begin_inset Formula \(I_d\)
+\end_inset
+
+ con 
+\begin_inset Formula \(S\)
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 2: Erosión de I_d con S
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-2-erosiuxf3n-de-i_d-con-s"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ahora aplicamos erosión a la imagen dilatada usando el mismo elemento estructurante lineal 1×3.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Algoritmo de erosión horizontal:
+\series default
+ - Para cada píxel, 
+\series bold
+todos
+\series default
+ los píxeles en la vecindad horizontal 1×3 deben ser 1 para preservar el píxel central
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis de posiciones clave:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (1,1):
+\series default
+ - Vecindad horizontal: 
+\begin_inset Formula \([I_d(1,0), I_d(1,1), I_d(1,2)] = [1, 1, 0]\)
+\end_inset
+
+ - ¿Todos son 1? 
+\series bold
+No
+\series default
+ - Resultado: 
+\begin_inset Formula \((I_d \ominus S)(1,1) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (3,1):
+\series default
+ - Vecindad horizontal: 
+\begin_inset Formula \([I_d(3,0), I_d(3,1), I_d(3,2)] = [1, 1, 1]\)
+\end_inset
+
+ - ¿Todos son 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \((I_d \ominus S)(3,1) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (4,2):
+\series default
+ - Vecindad horizontal: 
+\begin_inset Formula \([I_d(4,1), I_d(4,2), I_d(4,3)] = [1, 1, 1]\)
+\end_inset
+
+ - ¿Todos son 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \((I_d \ominus S)(4,2) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicando erosión completa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_{cerramiento} = (I \oplus S) \ominus S = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Análisis del resultado del cerramiento
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "anuxe1lisis-del-resultado-del-cerramiento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Comparación detallada (fila por fila):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|c|}
+\hline
+\textbf{Fila} & \textbf{Original } I & \textbf{Cerramiento } (I \bullet S) & \textbf{Cambios} \\
+\hline
+0 & \texttt{1 1 1 1 1 1 1 1 1 1} & \texttt{1 1 1 1 1 1 1 1 1 1} & \text{Sin cambios} \\
+\hline
+1 & \texttt{1 0 0 0 0 0 1 1 1 1} & \texttt{1 0 0 0 0 0 1 1 1 1} & \text{Sin cambios} \\
+\hline
+2 & \texttt{1 0 0 0 1 0 0 0 1 1} & \texttt{1 0 0 0 1 0 0 0 1 1} & \text{Sin cambios} \\
+\hline
+3 & \texttt{1 0 0 1 1 1 1 0 1 1} & \texttt{1 1 1 1 1 1 1 1 1 1} & \textbf{3 píxeles: (3,1), (3,2), (3,7)} \\
+\hline
+4 & \texttt{1 1 0 1 1 1 0 0 1 1} & \texttt{1 1 1 1 1 1 1 0 1 1} & \textbf{2 píxeles: (4,2), (4,6)} \\
+\hline
+5 & \texttt{1 1 0 0 0 0 0 1 1 1} & \texttt{1 1 0 0 0 0 0 1 1 1} & \text{Sin cambios} \\
+\hline
+6 & \texttt{1 0 0 1 0 0 1 1 1 1} & \texttt{1 1 1 1 1 1 1 1 1 1} & \textbf{3 píxeles: (6,1), (6,2), (6,4), (6,5)} \\
+\hline
+7 & \texttt{1 0 1 1 0 0 1 1 1 1} & \texttt{1 1 1 1 1 1 1 1 1 1} & \textbf{3 píxeles: (7,1), (7,4), (7,5)} \\
+\hline
+8 & \texttt{1 0 0 0 0 0 1 1 1 1} & \texttt{1 1 0 0 0 1 1 1 1 1} & \textbf{2 píxeles: (8,1), (8,5)} \\
+\hline
+9 & \texttt{1 1 1 1 1 1 1 1 1 1} & \texttt{1 1 1 1 1 1 1 1 1 1} & \text{Sin cambios} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Píxeles que cambiaron (0 → 1):
+\series default
+ - Fila 3: 
+\series bold
+(3,1), (3,2), (3,7)
+\series default
+ = 3 píxeles - Fila 4: 
+\series bold
+(4,2), (4,6)
+\series default
+ = 2 píxeles
+\begin_inset Newline newline
+\end_inset
+
+ - Fila 6: 
+\series bold
+(6,1), (6,2), (6,4), (6,5)
+\series default
+ = 4 píxeles - Fila 7: 
+\series bold
+(7,1), (7,4), (7,5)
+\series default
+ = 3 píxeles - Fila 8: 
+\series bold
+(8,1), (8,5)
+\series default
+ = 2 píxeles
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Total: 14 píxeles
+\series default
+ cambiaron de 0 a 1.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Efectos clave del cerramiento:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Cierre de brechas horizontales pequeñas
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Brechas de 1-2 píxeles se cerraron completamente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Filas 3, 4, 6, 7: Múltiples brechas pequeñas eliminadas 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Preservación de huecos grandes
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Filas 1, 2, 5: Grupos de 5+ ceros consecutivos se mantuvieron intactos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Fila 8: Grupo de 4 ceros se redujo a 3 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Mejora de conectividad horizontal
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Regiones fragmentadas se unificaron 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Filas 6-7: Completamente conectadas ahora 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Efecto direccional del elemento estructurante
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Solo afectó separaciones horizontales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+No modificó separaciones verticales 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Propiedades matemáticas verificadas:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Extensividad
+\series default
+: 
+\begin_inset Formula \(I \subseteq I \bullet S\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Idempotencia
+\series default
+: 
+\begin_inset Formula \((I \bullet S) \bullet S = I \bullet S\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Dualidad
+\series default
+: 
+\begin_inset Formula \(I \bullet S = ((I^c \circ S^s)^c)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Utilidad práctica:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El cerramiento conectó exitosamente regiones fragmentadas, rellenó interrupciones pequeñas y mejoró la conectividad, siendo útil para: - Reconexión de caracteres fragmentados - Reparación de líneas interrumpidas
+\begin_inset Newline newline
+\end_inset
+
+ - Mejora de robustez en reconocimiento de patrones - Preprocesamiento para análisis de conectividad
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Ejercicio 5: Detección de bordes mediante morfología
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicio-5-detecciuxf3n-de-bordes-mediante-morfologuxeda"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Enunciado
+\series default
+: Se propone realizar la detección de bordes en una imagen binaria 
+\begin_inset Formula \(I\)
+\end_inset
+
+ de 
+\begin_inset Formula \(10 \times 10\)
+\end_inset
+
+ que contiene un círculo aproximado en el centro, utilizando un elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ de 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Datos iniciales
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "datos-iniciales-2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Imagen de entrada 
+\begin_inset Formula \(I\)
+\end_inset
+
+ (10×10) - Fondo con círculo:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Nota: Los 1 representan el fondo (negro) y los 0 representan el círculo (blanco).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Elemento estructurante 
+\begin_inset Formula \(S\)
+\end_inset
+
+ (3×3):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+S = \begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Conceptos de detección de bordes
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conceptos-de-detecciuxf3n-de-bordes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La detección de bordes morfológica se basa en dos enfoques:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Borde interno
+\series default
+: Diferencia entre la imagen original y su erosión 
+\begin_inset Formula \[\text{Borde\_interno} = I - (I \ominus S)\]
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Resalta los píxeles en el 
+\series bold
+borde interno
+\series default
+ del objeto (la capa interna de píxeles del objeto). 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Borde externo
+\series default
+: Diferencia entre la dilatación y la imagen original 
+\begin_inset Formula \[\text{Borde\_externo} = (I \oplus S) - I\]
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Resalta los píxeles en el 
+\series bold
+borde externo
+\series default
+ del objeto (la capa externa alrededor del objeto). 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Gradiente morfológico
+\series default
+ (borde completo): Diferencia entre dilatación y erosión 
+\begin_inset Formula \[\text{Gradiente} = (I \oplus S) - (I \ominus S)\]
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Combina ambos bordes (interno + externo). 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+Paso 1: Erosión de 
+\begin_inset Formula \(I\)
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 1: Erosión de I
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-1-erosiuxf3n-de-i"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Aplicamos erosión a la imagen original. Recordemos que en la erosión, un píxel se mantiene como 1 solo si 
+\series bold
+todos
+\series default
+ los píxeles en la vecindad 3×3 son 1.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis de posiciones clave:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (2,2) - esquina del círculo:
+\series default
+ - Vecindad 3×3: 
+\begin_inset Formula \[\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 0 \\
+1 & 0 & 0
+\end{bmatrix}\]
+\end_inset
+
+- ¿Todos son 1? 
+\series bold
+No
+\series default
+ (hay 0s) - Resultado: 
+\begin_inset Formula \(I_e(2,2) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (3,3) - dentro del círculo:
+\series default
+ - Vecindad 3×3: 
+\begin_inset Formula \[\begin{bmatrix}
+0 & 0 & 0 \\
+0 & 0 & 0 \\
+0 & 0 & 0
+\end{bmatrix}\]
+\end_inset
+
+- ¿Todos son 1? 
+\series bold
+No
+\series default
+ (todos son 0) - Resultado: 
+\begin_inset Formula \(I_e(3,3) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (0,0) - esquina superior izquierda:
+\series default
+ - Con padding de 0s en bordes, no todos son 1 - Resultado: 
+\begin_inset Formula \(I_e(0,0) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (0,4) - borde inferior:
+\series default
+ - Vecindad 3×3 (considerando padding): 
+\begin_inset Formula \[\begin{bmatrix}
+0 & 0 & 0 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{bmatrix}\]
+\end_inset
+
+- ¿Todos son 1? 
+\series bold
+No
+\series default
+ (hay 0s del padding) - Resultado: 
+\begin_inset Formula \(I_e(0,4) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicando erosión completa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La erosión elimina todos los bordes. Analicemos sistemáticamente: - Los bordes externos de la imagen (con padding) se erosionan a 0 - El círculo de 0s impide que haya bloques 3×3 de 1s cerca de él - Solo las regiones con bloques sólidos 3×3 de 1s sobreviven
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_e = I \ominus S = \begin{bmatrix}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Explicación:
+\series default
+ - El círculo (región de 0s) tiene dimensiones 6×6 (filas 2-7, columnas 2-7 aproximadamente) - No existe ningún bloque 3×3 completo de 1s en toda la imagen cuando consideramos: - Padding de 0s en los bordes externos - El gran círculo de 0s en el centro - Las franjas de 1s alrededor del círculo tienen solo 2 píxeles de ancho (columnas 0-1 y 8-9) - 
+\series bold
+Resultado
+\series default
+: Imagen completamente erosionada (todos 0s)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Paso 2: Cálculo del borde interno
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-2-cuxe1lculo-del-borde-interno"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{Borde\_interno} = I - I_e\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Restamos la imagen erosionada de la imagen original:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+$ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+text
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Borde_interno
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ =
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{bmatrix}
+\end_layout
+
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{bmatrix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \(-\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{bmatrix}
+\end_layout
+
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{bmatrix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \(=\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{bmatrix}
+\end_layout
+
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{bmatrix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+$
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación del borde interno:
+\series default
+ - Como 
+\begin_inset Formula \(I_e\)
+\end_inset
+
+ es toda 0s, el borde interno es 
+\series bold
+idéntico a la imagen original
+\series default
+ - Esto indica que 
+\series bold
+toda la región de 1s es 
+\begin_inset Quotes fls
+\end_inset
+
+borde interno
+\begin_inset Quotes frs
+\end_inset
+
+
+\series default
+ - No hay un núcleo 
+\begin_inset Quotes fls
+\end_inset
+
+interior
+\begin_inset Quotes frs
+\end_inset
+
+ sólido de 1s que sobreviva a la erosión - La estructura de 1s alrededor del círculo es demasiado delgada (solo 2 píxeles de ancho en los lados) - El círculo grande de 0s y los bordes con padding impiden cualquier bloque 3×3 sólido de 1s
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+Paso 3: Dilatación de 
+\begin_inset Formula \(I\)
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 3: Dilatación de I
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-3-dilataciuxf3n-de-i"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Aplicamos dilatación a la imagen original. En la dilatación, un píxel se vuelve 1 si 
+\series bold
+al menos un píxel
+\series default
+ en la vecindad 3×3 es 1.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis de posiciones clave:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (2,3) - borde superior del círculo:
+\series default
+ - Vecindad 3×3: 
+\begin_inset Formula \[\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 0 & 0 \\
+0 & 0 & 0
+\end{bmatrix}\]
+\end_inset
+
+- ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \(I_d(2,3) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (4,4) - centro del círculo:
+\series default
+ - Vecindad 3×3: 
+\begin_inset Formula \[\begin{bmatrix}
+0 & 0 & 0 \\
+0 & 0 & 0 \\
+0 & 0 & 0
+\end{bmatrix}\]
+\end_inset
+
+- ¿Al menos un píxel es 1? 
+\series bold
+No
+\series default
+ - Resultado: 
+\begin_inset Formula \(I_d(4,4) = 0\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (3,2) - borde izquierdo del círculo:
+\series default
+ - Vecindad 3×3: 
+\begin_inset Formula \[\begin{bmatrix}
+1 & 1 & 0 \\
+1 & 0 & 0 \\
+1 & 0 & 0
+\end{bmatrix}\]
+\end_inset
+
+- ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \(I_d(3,2) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Posición (2,2) - esquina del círculo:
+\series default
+ - Vecindad 3×3: 
+\begin_inset Formula \[\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 0 \\
+1 & 0 & 0
+\end{bmatrix}\]
+\end_inset
+
+- ¿Al menos un píxel es 1? 
+\series bold
+Sí
+\series default
+ - Resultado: 
+\begin_inset Formula \(I_d(2,2) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicando dilatación completa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La dilatación expande los 1s hacia el interior del círculo en un píxel en todas direcciones:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+I_d = I \oplus S = \begin{bmatrix}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Explicación:
+\series default
+ - Los 1s se expanden hacia el círculo de 0s - El círculo se reduce: - 
+\series bold
+Original
+\series default
+: 6 filas × 6 columnas (filas 2-7, columnas 2-7 con variaciones) - 
+\series bold
+Después de dilatación
+\series default
+: 4 filas × 4 columnas (filas 3-6, columnas 3-6) - Cambios específicos: - 
+\series bold
+Fila 2
+\series default
+: Se llena completamente con 1s (el borde superior del círculo se cierra) - 
+\series bold
+Columnas 2 y 7
+\series default
+ (filas 3-6): Se rellenan con 1s (los bordes laterales se cierran) - 
+\series bold
+Fila 7
+\series default
+: Se llena completamente con 1s (el borde inferior del círculo se cierra) - Solo permanece un núcleo central 4×4 de 0s
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Paso 4: Cálculo del borde externo
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-4-cuxe1lculo-del-borde-externo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{Borde\_externo} = I_d - I\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Restamos la imagen original de la imagen dilatada:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+$ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+text
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Borde_externo
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ =
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{bmatrix}
+\end_layout
+
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{bmatrix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \(-\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{bmatrix}
+\end_layout
+
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{bmatrix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \(=\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{bmatrix}
+\end_layout
+
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{bmatrix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+$
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación del borde externo:
+\series default
+ - Los 1s representan los píxeles que fueron 
+\series bold
+agregados
+\series default
+ por la dilatación - Forman el 
+\series bold
+contorno interno del círculo
+\series default
+ (el borde que rodea internamente al círculo de 0s) - 
+\series bold
+Total: 16 píxeles
+\series default
+ forman el borde externo - Patrón rectangular perfecto alrededor del círculo: - 
+\series bold
+Fila 2
+\series default
+: 4 píxeles (columnas 3-6) - Borde superior - 
+\series bold
+Filas 3-6
+\series default
+: 2 píxeles cada una (columnas 2 y 7) - Bordes laterales (4 filas × 2 = 8 píxeles) - 
+\series bold
+Fila 7
+\series default
+: 4 píxeles (columnas 3-6) - Borde inferior - Total: 4 + 8 + 4 = 
+\series bold
+16 píxeles
+\series default
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Paso 5: Comparación y análisis
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-5-comparaciuxf3n-y-anuxe1lisis"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Visualización comparativa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|c|}
+\hline
+\textbf{Tipo de Borde} & \textbf{Matriz Resultado} & \textbf{Píxeles detectados} & \textbf{Ubicación} \\
+\hline
+\textbf{Borde Interno} & \text{Igual a } I & \text{Toda la región de 1s (62 píxeles)} & \text{Todo el fondo (objeto principal)} \\
+\hline
+\textbf{Borde Externo} & \text{16 píxeles de 1} & \text{16 píxeles} & \text{Marco alrededor del círculo} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Borde interno visualizado (los 1s son el borde):
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Toda la estructura de 1s es borde porque no hay
+\end_layout
+
+\begin_layout Verbatim
+un núcleo sólido que sobreviva a la erosión 3×3.
+\end_layout
+
+\begin_layout Verbatim
+El círculo es demasiado grande y las franjas de 1s
+\end_layout
+
+\begin_layout Verbatim
+son demasiado delgadas (2 píxeles de ancho).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Borde externo visualizado (solo el contorno con 1s):
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+  · · · · · · · · · ·
+\end_layout
+
+\begin_layout Verbatim
+  · · · · · · · · · ·
+\end_layout
+
+\begin_layout Verbatim
+  · · · 1 1 1 1 · · ·  ← Borde superior (4 píxeles)
+\end_layout
+
+\begin_layout Verbatim
+  · · 1 · · · · 1 · ·  ← Bordes laterales
+\end_layout
+
+\begin_layout Verbatim
+  · · 1 · · · · 1 · ·  ← Bordes laterales
+\end_layout
+
+\begin_layout Verbatim
+  · · 1 · · · · 1 · ·  ← Bordes laterales
+\end_layout
+
+\begin_layout Verbatim
+  · · 1 · · · · 1 · ·  ← Bordes laterales
+\end_layout
+
+\begin_layout Verbatim
+  · · · 1 1 1 1 · · ·  ← Borde inferior (4 píxeles)
+\end_layout
+
+\begin_layout Verbatim
+  · · · · · · · · · ·
+\end_layout
+
+\begin_layout Verbatim
+  · · · · · · · · · ·
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis detallado:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Borde interno vs Borde externo
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Borde interno
+\series default
+ (
+\begin_inset Formula \(I - I_e\)
+\end_inset
+
+): Detecta la capa interna del objeto (1s). Como toda la región se erosiona completamente, el resultado es la imagen completa. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Borde externo
+\series default
+ (
+\begin_inset Formula \(I_d - I\)
+\end_inset
+
+): Detecta exactamente dónde la dilatación 
+\begin_inset Quotes fls
+\end_inset
+
+invade
+\begin_inset Quotes frs
+\end_inset
+
+ el círculo de 0s, formando un marco rectangular perfecto. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Interpretación geométrica
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El borde externo forma un 
+\series bold
+marco rectangular
+\series default
+ de 1 píxel de grosor alrededor del círculo 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Dimensiones del marco: 6×6 (filas 2-7, columnas 2-7) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Dimensiones del círculo reducido después de la dilatación: 4×4 (filas 3-6, columnas 3-6) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El borde externo marca la 
+\series bold
+transición de 0 (círculo) a 1 (fondo)
+\series default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Píxeles específicos del borde externo
+\series default
+ (16 píxeles totales):
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Borde superior (fila 2):
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+(2,3), (2,4), (2,5), (2,6) → 4 píxeles 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Bordes laterales (filas 3-6):
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Izquierda: (3,2), (4,2), (5,2), (6,2) → 4 píxeles 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Derecha: (3,7), (4,7), (5,7), (6,7) → 4 píxeles 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Borde inferior (fila 7):
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+(7,3), (7,4), (7,5), (7,6) → 4 píxeles 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Gradiente morfológico completo
+\series default
+: 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Si calculáramos el gradiente morfológico: 
+\begin_inset Formula \[\text{Gradiente} = I_d - I_e = I_d - 0 = I_d\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En este caso, el gradiente sería igual a la imagen dilatada, ya que 
+\begin_inset Formula \(I_e\)
+\end_inset
+
+ es completamente 0.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{enumi}{4}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Simetría perfecta
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El borde externo muestra una simetría perfecta (rectangular) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Esto refleja la forma regular del círculo aproximado en la imagen original 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+4 píxeles arriba, 4 abajo, 4 izquierda, 4 derecha 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Conclusiones
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conclusiones"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Sobre el borde interno:
+\series default
+ - 
+\series bold
+No hay un núcleo interno diferenciado
+\series default
+ en esta imagen porque: - La región de fondo (1s) tiene solo 2 píxeles de ancho en los laterales - El círculo central es grande (6×6) - Los bordes de la imagen (con padding) también impiden bloques 3×3 - 
+\series bold
+Resultado
+\series default
+: 
+\begin_inset Formula \(I - I_e = I\)
+\end_inset
+
+ (la imagen original completa es 
+\begin_inset Quotes fls
+\end_inset
+
+borde interno
+\begin_inset Quotes frs
+\end_inset
+
+) - Esto indica que toda la estructura de 1s es 
+\begin_inset Quotes fls
+\end_inset
+
+superficial
+\begin_inset Quotes frs
+\end_inset
+
+ o 
+\begin_inset Quotes fls
+\end_inset
+
+delgada
+\begin_inset Quotes frs
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Sobre el borde externo:
+\series default
+ - 
+\series bold
+Detectó exitosamente el contorno del círculo
+\series default
+ con exactamente 
+\series bold
+16 píxeles
+\series default
+ - Forma un 
+\series bold
+marco rectangular perfecto
+\series default
+ de 1 píxel de grosor - Es 
+\series bold
+simétrico y regular
+\series default
+: 4 píxeles por lado - Muy útil para identificar la 
+\series bold
+forma y dimensiones
+\series default
+ del círculo
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Comparación cuantitativa:
+\series default
+ - 
+\series bold
+Imagen original
+\series default
+: 62 píxeles con valor 1, 38 píxeles con valor 0 - 
+\series bold
+Borde interno
+\series default
+: 62 píxeles (todos los 1s originales) - 
+\series bold
+Borde externo
+\series default
+: 16 píxeles (el contorno del círculo) - 
+\series bold
+Relación
+\series default
+: El borde externo es el 25.8% del total de 1s (16/62)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicaciones prácticas:
+\series default
+ - 
+\series bold
+Borde interno
+\series default
+: Útil cuando hay objetos con núcleo sólido suficientemente grande - 
+\series bold
+Borde externo
+\series default
+: Excelente para detectar contornos de huecos, cavidades o regiones de 0s - 
+\series bold
+Este caso
+\series default
+: El borde externo es más informativo porque: - Identifica claramente el contorno del círculo - Proporciona información sobre la forma (rectangular) - Tiene un grosor uniforme de 1 píxel - Es computacionalmente eficiente (solo 16 píxeles vs 62)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas de la detección morfológica de bordes:
+\series default
+ 1. 
+\series bold
+Simplicidad
+\series default
+: Operaciones básicas de erosión y dilatación 2. 
+\series bold
+Robustez
+\series default
+: Menos sensible a ruido que métodos basados en gradientes 3. 
+\series bold
+Control
+\series default
+: El tamaño del elemento estructurante controla el grosor del borde 4. 
+\series bold
+Versatilidad
+\series default
+: Puede detectar bordes internos, externos o ambos 5. 
+\series bold
+Interpretabilidad
+\series default
+: Los resultados tienen significado geométrico claro
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Limitaciones observadas:
+\series default
+ - Requiere que la estructura tenga un grosor mínimo (relacionado con el tamaño de 
+\begin_inset Formula \(S\)
+\end_inset
+
+) - Si el objeto es muy delgado, toda la estructura puede ser 
+\begin_inset Quotes fls
+\end_inset
+
+borde
+\begin_inset Quotes frs
+\end_inset
+
+ (como en este caso) - La elección del tamaño de 
+\begin_inset Formula \(S\)
+\end_inset
+
+ afecta significativamente los resultados
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

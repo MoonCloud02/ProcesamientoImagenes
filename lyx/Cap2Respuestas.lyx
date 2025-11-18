@@ -1,0 +1,397 @@
+#LyX file created by tex2lyx 2.4
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin D:/Users/migue/Documents/Proyectos/markitdown/ProcesamientoDeImagenes/lyx_final/
+\textclass article
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig}% disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "pdflang={es},hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -\maxdimen
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+\lang spanish
+Respuestas al Capítulo 2: La Cámara
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "respuestas-al-capuxedtulo-2-la-cuxe1mara"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+2.6. Preguntas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2.6.1. Preguntas sobre hechos del texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-sobre-hechos-del-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+¿Qué parte del espectro electromagnético corresponde a la luz visible?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La luz visible corresponde a una pequeña parte del espectro electromagnético, con longitudes de onda que van desde aproximadamente 380 nm (violeta) hasta 750 nm (rojo). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Qué células sensibles a la luz se encuentran en la retina del ojo humano?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Las células sensibles a la luz en la retina del ojo humano son los bastones y los conos. Los bastones se usan para la visión monocromática con poca luz, mientras que los conos perciben el color y los detalles finos. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Quién construyó la primera cámara digital de la historia?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La primera cámara digital reconocida fue construida por el ingeniero Steven Sasson de Eastman Kodak en 1975. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿En qué consiste el filtro de Bayer usado en cámaras digitales?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ El filtro de Bayer consiste en un patrón de mosaico que distribuye filtros rojo, verde y azul sobre la matriz del sensor para capturar información de color. Cada píxel captura solo uno de los tres colores, requiriendo interpolación para reconstruir la imagen a color completa. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Qué es una imagen RAW en el contexto de las cámaras digitales?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Una imagen RAW es un formato gráfico que contiene información de píxeles procedente directamente desde el arreglo de sensores de la cámara digital, sin procesar. No contiene información completa de los tres colores RGB para cada píxel, por lo que requiere reconstrucción e interpolación para obtener una imagen a color final. 
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2.6.2. Preguntas de análisis y comprensión sobre el texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-anuxe1lisis-y-comprensiuxf3n-sobre-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+¿Cómo se explica la naturaleza dual de la luz según las teorías físicas?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La naturaleza dual de la luz se explica mediante teorías físicas que la describen como un haz de partículas radiantes llamadas fotones, transmitidos en un campo ondulatorio electromagnético. Los fenómenos de propagación se explican con la teoría ondulatoria, mientras que los de interacción con la materia se explican con el modelo corpuscular. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Por qué el ojo humano percibe diferentes colores según la longitud de onda de la luz?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ El ojo humano percibe diferentes colores según la longitud de onda de la luz porque en el espectro visible, las diferencias en longitud de onda se manifiestan como cambios de color. Los conos en la retina, especializados en rojo, verde y azul, responden a diferentes longitudes de onda, permitiendo la percepción del color. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Cuáles son las ventajas y desventajas de los sistemas de cámara con 1 sensor frente a los de 3 sensores?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Los sistemas con 1 sensor (como el filtro Bayer) tienen ventajas como bajo precio, poco volumen y alta resolución, pero desventajas como contaminación de color, menor diferenciación entre colores similares y menor calidad de color. Los sistemas con 3 sensores ofrecen mejor calidad de color y menos artefactos, pero son más caros y voluminosos. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Analiza las semejanzas y diferencias entre el funcionamiento del ojo humano y una cámara digital.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Tanto el ojo humano como la cámara digital capturan luz para formar imágenes. El ojo usa la córnea, iris, pupila y lente cristalina para enfocar, y la retina con bastones y conos para detectar luz y color. La cámara digital usa lentes y un sensor. Diferencias: el ojo procesa señales eléctricas al cerebro, mientras la cámara captura datos digitales; el ojo se adapta automáticamente, la cámara requiere ajustes manuales; el ojo tiene visión en tiempo real, la cámara captura instantáneas. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Explica la técnica de usar filtros de color en una cámara monocromática para obtener imágenes a color.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La técnica usa un filtro de color como el Bayer, que coloca filtros rojo, verde y azul en un patrón sobre el sensor monocromático. Cada píxel captura solo un color, creando una imagen RAW con información incompleta. Luego, se aplica interpolación (demosaicing) para estimar los colores faltantes en cada píxel, reconstruyendo la imagen a color completa. 
+\end_layout
+
+\end_body
+\end_document

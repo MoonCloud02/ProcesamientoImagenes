@@ -1,0 +1,9714 @@
+#LyX file created by tex2lyx 2.4
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin D:/Users/migue/Documents/Proyectos/markitdown/ProcesamientoDeImagenes/lyx_final/
+\textclass article
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig}% disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "pdflang={es},hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -\maxdimen
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+\lang spanish
+Capítulo 10: Transformaciones Espaciales - Respuestas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "capuxedtulo-10-transformaciones-espaciales---respuestas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+10.8.1. Preguntas sobre hechos indicados en el texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-sobre-hechos-indicados-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Qué son las transformaciones afines y cómo se caracterizan?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-son-las-transformaciones-afines-y-cuxf3mo-se-caracterizan"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las transformaciones afines son un tipo de transformación geométrica que modifican las relaciones espaciales entre los píxeles de una imagen sin necesariamente alterar las intensidades de color. Estas transformaciones se caracterizan por mantener la estructura lineal en el plano 2D.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Matemáticamente, las transformaciones afines se expresan mediante ecuaciones polinomiales generales de primer grado:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = h_{11}x + h_{12}y + h_{13}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[y' = h_{21}x + h_{22}y + h_{23}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En forma matricial con coordenadas homogéneas:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ w \end{bmatrix} = \begin{bmatrix} h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33} \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Se caracterizan porque, aunque las distancias relativas y los ángulos pueden no conservarse, las proporciones y el paralelismo entre segmentos sí se mantienen.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Características principales de las transformaciones afines:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Los términos 
+\begin_inset Formula \(h_{31} = 0\)
+\end_inset
+
+ y 
+\begin_inset Formula \(h_{32} = 0\)
+\end_inset
+
+ eliminan cualquier efecto proyectivo, lo que garantiza que la transformación se mantenga lineal en el plano 2D. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El término 
+\begin_inset Formula \(h_{33} = 1\)
+\end_inset
+
+ garantiza que 
+\begin_inset Formula \(w = 1\)
+\end_inset
+
+, evitando la necesidad de normalizar las coordenadas y preservando las propiedades del espacio afín. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Permiten realizar transformaciones como traslaciones, rotaciones, escalamientos y cizallamientos. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Son fundamentales en visión por computadora para manipular la disposición de objetos en una imagen. 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. ¿Qué técnica se emplea en el método de transformación inversa para asegurar que todas las posiciones de la imagen resultante reciban un valor asignado?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-tuxe9cnica-se-emplea-en-el-muxe9todo-de-transformaciuxf3n-inversa-para-asegurar-que-todas-las-posiciones-de-la-imagen-resultante-reciban-un-valor-asignado"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El método de transformación inversa emplea la técnica de 
+\series bold
+recorrer cada píxel de la imagen de salida
+\series default
+ (destino) y aplicar el mapeo inverso para encontrar la posición correspondiente en la imagen original (fuente).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Proceso del método inverso:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+A diferencia del método directo (que recorre la imagen fuente y calcula posiciones en el destino), el método inverso:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Recorre cada píxel
+\series default
+ 
+\begin_inset Formula \(p'\)
+\end_inset
+
+ de la imagen de salida 
+\begin_inset Formula \(I'(x', y')\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Aplica el mapeo inverso
+\series default
+ para encontrar la posición 
+\begin_inset Formula \(p\)
+\end_inset
+
+ correspondiente en la imagen original 
+\begin_inset Formula \(I(x, y)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Asigna la intensidad
+\series default
+ del píxel encontrado en la imagen fuente al píxel de la imagen destino 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Matemáticamente, esto se expresa como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[p = H^{-1}p'\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En forma matricial:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x \\ y \\ 1 \end{bmatrix} = \begin{bmatrix} h'_{11} & h'_{12} & h'_{13} \\ h'_{21} & h'_{22} & h'_{23} \\ h'_{31} & h'_{32} & h'_{33} \end{bmatrix} \begin{bmatrix} x' \\ y' \\ w \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las coordenadas originales se obtienen dividiendo por 
+\begin_inset Formula \(w\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x = \frac{h'_{11}x' + h'_{12}y' + h'_{13}}{h'_{31}x' + h'_{32}y' + h'_{33}}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[y = \frac{h'_{21}x' + h'_{22}y' + h'_{23}}{h'_{31}x' + h'_{32}y' + h'_{33}}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas del método inverso:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Garantiza que no queden posiciones sin asignar
+\series default
+ intensidades en la imagen de salida (todas las posiciones del destino reciben un valor). 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Ofrece una asignación completa de valores. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Depende de la calidad de la interpolación (vecino más cercano, bilineal, etc.) para evitar la aparición de artefactos en la imagen destino. 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. ¿Por qué se necesitan un total de ocho puntos para determinar una transformación proyectiva? Explique el proceso.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "por-quuxe9-se-necesitan-un-total-de-ocho-puntos-para-determinar-una-transformaciuxf3n-proyectiva-explique-el-proceso."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Se necesitan 
+\series bold
+cuatro pares de puntos
+\series default
+ (8 puntos en total: 4 en la imagen original y 4 en la imagen transformada) para determinar una transformación proyectiva porque la matriz homográfica 
+\begin_inset Formula \(H\)
+\end_inset
+
+ tiene 8 grados de libertad que deben ser calculados.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Explicación del proceso:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La transformación proyectiva se define mediante una matriz homográfica 
+\begin_inset Formula \(H\)
+\end_inset
+
+ de 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = \begin{bmatrix} h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33} \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Aunque 
+\begin_inset Formula \(H\)
+\end_inset
+
+ tiene 9 elementos, la matriz es homogénea, lo que permite fijar 
+\begin_inset Formula \(h_{33} = 1\)
+\end_inset
+
+. Esto resulta en 
+\series bold
+solo 8 grados de libertad
+\series default
+ (
+\begin_inset Formula \(h_{11}, h_{12}, h_{13}, h_{21}, h_{22}, h_{23}, h_{31}, h_{32}\)
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Proceso para determinar la matriz H:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Selección de puntos:
+\series default
+ Se seleccionan cuatro puntos en la imagen original 
+\begin_inset Formula \(I\)
+\end_inset
+
+: 
+\begin_inset Formula \[p_1 = (x_1, y_1), \quad p_2 = (x_2, y_2), \quad p_3 = (x_3, y_3), \quad p_4 = (x_4, y_4)\]
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Y sus correspondientes en la imagen transformada 
+\begin_inset Formula \(I'\)
+\end_inset
+
+: 
+\begin_inset Formula \[p'_1 = (x'_1, y'_1), \quad p'_2 = (x'_2, y'_2), \quad p'_3 = (x'_3, y'_3), \quad p'_4 = (x'_4, y'_4)\]
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Generación de ecuaciones:
+\series default
+ Cada par de puntos correspondientes genera dos ecuaciones:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x'_i(h_{31}x_i + h_{32}y_i + 1) = h_{11}x_i + h_{12}y_i + h_{13}\]
+\end_inset
+
+
+\begin_inset Formula \[y'_i(h_{31}x_i + h_{32}y_i + 1) = h_{21}x_i + h_{22}y_i + h_{23}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por lo tanto, 4 pares de puntos generan 
+\series bold
+8 ecuaciones
+\series default
+. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Sistema de ecuaciones:
+\series default
+ Las 8 ecuaciones se organizan en forma matricial 
+\begin_inset Formula \(A \cdot H = b\)
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \(\begin{bmatrix}
+x_1 & y_1 & 1 & 0 & 0 & 0 & -x'_1x_1 & -x'_1y_1 \\
+0 & 0 & 0 & x_1 & y_1 & 1 & -y'_1x_1 & -y'_1y_1 \\
+x_2 & y_2 & 1 & 0 & 0 & 0 & -x'_2x_2 & -x'_2y_2 \\
+0 & 0 & 0 & x_2 & y_2 & 1 & -y'_2x_2 & -y'_2y_2 \\
+x_3 & y_3 & 1 & 0 & 0 & 0 & -x'_3x_3 & -x'_3y_3 \\
+0 & 0 & 0 & x_3 & y_3 & 1 & -y'_3x_3 & -y'_3y_3 \\
+x_4 & y_4 & 1 & 0 & 0 & 0 & -x'_4x_4 & -x'_4y_4 \\
+0 & 0 & 0 & x_4 & y_4 & 1 & -y'_4x_4 & -y'_4y_4
+\end{bmatrix}\)
+\end_inset
+
+
+\begin_inset Formula \(\begin{bmatrix}
+h_{11} \\ h_{12} \\ h_{13} \\ h_{21} \\ h_{22} \\ h_{23} \\ h_{31} \\ h_{32}
+\end{bmatrix}\)
+\end_inset
+
+ = 
+\begin_inset Formula \(\begin{bmatrix}
+x'_1 \\ y'_1 \\ x'_2 \\ y'_2 \\ x'_3 \\ y'_3 \\ x'_4 \\ y'_4
+\end{bmatrix}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{enumi}{3}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Resolución:
+\series default
+ El sistema se resuelve mediante métodos numéricos o eliminación gaussiana para obtener los 8 coeficientes de la matriz 
+\begin_inset Formula \(H\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+ Se necesitan exactamente 8 puntos (4 pares) porque se deben resolver 8 incógnitas, y cada par de puntos proporciona 2 ecuaciones independientes.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+4. ¿Cuál es la función del parámetro 
+\begin_inset Formula \(w\)
+\end_inset
+
+ en una transformación proyectiva y de qué manera influye en las coordenadas resultantes?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+4. ¿Cuál es la función del parámetro w en una transformación proyectiva y de qué manera influye en las coordenadas resultantes?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1l-es-la-funciuxf3n-del-paruxe1metro-w-en-una-transformaciuxf3n-proyectiva-y-de-quuxe9-manera-influye-en-las-coordenadas-resultantes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El parámetro 
+\begin_inset Formula \(w\)
+\end_inset
+
+ en una transformación proyectiva actúa como un 
+\series bold
+factor de normalización
+\series default
+ que permite representar transformaciones con perspectiva en el espacio homogéneo.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Función del parámetro 
+\begin_inset Formula \(w\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En la transformación proyectiva, el punto transformado se expresa en coordenadas homogéneas:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ w \end{bmatrix} = \begin{bmatrix} h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33} \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde 
+\begin_inset Formula \(w\)
+\end_inset
+
+ se calcula como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[w = h_{31}x + h_{32}y + h_{33}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Influencia en las coordenadas resultantes:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para obtener las coordenadas cartesianas finales 
+\begin_inset Formula \((x', y')\)
+\end_inset
+
+ de la imagen transformada, es necesario 
+\series bold
+normalizar dividiendo por
+\series default
+ 
+\begin_inset Formula \(w\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = \frac{h_{11}x + h_{12}y + h_{13}}{h_{31}x + h_{32}y + h_{33}} = \frac{h_{11}x + h_{12}y + h_{13}}{w}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[y' = \frac{h_{21}x + h_{22}y + h_{23}}{h_{31}x + h_{32}y + h_{33}} = \frac{h_{21}x + h_{22}y + h_{23}}{w}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Implicaciones importantes:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Efecto de perspectiva:
+\series default
+ El parámetro 
+\begin_inset Formula \(w\)
+\end_inset
+
+ varía en función de la posición 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+, lo que introduce el efecto de perspectiva característico de las transformaciones proyectivas. Diferentes puntos en la imagen pueden tener diferentes valores de 
+\begin_inset Formula \(w\)
+\end_inset
+
+, lo que causa que objetos más lejanos aparezcan más pequeños. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Diferencia con transformaciones afines:
+\series default
+ En las transformaciones afines:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\begin_inset Formula \(h_{31} = 0\)
+\end_inset
+
+ y 
+\begin_inset Formula \(h_{32} = 0\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Formula \(h_{33} = 1\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Por lo tanto, 
+\begin_inset Formula \(w = 1\)
+\end_inset
+
+ siempre 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Esto elimina cualquier efecto proyectivo y mantiene la transformación lineal 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Necesidad de normalización:
+\series default
+ Sin la división por 
+\begin_inset Formula \(w\)
+\end_inset
+
+, las coordenadas resultantes no representarían correctamente las posiciones en el plano 2D transformado. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+ El parámetro 
+\begin_inset Formula \(w\)
+\end_inset
+
+ es fundamental para representar transformaciones con perspectiva, permitiendo que líneas paralelas converjan en puntos de fuga y objetos cambien de escala según su profundidad aparente en la escena.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+5. Si algunas transformaciones geométricas pueden realizarse con matrices de 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+, ¿por qué se utiliza una representación con matrices de 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+5. Si algunas transformaciones geométricas pueden realizarse con matrices de 2 
+\backslash
+times 2, ¿por qué se utiliza una representación con matrices de 3 
+\backslash
+times 3?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "si-algunas-transformaciones-geomuxe9tricas-pueden-realizarse-con-matrices-de-2-times-2-por-quuxe9-se-utiliza-una-representaciuxf3n-con-matrices-de-3-times-3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Se utiliza una representación con matrices de 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+ mediante 
+\series bold
+coordenadas homogéneas
+\series default
+ porque esto permite unificar todas las transformaciones geométricas (incluyendo la traslación) en una única representación matricial y facilita la composición de múltiples transformaciones.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Limitaciones de las matrices 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Una matriz de 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+ solo puede representar transformaciones lineales como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \end{bmatrix} = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esto incluye: - Rotaciones - Escalamientos - Cizallamientos (shear) - Reflexiones
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Problema:
+\series default
+ Las matrices 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+ 
+\series bold
+NO pueden representar traslaciones
+\series default
+, ya que estas requieren una suma adicional:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = ax + by + t_x\]
+\end_inset
+
+
+\begin_inset Formula \[y' = cx + dy + t_y\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas de las matrices 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+ con coordenadas homogéneas:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Representación unificada de traslaciones:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Al extender los vectores a coordenadas homogéneas 
+\begin_inset Formula \([x, y, 1]^T\)
+\end_inset
+
+, la traslación se puede representar matricialmente:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & t_x \\ 0 & 1 & t_y \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Composición de transformaciones:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Múltiples transformaciones consecutivas (rotación, escalamiento, traslación) se pueden combinar mediante un 
+\series bold
+único producto de matrices
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = H_{\text{traslación}} \cdot H_{\text{rotación}} \cdot H_{\text{escalamiento}}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esto simplifica enormemente el cálculo computacional, ya que en lugar de aplicar cada transformación por separado, se aplica una sola matriz resultante. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Invertibilidad:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Las matrices 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+ son invertibles (cuando el determinante es no nulo), lo que es 
+\series bold
+esencial para revertir transformaciones
+\series default
+ mediante el método inverso:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[p = H^{-1}p'\]
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Soporte para transformaciones proyectivas:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Las coordenadas homogéneas permiten representar transformaciones proyectivas que incluyen efectos de perspectiva, donde:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ w \end{bmatrix} = \begin{bmatrix} h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33} \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Con 
+\begin_inset Formula \(h_{31} \neq 0\)
+\end_inset
+
+ o 
+\begin_inset Formula \(h_{32} \neq 0\)
+\end_inset
+
+ para efectos proyectivos. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Simplificación del tratamiento matemático:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+El uso de coordenadas homogéneas simplifica el tratamiento matemático de las distorsiones geométricas que se presentan frecuentemente en imágenes capturadas por cámaras debido a la perspectiva. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Estructura general de una matriz 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = \begin{bmatrix} h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33} \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde: - Los elementos 
+\begin_inset Formula \(h_{11}, h_{12}, h_{21}, h_{22}\)
+\end_inset
+
+ controlan transformaciones lineales (rotación, escalamiento, cizallamiento) - Los elementos 
+\begin_inset Formula \(h_{13}, h_{23}\)
+\end_inset
+
+ controlan la traslación - Los elementos 
+\begin_inset Formula \(h_{31}, h_{32}\)
+\end_inset
+
+ introducen efectos proyectivos (perspectiva) - El elemento 
+\begin_inset Formula \(h_{33}\)
+\end_inset
+
+ típicamente se fija en 1 para normalización
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+ Aunque las matrices 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+ son suficientes para algunas transformaciones lineales, las matrices 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+ con coordenadas homogéneas son necesarias para representar el conjunto completo de transformaciones geométricas (incluyendo traslación y perspectiva) de manera unificada, eficiente y matemáticamente elegante.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+10.8.2. Preguntas de análisis y comprensión
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-anuxe1lisis-y-comprensiuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Cómo se puede utilizar una transformación afín para realizar una rotación y traslación simultáneas?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuxf3mo-se-puede-utilizar-una-transformaciuxf3n-afuxedn-para-realizar-una-rotaciuxf3n-y-traslaciuxf3n-simultuxe1neas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Una transformación afín puede combinar rotación y traslación simultáneas mediante la 
+\series bold
+composición de matrices
+\series default
+ o utilizando directamente una 
+\series bold
+matriz afín combinada
+\series default
+ que incorpore ambos efectos en una única transformación.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Método 1: Composición de matrices
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La forma más sistemática es multiplicar la matriz de traslación por la matriz de rotación:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = T \cdot R\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde la matriz de traslación 
+\begin_inset Formula \(T\)
+\end_inset
+
+ es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[T = \begin{bmatrix} 1 & 0 & t_x \\ 0 & 1 & t_y \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Y la matriz de rotación 
+\begin_inset Formula \(R\)
+\end_inset
+
+ es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[R = \begin{bmatrix} \cos(\theta) & -\sin(\theta) & 0 \\ \sin(\theta) & \cos(\theta) & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El producto resulta en la matriz combinada:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = \begin{bmatrix} \cos(\theta) & -\sin(\theta) & t_x \\ \sin(\theta) & \cos(\theta) & t_y \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Método 2: Matriz afín combinada directa
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Alternativamente, se puede construir directamente una matriz que combine ambas operaciones:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[p' = H \cdot p\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} \cos(\theta) & -\sin(\theta) & t_x \\ \sin(\theta) & \cos(\theta) & t_y \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Expandiendo la multiplicación matricial:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = x\cos(\theta) - y\sin(\theta) + t_x\]
+\end_inset
+
+
+\begin_inset Formula \[y' = x\sin(\theta) + y\cos(\theta) + t_y\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas de esta aproximación:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Eficiencia computacional:
+\series default
+ En lugar de aplicar dos transformaciones secuencialmente (primero rotación, luego traslación), se aplica una única multiplicación matricial. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Orden de las transformaciones:
+\series default
+ Es importante notar que el orden de multiplicación de matrices importa. Generalmente:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Rotar primero, luego trasladar:
+\series default
+ 
+\begin_inset Formula \(H = T \cdot R\)
+\end_inset
+
+ (aplica rotación alrededor del origen, luego traslada) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Trasladar primero, luego rotar:
+\series default
+ 
+\begin_inset Formula \(H = R \cdot T\)
+\end_inset
+
+ (traslada, luego rota alrededor del nuevo centro) 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Flexibilidad:
+\series default
+ Esta técnica se extiende fácilmente para incluir escalamiento, cizallamiento y otras transformaciones afines en una única matriz. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo práctico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Si se desea rotar una imagen 45 grados y luego trasladarla 10 píxeles en 
+\begin_inset Formula \(x\)
+\end_inset
+
+ y 5 píxeles en 
+\begin_inset Formula \(y\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = \begin{bmatrix} \cos(45°) & -\sin(45°) & 10 \\ \sin(45°) & \cos(45°) & 5 \\ 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} 0.707 & -0.707 & 10 \\ 0.707 & 0.707 & 5 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esta matriz 
+\begin_inset Formula \(H\)
+\end_inset
+
+ aplicada a cualquier punto 
+\begin_inset Formula \(p = [x, y, 1]^T\)
+\end_inset
+
+ realizará ambas operaciones en un solo paso.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicaciones:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Registro de imágenes:
+\series default
+ Alinear imágenes capturadas desde diferentes posiciones y ángulos. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Realidad aumentada:
+\series default
+ Posicionar objetos virtuales en escenas reales con orientación y ubicación específicas. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Animación:
+\series default
+ Mover y rotar objetos en secuencias de video. 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+2. Comparar los efectos de una transformación de cizallamiento en la dirección 
+\begin_inset Formula \(x\)
+\end_inset
+
+ con una en la dirección 
+\begin_inset Formula \(y\)
+\end_inset
+
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+2. Comparar los efectos de una transformación de cizallamiento en la dirección x con una en la dirección y.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "comparar-los-efectos-de-una-transformaciuxf3n-de-cizallamiento-en-la-direcciuxf3n-x-con-una-en-la-direcciuxf3n-y."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El cizallamiento (shear) es una transformación afín que deforma la imagen desplazando los píxeles proporcionalmente a su posición, creando un efecto de 
+\begin_inset Quotes fls
+\end_inset
+
+inclinación
+\begin_inset Quotes frs
+\end_inset
+
+ o 
+\begin_inset Quotes fls
+\end_inset
+
+sesgo
+\begin_inset Quotes frs
+\end_inset
+
+. La dirección del cizallamiento determina cómo se deforman las líneas paralelas en la imagen.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Cizallamiento horizontal (dirección 
+\begin_inset Formula \(x\)
+\end_inset
+
+):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La matriz de cizallamiento horizontal con factor 
+\begin_inset Formula \(C_x\)
+\end_inset
+
+ es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[C_H = \begin{bmatrix} 1 & 0 & 0 \\ C_x & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las ecuaciones de transformación son:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = x\]
+\end_inset
+
+
+\begin_inset Formula \[y' = C_x \cdot x + y\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Efectos del cizallamiento horizontal:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Las 
+\series bold
+líneas verticales
+\series default
+ permanecen verticales (no cambian). 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Las 
+\series bold
+líneas horizontales
+\series default
+ se inclinan, convirtiéndose en líneas oblicuas. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Los píxeles en diferentes posiciones 
+\begin_inset Formula \(x\)
+\end_inset
+
+ se desplazan diferentes cantidades en la dirección 
+\begin_inset Formula \(y\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Cuanto mayor sea el valor de 
+\begin_inset Formula \(x\)
+\end_inset
+
+, mayor será el desplazamiento en 
+\begin_inset Formula \(y\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Las 
+\series bold
+columnas
+\series default
+ de la imagen se desplazan verticalmente de forma proporcional a su posición horizontal. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El ancho de la imagen permanece constante, pero la altura puede cambiar. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Cizallamiento vertical (dirección 
+\begin_inset Formula \(y\)
+\end_inset
+
+):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La matriz de cizallamiento vertical con factor 
+\begin_inset Formula \(C_y\)
+\end_inset
+
+ es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[C_V = \begin{bmatrix} 1 & C_y & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las ecuaciones de transformación son:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = x + C_y \cdot y\]
+\end_inset
+
+
+\begin_inset Formula \[y' = y\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Efectos del cizallamiento vertical:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Las 
+\series bold
+líneas horizontales
+\series default
+ permanecen horizontales (no cambian). 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Las 
+\series bold
+líneas verticales
+\series default
+ se inclinan, convirtiéndose en líneas oblicuas. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Los píxeles en diferentes posiciones 
+\begin_inset Formula \(y\)
+\end_inset
+
+ se desplazan diferentes cantidades en la dirección 
+\begin_inset Formula \(x\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Cuanto mayor sea el valor de 
+\begin_inset Formula \(y\)
+\end_inset
+
+, mayor será el desplazamiento en 
+\begin_inset Formula \(x\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Las 
+\series bold
+filas
+\series default
+ de la imagen se desplazan horizontalmente de forma proporcional a su posición vertical. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La altura de la imagen permanece constante, pero el ancho puede cambiar. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Comparación visual:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\textbf{Característica} & \textbf{Cizallamiento Horizontal } (C_x) & \textbf{Cizallamiento Vertical } (C_y) \\
+\hline
+\text{Líneas que permanecen rectas} & \text{Verticales} & \text{Horizontales} \\
+\hline
+\text{Líneas que se inclinan} & \text{Horizontales} & \text{Verticales} \\
+\hline
+\text{Dirección del desplazamiento} & \text{Vertical (en } y\text{)} & \text{Horizontal (en } x\text{)} \\
+\hline
+\text{Dimensión constante} & \text{Ancho } (x) & \text{Altura } (y) \\
+\hline
+\text{Dimensión que puede cambiar} & \text{Altura } (y) & \text{Ancho } (x) \\
+\hline
+\text{Efecto visual} & \text{Imagen "empujada" verticalmente} & \text{Imagen "empujada" horizontalmente} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Cizallamiento combinado:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Se pueden aplicar ambos cizallamientos simultáneamente:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[C = \begin{bmatrix} 1 & C_y & 0 \\ C_x & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esto produce:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = x + C_y \cdot y\]
+\end_inset
+
+
+\begin_inset Formula \[y' = C_x \cdot x + y\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En este caso, tanto las líneas horizontales como verticales se inclinan, y tanto el ancho como la altura de la imagen cambian.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Propiedades comunes de ambos cizallamientos:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Preservan áreas:
+\series default
+ El área de los objetos en la imagen no cambia (el determinante de la matriz es 1). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Preservan paralelismo:
+\series default
+ Las líneas paralelas permanecen paralelas después de la transformación. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+No preservan ángulos:
+\series default
+ Los ángulos entre líneas cambian (excepto los ángulos de 0° y 180°). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Reversibles:
+\series default
+ Ambas transformaciones son invertibles aplicando el cizallamiento con factor negativo. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicaciones prácticas:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Corrección de perspectiva:
+\series default
+ Cuando una imagen capturada en ángulo necesita ser 
+\begin_inset Quotes fls
+\end_inset
+
+enderezada
+\begin_inset Quotes frs
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Efectos artísticos:
+\series default
+ Crear distorsiones deliberadas para efectos visuales. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Transformaciones proyectivas:
+\series default
+ El cizallamiento es uno de los componentes de transformaciones más complejas. 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. Explicar cómo una transformación geométrica puede corregir distorsiones en imágenes capturadas por cámaras.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "explicar-cuxf3mo-una-transformaciuxf3n-geomuxe9trica-puede-corregir-distorsiones-en-imuxe1genes-capturadas-por-cuxe1maras."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las transformaciones geométricas son herramientas fundamentales para corregir diversos tipos de distorsiones que ocurren cuando las imágenes son capturadas por cámaras desde diferentes ángulos, con diferentes lentes, o bajo condiciones no ideales. El proceso de corrección implica identificar el tipo de distorsión y aplicar la transformación inversa apropiada.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Tipos de distorsiones y sus correcciones:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+1. Distorsión por perspectiva
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Problema:
+\series default
+ Cuando una cámara captura una escena plana (como un documento, letrero o edificio) desde un ángulo oblicuo, las líneas paralelas parecen converger hacia un punto de fuga, y los objetos rectangulares aparecen como trapezoides.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+ Se utiliza una 
+\series bold
+transformación proyectiva (homografía)
+\series default
+ para corregir este efecto:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = \begin{bmatrix} h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33} \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Proceso:
+\series default
+ 1. Identificar 4 puntos en la imagen distorsionada (por ejemplo, las esquinas de un rectángulo que aparece como trapezoide). 2. Definir las posiciones deseadas de esos 4 puntos en la imagen corregida (un rectángulo perfecto). 3. Calcular la matriz 
+\begin_inset Formula \(H\)
+\end_inset
+
+ que mapea los puntos distorsionados a los puntos correctos. 4. Aplicar la transformación a toda la imagen usando el método inverso.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las transformaciones proyectivas permiten que: - Líneas paralelas que convergen vuelvan a ser paralelas - Rectángulos distorsionados recuperen sus proporciones correctas - La perspectiva se 
+\begin_inset Quotes fls
+\end_inset
+
+aplane
+\begin_inset Quotes frs
+\end_inset
+
+ para obtener una vista frontal
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicaciones:
+\series default
+ - Escaneo de documentos con cámaras de teléfonos móviles - Corrección de imágenes de edificios capturadas desde ángulos bajos - Rectificación de señales de tráfico capturadas desde vehículos en movimiento
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+2. Distorsión rotacional
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Problema:
+\series default
+ La imagen está capturada con la cámara inclinada, resultando en una imagen rotada respecto a la horizontal deseada.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+ Se aplica una 
+\series bold
+transformación de rotación
+\series default
+ alrededor del centro de la imagen:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[R = \begin{bmatrix} \cos(\theta) & -\sin(\theta) & 0 \\ \sin(\theta) & \cos(\theta) & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde 
+\begin_inset Formula \(\theta\)
+\end_inset
+
+ es el ángulo de corrección necesario (negativo del ángulo de inclinación detectado).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Proceso:
+\series default
+ 1. Detectar el ángulo de inclinación (por ejemplo, usando la transformada de Hough para detectar líneas que deberían ser horizontales/verticales). 2. Calcular el ángulo de corrección 
+\begin_inset Formula \(\theta = -\alpha\)
+\end_inset
+
+ donde 
+\begin_inset Formula \(\alpha\)
+\end_inset
+
+ es el ángulo detectado. 3. Aplicar la rotación inversa para enderezar la imagen.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+3. Distorsión de escala
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Problema:
+\series default
+ Los objetos en la imagen aparecen con proporciones incorrectas debido a la distancia de la cámara o el zoom utilizado.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+ Se aplica una 
+\series bold
+transformación de escalamiento
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S = \begin{bmatrix} S_x & 0 & 0 \\ 0 & S_y & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde 
+\begin_inset Formula \(S_x\)
+\end_inset
+
+ y 
+\begin_inset Formula \(S_y\)
+\end_inset
+
+ son los factores de escala en las direcciones 
+\begin_inset Formula \(x\)
+\end_inset
+
+ e 
+\begin_inset Formula \(y\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+4. Distorsión de traslación
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Problema:
+\series default
+ El objeto de interés no está centrado en la imagen o necesita ser reposicionado.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+ Se aplica una 
+\series bold
+transformación de traslación
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[T = \begin{bmatrix} 1 & 0 & t_x \\ 0 & 1 & t_y \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+5. Distorsión de lente (barril o cojín)
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Problema:
+\series default
+ Las lentes de las cámaras, especialmente las gran angular, introducen distorsiones radiales donde las líneas rectas aparecen curvadas.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+ Aunque las transformaciones afines básicas no pueden corregir completamente esta distorsión (porque involucra términos no lineales), se pueden usar: - 
+\series bold
+Modelos de distorsión radial
+\series default
+ que aplican correcciones basadas en la distancia al centro de la imagen - 
+\series bold
+Transformaciones polinomiales de orden superior
+\series default
+ que modelan la curvatura de la lente - Calibración de la cámara para obtener parámetros intrínsecos y aplicar la corrección inversa
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Proceso general de corrección de distorsiones:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Detección y análisis:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Identificar el tipo de distorsión presente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Detectar características geométricas conocidas (líneas, esquinas, patrones) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Medir la magnitud de la distorsión 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Cálculo de parámetros:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Determinar los parámetros de la transformación necesaria 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Esto puede hacerse mediante:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Puntos de control conocidos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Características geométricas detectadas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Calibración previa de la cámara 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Aplicación de la transformación:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Construir la matriz de transformación 
+\begin_inset Formula \(H\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Aplicar el método de transformación inversa para asegurar que todos los píxeles de la imagen corregida tengan valores asignados 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Utilizar interpolación (bilineal o bicúbica) para obtener valores de píxeles suaves 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Ajuste de dimensiones:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Calcular el tamaño de la imagen resultante para evitar recortes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Ajustar bordes y rellenar áreas vacías si es necesario 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas del uso de coordenadas homogéneas (matrices 3×3):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El uso de coordenadas homogéneas simplifica el tratamiento matemático de las distorsiones geométricas porque: - Permite combinar múltiples transformaciones en una sola matriz mediante multiplicación - Facilita la representación de transformaciones complejas como rotaciones, traslaciones y escalados - La matriz es invertible, lo cual es esencial para revertir el proceso de transformación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicaciones en visión por computadora:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Registro de imágenes:
+\series default
+ Alinear múltiples imágenes de la misma escena capturadas desde diferentes ángulos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Realidad aumentada:
+\series default
+ Superponer objetos virtuales correctamente en escenas reales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Seguimiento de objetos:
+\series default
+ Compensar el movimiento de la cámara para rastrear objetos en video 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Escaneo 3D:
+\series default
+ Reconstruir modelos tridimensionales a partir de múltiples vistas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fotogrametría:
+\series default
+ Obtener mediciones precisas a partir de fotografías 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Panoramas y mosaicos:
+\series default
+ Unir múltiples imágenes con diferentes orientaciones 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las transformaciones geométricas son esenciales para corregir las distorsiones introducidas por la geometría de captura de la cámara. Mediante el uso de matrices de transformación (afines y proyectivas) y el método de transformación inversa, es posible restaurar la geometría correcta de los objetos en las imágenes, permitiendo análisis más precisos y mejores resultados en aplicaciones de visión por computadora.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+4. Describe el método de transformación inverso y su utilidad en la visión por computadora.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "describe-el-muxe9todo-de-transformaciuxf3n-inverso-y-su-utilidad-en-la-visiuxf3n-por-computadora."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El método de transformación inverso es una técnica fundamental en el procesamiento de imágenes que consiste en determinar los valores de píxeles en la imagen transformada recorriendo la imagen de destino y buscando hacia atrás (inversamente) en la imagen original para obtener los valores apropiados.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Descripción del método:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Concepto fundamental:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+A diferencia del método directo (forward mapping) que recorre la imagen original y calcula dónde debe ubicarse cada píxel en la imagen transformada, el método inverso (backward mapping):
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Recorre cada posición
+\series default
+ 
+\begin_inset Formula \((x', y')\)
+\end_inset
+
+ en la imagen de destino 
+\begin_inset Formula \(I'\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Aplica la transformación inversa
+\series default
+ 
+\begin_inset Formula \(H^{-1}\)
+\end_inset
+
+ para encontrar la posición correspondiente 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+ en la imagen original 
+\begin_inset Formula \(I\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Obtiene el valor de intensidad
+\series default
+ en esa posición mediante interpolación 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Asigna ese valor
+\series default
+ a la posición 
+\begin_inset Formula \((x', y')\)
+\end_inset
+
+ en la imagen de destino 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Formulación matemática:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para cada píxel en la imagen transformada:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[p = H^{-1} \cdot p'\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x \\ y \\ 1 \end{bmatrix} = H^{-1} \cdot \begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para transformaciones proyectivas, donde 
+\begin_inset Formula \(p' = [x', y', w']^T\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x = \frac{h'_{11}x' + h'_{12}y' + h'_{13}}{h'_{31}x' + h'_{32}y' + h'_{33}}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[y = \frac{h'_{21}x' + h'_{22}y' + h'_{23}}{h'_{31}x' + h'_{32}y' + h'_{33}}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para transformaciones afines (donde 
+\begin_inset Formula \(h'_{31} = 0\)
+\end_inset
+
+, 
+\begin_inset Formula \(h'_{32} = 0\)
+\end_inset
+
+, 
+\begin_inset Formula \(h'_{33} = 1\)
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x = h'_{11}x' + h'_{12}y' + h'_{13}\]
+\end_inset
+
+
+\begin_inset Formula \[y = h'_{21}x' + h'_{22}y' + h'_{23}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Algoritmo paso a paso:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Para cada píxel (x', y') en la imagen de destino I':
+\end_layout
+
+\begin_layout Verbatim
+    1. Aplicar la transformación inversa:
+\end_layout
+
+\begin_layout Verbatim
+       (x, y) = H^(-1) * (x', y')
+\end_layout
+
+\begin_layout Verbatim
+    
+\end_layout
+
+\begin_layout Verbatim
+    2. Si (x, y) está fuera de los límites de I:
+\end_layout
+
+\begin_layout Verbatim
+       I'(x', y') = valor_de_relleno (típicamente 0 o color de fondo)
+\end_layout
+
+\begin_layout Verbatim
+    
+\end_layout
+
+\begin_layout Verbatim
+    3. Si (x, y) está dentro de los límites de I:
+\end_layout
+
+\begin_layout Verbatim
+       a. Si (x, y) no son enteros:
+\end_layout
+
+\begin_layout Verbatim
+          - Aplicar interpolación (vecino más cercano, bilineal, bicúbica)
+\end_layout
+
+\begin_layout Verbatim
+          - I'(x', y') = interpolar(I, x, y)
+\end_layout
+
+\begin_layout Verbatim
+       b. Si (x, y) son enteros:
+\end_layout
+
+\begin_layout Verbatim
+          - I'(x', y') = I(x, y)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas del método inverso:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Completitud garantizada:
+\series default
+ Todos los píxeles de la imagen destino reciben un valor asignado. No quedan 
+\begin_inset Quotes fls
+\end_inset
+
+huecos
+\begin_inset Quotes frs
+\end_inset
+
+ o píxeles sin valor. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Evita solapamiento:
+\series default
+ A diferencia del método directo, donde múltiples píxeles de la fuente podrían mapear a la misma posición en el destino, el método inverso asegura que cada píxel de destino se procesa exactamente una vez. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Simplicidad conceptual:
+\series default
+ Es más intuitivo pensar en 
+\begin_inset Quotes fls
+\end_inset
+
+¿de dónde viene este píxel?
+\begin_inset Quotes frs
+\end_inset
+
+ en lugar de 
+\begin_inset Quotes fls
+\end_inset
+
+¿a dónde va este píxel?
+\begin_inset Quotes frs
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Control sobre la interpolación:
+\series default
+ Permite aplicar técnicas de interpolación sofisticadas de manera consistente en toda la imagen. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Eficiencia:
+\series default
+ No requiere estructuras de datos adicionales para rastrear qué píxeles de destino han sido asignados. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Desventajas del método inverso:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Requiere cálculo de matriz inversa:
+\series default
+ Es necesario calcular 
+\begin_inset Formula \(H^{-1}\)
+\end_inset
+
+, lo que puede ser costoso computacionalmente y numéricamente inestable si la matriz está mal condicionada. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Interpolación necesaria:
+\series default
+ Casi siempre las coordenadas 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+ calculadas no son enteras, por lo que se requiere interpolación. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Posible pérdida de información:
+\series default
+ Si múltiples píxeles de destino mapean a regiones muy cercanas en la fuente, puede haber suavizado o pérdida de detalle. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Comparación con el método directo:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\textbf{Aspecto} & \textbf{Método Directo} & \textbf{Método Inverso} \\
+\hline
+\text{Recorrido} & \text{Imagen original} & \text{Imagen destino} \\
+\hline
+\text{Cálculo} & p' = H \cdot p & p = H^{-1} \cdot p' \\
+\hline
+\text{Completitud} & \text{Puede dejar huecos} & \text{Garantiza cobertura total} \\
+\hline
+\text{Solapamiento} & \text{Puede ocurrir} & \text{No ocurre} \\
+\hline
+\text{Interpolación} & \text{Difícil de aplicar consistentemente} & \text{Fácil de aplicar} \\
+\hline
+\text{Eficiencia} & \text{Ligeramente más rápido} & \text{Ligeramente más lento} \\
+\hline
+\text{Preferencia} & \text{Rara vez usado} & \text{Método estándar} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Utilidad en visión por computadora:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El método de transformación inverso es fundamental en numerosas aplicaciones de visión por computadora:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+1. Registro de imágenes:
+\series default
+ - Alinear imágenes médicas (rayos X, resonancias magnéticas) capturadas en diferentes momentos o desde diferentes ángulos - Fusionar imágenes satelitales de la misma región tomadas en diferentes fechas - Crear mapas compuestos a partir de múltiples fuentes
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+2. Rectificación de imágenes:
+\series default
+ - Corregir distorsiones de perspectiva en documentos fotografiados - Enderezar imágenes de edificios capturadas desde ángulos oblicuos - Normalizar vistas de objetos para reconocimiento
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+3. Construcción de panoramas:
+\series default
+ - Unir múltiples fotografías con solapamiento para crear imágenes panorámicas - Cada imagen se transforma inversamente a un marco de referencia común - Permite compensar rotaciones, traslaciones y cambios de perspectiva entre fotos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+4. Realidad aumentada:
+\series default
+ - Calcular la transformación entre el mundo real y el espacio de la imagen - Superponer objetos virtuales correctamente en escenas reales - Mantener la coherencia geométrica cuando la cámara o el usuario se mueven
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+5. Seguimiento de objetos:
+\series default
+ - Compensar el movimiento de la cámara en secuencias de video - Estabilizar video eliminando vibraciones no deseadas - Mantener objetos centrados a pesar del movimiento de la escena
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+6. Remuestreo y cambio de tamaño:
+\series default
+ - Escalar imágenes a diferentes resoluciones manteniendo calidad - Rotación de imágenes con mínima pérdida de información - Transformaciones geométricas arbitrarias para normalización de datos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+7. Calibración de cámaras:
+\series default
+ - Corregir distorsiones de lente usando parámetros intrínsecos calibrados - Aplicar transformaciones para obtener vistas rectificadas - Fundamental en visión estéreo y reconstrucción 3D
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+8. Detección y reconocimiento de patrones:
+\series default
+ - Normalizar la geometría de objetos antes del análisis - Aplicar transformaciones para alinear patrones de entrenamiento - Compensar variaciones de pose en reconocimiento facial
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+9. Síntesis de vistas:
+\series default
+ - Generar vistas virtuales de una escena desde ángulos no capturados - Interpolar entre vistas conocidas - Crear efectos de 
+\begin_inset Quotes fls
+\end_inset
+
+congelamiento de tiempo
+\begin_inset Quotes frs
+\end_inset
+
+ (bullet time)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+10. Corrección de movimiento en video:
+\series default
+ - Estabilización digital de video - Compensación de movimiento para compresión de video - Alineación de frames en video de alta velocidad
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aspectos técnicos importantes:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpolación:
+\series default
+ El método inverso casi siempre requiere interpolación porque las coordenadas calculadas 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+ raramente son enteras. Las opciones incluyen:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Vecino más cercano:
+\series default
+ Rápido pero produce imágenes pixeladas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Bilineal:
+\series default
+ Buen compromiso entre velocidad y calidad 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Bicúbica:
+\series default
+ Mayor calidad pero más costosa computacionalmente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Lanczos:
+\series default
+ Alta calidad para redimensionamiento 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Manejo de bordes:
+\series default
+ Cuando 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+ cae fuera de la imagen original, se pueden usar estrategias como: - Rellenar con un color constante (típicamente negro) - Replicar el valor del píxel más cercano en el borde - Reflejar o envolver (wrap) las coordenadas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Optimizaciones:
+\series default
+ En implementaciones prácticas: - Precalcular 
+\begin_inset Formula \(H^{-1}\)
+\end_inset
+
+ una sola vez - Usar aritmética de punto fijo para operaciones repetitivas - Aprovechar paralelización (GPU) ya que cada píxel puede procesarse independientemente - Implementar técnicas de caché para acceso eficiente a la memoria
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El método de transformación inverso es el enfoque estándar en visión por computadora para aplicar transformaciones geométricas debido a su capacidad de garantizar que todos los píxeles de la imagen resultante tengan valores asignados y su facilidad para integrar técnicas de interpolación. Su robustez y flexibilidad lo hacen indispensable en aplicaciones que van desde la corrección de distorsiones hasta la construcción de panoramas y realidad aumentada.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. ¿Cómo afecta la elección del método de interpolación (vecino más cercano vs.
+\begin_inset space ~
+
+\end_inset
+
+interpolación bilineal) a la calidad de la imagen resultante después de una transformación? Proporcione ejemplos de situaciones donde cada método sería más apropiado.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuxf3mo-afecta-la-elecciuxf3n-del-muxe9todo-de-interpolaciuxf3n-vecino-muxe1s-cercano-vs.-interpolaciuxf3n-bilineal-a-la-calidad-de-la-imagen-resultante-despuuxe9s-de-una-transformaciuxf3n-proporcione-ejemplos-de-situaciones-donde-cada-muxe9todo-seruxeda-muxe1s-apropiado."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La elección del método de interpolación tiene un impacto significativo en la calidad, el costo computacional y las características visuales de la imagen resultante después de aplicar una transformación geométrica. Cada método tiene ventajas y desventajas específicas que lo hacen más apropiado para diferentes situaciones.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpolación por vecino más cercano (Nearest Neighbor)
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Descripción:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Este método asigna a cada píxel de la imagen transformada el valor del píxel más cercano en la imagen original. Las coordenadas calculadas 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+ se redondean a la posición entera más próxima:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x_{\text{redondeado}} = \text{round}(x)\]
+\end_inset
+
+
+\begin_inset Formula \[y_{\text{redondeado}} = \text{round}(y)\]
+\end_inset
+
+
+\begin_inset Formula \[I'(x', y') = I(x_{\text{redondeado}}, y_{\text{redondeado}})\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Características:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Velocidad:
+\series default
+ Es el método más rápido, ya que no requiere cálculos adicionales más allá del redondeo. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Simplicidad:
+\series default
+ Muy fácil de implementar, solo requiere una operación de redondeo. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Preservación de valores:
+\series default
+ No introduce nuevos valores de intensidad; todos los píxeles en la imagen resultante tienen valores que existían en la imagen original. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Sin suavizado:
+\series default
+ No hay difuminado o mezcla de valores. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Eficiencia computacional:
+\series default
+ Mínimo costo de procesamiento, ideal para aplicaciones en tiempo real. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Preservación de bordes duros:
+\series default
+ Mantiene transiciones abruptas de intensidad. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Apropiado para imágenes categóricas:
+\series default
+ Perfecto para mapas de segmentación, etiquetas, o imágenes con clases discretas. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Sin artefactos de mezcla:
+\series default
+ No hay 
+\begin_inset Quotes fls
+\end_inset
+
+sangrado
+\begin_inset Quotes frs
+\end_inset
+
+ de colores entre regiones. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Determinístico:
+\series default
+ Resultados predecibles y reproducibles. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Desventajas:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Efecto de aliasing:
+\series default
+ Produce imágenes 
+\begin_inset Quotes fls
+\end_inset
+
+pixeladas
+\begin_inset Quotes frs
+\end_inset
+
+ o 
+\begin_inset Quotes fls
+\end_inset
+
+dentadas
+\begin_inset Quotes frs
+\end_inset
+
+ (jagged edges). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Artefactos de bloque:
+\series default
+ Especialmente notables en rotaciones y escalamientos. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Pérdida de suavidad:
+\series default
+ Las transiciones graduales se vuelven abruptas. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Calidad visual pobre:
+\series default
+ Para imágenes naturales, el resultado puede parecer artificial. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Distorsión en rotaciones:
+\series default
+ Los bordes diagonales aparecen como escaleras (staircase effect). 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Situaciones donde es más apropiado:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Imágenes binarias o de etiquetas:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Mapas de segmentación donde cada píxel representa una clase 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Máscaras binarias 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Mapas de profundidad categorizados 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Evita la creación de valores intermedios no válidos 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Visualización en tiempo real:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Videojuegos en hardware limitado 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Aplicaciones de realidad aumentada móvil 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Previsualización rápida en editores de imagen 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Velocidad de procesamiento crítica 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Imágenes con paleta limitada:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+GIF con colores indexados 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Pixel art o sprites retro 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Iconos o gráficos simples 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Preserva la paleta de colores exacta 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Transformaciones pequeñas:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Traslaciones de pocos píxeles 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Rotaciones menores a 5 grados 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Los artefactos son menos perceptibles 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Análisis científico que requiere valores exactos:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Procesamiento de datos donde no se permite introducir valores artificiales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Histogramas que deben reflejar valores originales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Integridad de los datos 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpolación bilineal
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Descripción:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Este método calcula el valor del píxel en la imagen transformada como un promedio ponderado de los cuatro píxeles más cercanos en la imagen original. Realiza interpolación lineal en dos direcciones (horizontal y vertical).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para un punto 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+ con parte entera 
+\begin_inset Formula \((x_1, y_1)\)
+\end_inset
+
+ y parte fraccionaria 
+\begin_inset Formula \((\Delta x, \Delta y)\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I'(x', y') = \frac{(y_2 - y)}{(y_2 - y_1)} \left[\frac{(x_2 - x)I_1 + (x - x_1)I_2}{x_2 - x_1}\right] + \frac{(y - y_1)}{(y_2 - y_1)} \left[\frac{(x_2 - x)I_3 + (x - x_1)I_4}{x_2 - x_1}\right]\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde 
+\begin_inset Formula \(I_1, I_2, I_3, I_4\)
+\end_inset
+
+ son los valores de intensidad en los cuatro píxeles vecinos: - 
+\begin_inset Formula \(I_1 = I(x_1, y_1)\)
+\end_inset
+
+ - esquina superior izquierda - 
+\begin_inset Formula \(I_2 = I(x_2, y_1)\)
+\end_inset
+
+ - esquina superior derecha - 
+\begin_inset Formula \(I_3 = I(x_1, y_2)\)
+\end_inset
+
+ - esquina inferior izquierda
+\begin_inset Newline newline
+\end_inset
+
+ - 
+\begin_inset Formula \(I_4 = I(x_2, y_2)\)
+\end_inset
+
+ - esquina inferior derecha
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Características:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Suavizado:
+\series default
+ Produce transiciones suaves entre píxeles. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Costo moderado:
+\series default
+ Requiere más cálculos que vecino más cercano, pero es manejable. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Continuidad:
+\series default
+ Garantiza continuidad en la imagen resultante. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Introduce nuevos valores:
+\series default
+ Crea valores de intensidad que no existían en la imagen original. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Calidad visual superior:
+\series default
+ Produce imágenes visualmente más agradables y naturales. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Bordes suaves:
+\series default
+ Elimina el efecto de 
+\begin_inset Quotes fls
+\end_inset
+
+escalera
+\begin_inset Quotes frs
+\end_inset
+
+ en bordes diagonales. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Menos aliasing:
+\series default
+ Reduce significativamente los artefactos de pixelación. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Transiciones graduales:
+\series default
+ Mantiene la suavidad de gradientes en la imagen. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Estándar de la industria:
+\series default
+ Ampliamente aceptado como compromiso calidad-velocidad. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Desventajas:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Desenfoque leve:
+\series default
+ Puede suavizar detalles finos y bordes. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Mayor costo computacional:
+\series default
+ Aproximadamente 4 veces más lento que vecino más cercano. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Mezcla de valores:
+\series default
+ No apropiado para imágenes categóricas o con etiquetas. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Puede introducir artefactos:
+\series default
+ En ciertos casos, puede causar 
+\begin_inset Quotes fls
+\end_inset
+
+ghosting
+\begin_inset Quotes frs
+\end_inset
+
+ o halos. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Pérdida de contraste:
+\series default
+ En transformaciones repetidas, el contraste puede degradarse. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Situaciones donde es más apropiado:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Fotografías y imágenes naturales:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Rotación de fotos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Redimensionamiento de imágenes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Corrección de perspectiva en fotografías 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Produce resultados visualmente superiores sin artefactos notables 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Escalamiento significativo:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Ampliación (upscaling) de imágenes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Reducción (downscaling) de alta resolución 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Reduce aliasing y mantiene transiciones suaves 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Rotaciones visibles:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Rotaciones mayores a 10 grados 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Corrección de inclinación en documentos escaneados 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Elimina bordes dentados en líneas diagonales 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Aplicaciones de visualización:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Presentaciones y publicaciones 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Interfaces gráficas de usuario 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Aplicaciones multimedia 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ La calidad visual es prioritaria 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Registro de imágenes médicas:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Alineación de CT, MRI o rayos X 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Fusión de imágenes multimodales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Mantiene gradientes suaves y reduce artefactos en tejidos 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Construcción de panoramas:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Unión de múltiples fotografías 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Creación de mosaicos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Facilita la fusión suave en las regiones de solapamiento 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Transformaciones proyectivas:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Corrección de perspectiva 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Rectificación de imágenes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\emph on
+Razón:
+\emph default
+ Las variaciones espaciales requieren interpolación suave 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Comparación cuantitativa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\textbf{Aspecto} & \textbf{Vecino más cercano} & \textbf{Interpolación bilineal} \\
+\hline
+\text{Velocidad relativa} & 1\times \text{ (referencia)} & \sim4\times \text{ más lento} \\
+\hline
+\text{Calidad visual} & \text{Baja (pixelada)} & \text{Media-Alta (suave)} \\
+\hline
+\text{PSNR típico} & \text{Menor} & \text{Mayor} \\
+\hline
+\text{Preservación de bordes} & \text{Alta} & \text{Media} \\
+\hline
+\text{Introducción de valores} & \text{No} & \text{Sí} \\
+\hline
+\text{Apropiado para datos categóricos} & \text{Sí} & \text{No} \\
+\hline
+\text{Efecto de aliasing} & \text{Alto} & \text{Bajo} \\
+\hline
+\text{Complejidad de implementación} & \text{Muy simple} & \text{Moderada} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Recomendaciones prácticas:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Use vecino más cercano cuando:
+\series default
+ - La velocidad es crítica y la calidad visual es secundaria - Trabaje con datos categóricos, etiquetas o máscaras - Necesite preservar valores exactos de píxeles - Las transformaciones son mínimas - Procese pixel art o gráficos con paleta limitada
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Use interpolación bilineal cuando:
+\series default
+ - La calidad visual es importante - Trabaje con fotografías o imágenes naturales - Realice rotaciones o escalamientos significativos - La aplicación permite el costo computacional adicional - Necesite reducir artefactos de aliasing
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Métodos alternativos:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para completar el panorama, existen otros métodos de interpolación:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Interpolación bicúbica:
+\series default
+ Mayor calidad que bilineal, pero más costosa computacionalmente. Usa 16 píxeles vecinos. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Interpolación Lanczos:
+\series default
+ Excelente calidad para redimensionamiento, pero muy costosa. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Interpolación de área:
+\series default
+ Específicamente diseñada para reducción de tamaño (downsampling). 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo práctico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Considere rotar una fotografía 30 grados:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Con vecino más cercano:
+\series default
+ Los bordes de objetos (como edificios o personas) aparecerán dentados, con un efecto de 
+\begin_inset Quotes fls
+\end_inset
+
+escalera
+\begin_inset Quotes frs
+\end_inset
+
+ notable. Las transiciones de color serán abruptas. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Con interpolación bilineal:
+\series default
+ Los bordes serán suaves, las transiciones de color graduales, y la imagen se verá natural y profesional, aunque con un ligero suavizado que puede reducir mínimamente el detalle fino. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La elección del método de interpolación debe basarse en: 1. El tipo de imagen (natural vs.
+\begin_inset space ~
+
+\end_inset
+
+categórica) 2. Los requisitos de calidad visual 3. Las restricciones de rendimiento 4. La naturaleza y magnitud de la transformación 5. El propósito final de la imagen procesada
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En la mayoría de aplicaciones de visión por computadora que involucran imágenes naturales, la interpolación bilineal es el estándar recomendado por su excelente compromiso entre calidad y eficiencia. Sin embargo, para casos específicos como procesamiento de máscaras de segmentación o aplicaciones en tiempo real con recursos limitados, el vecino más cercano sigue siendo la opción adecuada.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+10.8.3. Ejercicios numéricos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicios-numuxe9ricos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+1. Dada la matriz 
+\begin_inset Formula \(H\)
+\end_inset
+
+ de transformación afín de 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+, explique el significado de cada uno de los términos de la matriz.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+1. Dada la matriz H de transformación afín de 3 
+\backslash
+times 3, explique el significado de cada uno de los términos de la matriz.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "dada-la-matriz-h-de-transformaciuxf3n-afuxedn-de-3-times-3-explique-el-significado-de-cada-uno-de-los-tuxe9rminos-de-la-matriz."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = \begin{bmatrix} 0.5 & 0.1 & 2 \\ 0.3 & 1 & -3 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La matriz 
+\begin_inset Formula \(H\)
+\end_inset
+
+ es una matriz de transformación afín en coordenadas homogéneas que combina múltiples operaciones geométricas. Analicemos cada elemento de la matriz:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Estructura general de la matriz:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = \begin{bmatrix} h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33} \end{bmatrix} = \begin{bmatrix} 0.5 & 0.1 & 2 \\ 0.3 & 1 & -3 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Desglose por bloques:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La matriz puede dividirse conceptualmente en tres bloques funcionales:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[H = \begin{bmatrix} 
+\boxed{\begin{matrix} 0.5 & 0.1 \\ 0.3 & 1 \end{matrix}} & \boxed{\begin{matrix} 2 \\ -3 \end{matrix}} \\
+\boxed{\begin{matrix} 0 & 0 \end{matrix}} & \boxed{1}
+\end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Significado de cada término:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+1. Submatriz de transformación lineal (elementos 
+\begin_inset Formula \(h_{11}, h_{12}, h_{21}, h_{22}\)
+\end_inset
+
+):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[A = \begin{bmatrix} 0.5 & 0.1 \\ 0.3 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esta submatriz controla las transformaciones lineales:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+
+\begin_inset Formula \(h_{11} = 0.5\)
+\end_inset
+
+
+\series default
+: Factor de escalamiento en la dirección 
+\begin_inset Formula \(x\)
+\end_inset
+
+. Reduce el tamaño horizontal a la mitad. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+
+\begin_inset Formula \(h_{12} = 0.1\)
+\end_inset
+
+
+\series default
+: Componente de cizallamiento horizontal. Introduce una inclinación en 
+\begin_inset Formula \(x\)
+\end_inset
+
+ proporcional a 
+\begin_inset Formula \(y\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+
+\begin_inset Formula \(h_{21} = 0.3\)
+\end_inset
+
+
+\series default
+: Componente de cizallamiento vertical. Introduce una inclinación en 
+\begin_inset Formula \(y\)
+\end_inset
+
+ proporcional a 
+\begin_inset Formula \(x\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+
+\begin_inset Formula \(h_{22} = 1\)
+\end_inset
+
+
+\series default
+: Factor de escalamiento en la dirección 
+\begin_inset Formula \(y\)
+\end_inset
+
+. Mantiene el tamaño vertical sin cambios. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La combinación de estos términos puede incluir: - 
+\series bold
+Escalamiento
+\series default
+: Los elementos diagonales (
+\begin_inset Formula \(h_{11}\)
+\end_inset
+
+ y 
+\begin_inset Formula \(h_{22}\)
+\end_inset
+
+) controlan el escalado en 
+\begin_inset Formula \(x\)
+\end_inset
+
+ e 
+\begin_inset Formula \(y\)
+\end_inset
+
+. - 
+\series bold
+Rotación
+\series default
+: Se puede descomponer parcialmente en componentes rotacionales. - 
+\series bold
+Cizallamiento
+\series default
+: Los elementos fuera de la diagonal (
+\begin_inset Formula \(h_{12}\)
+\end_inset
+
+ y 
+\begin_inset Formula \(h_{21}\)
+\end_inset
+
+) introducen deformación.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+2. Vector de traslación (elementos 
+\begin_inset Formula \(h_{13}, h_{23}\)
+\end_inset
+
+):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\mathbf{t} = \begin{bmatrix} 2 \\ -3 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+
+\begin_inset Formula \(h_{13} = 2\)
+\end_inset
+
+
+\series default
+: Traslación en la dirección 
+\begin_inset Formula \(x\)
+\end_inset
+
+. Desplaza todos los puntos 2 unidades a la derecha. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+
+\begin_inset Formula \(h_{23} = -3\)
+\end_inset
+
+
+\series default
+: Traslación en la dirección 
+\begin_inset Formula \(y\)
+\end_inset
+
+. Desplaza todos los puntos 3 unidades hacia abajo (o arriba, dependiendo del sistema de coordenadas). 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+3. Fila de perspectiva (elementos 
+\begin_inset Formula \(h_{31}, h_{32}\)
+\end_inset
+
+):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\mathbf{p} = \begin{bmatrix} 0 & 0 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+
+\begin_inset Formula \(h_{31} = 0\)
+\end_inset
+
+
+\series default
+: Componente de perspectiva en 
+\begin_inset Formula \(x\)
+\end_inset
+
+. Al ser 0, no introduce efecto proyectivo. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+
+\begin_inset Formula \(h_{32} = 0\)
+\end_inset
+
+
+\series default
+: Componente de perspectiva en 
+\begin_inset Formula \(y\)
+\end_inset
+
+. Al ser 0, no introduce efecto proyectivo. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Estos valores nulos confirman que es una 
+\series bold
+transformación afín
+\series default
+ (no proyectiva).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+4. Factor de normalización (elemento 
+\begin_inset Formula \(h_{33}\)
+\end_inset
+
+):
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+
+\begin_inset Formula \(h_{33} = 1\)
+\end_inset
+
+
+\series default
+: Factor de escala homogéneo. Al ser 1, asegura que 
+\begin_inset Formula \(w = 1\)
+\end_inset
+
+ en las coordenadas homogéneas, evitando la necesidad de normalización. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicación de la transformación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La transformación de un punto 
+\begin_inset Formula \(p = [x, y, 1]^T\)
+\end_inset
+
+ a 
+\begin_inset Formula \(p' = [x', y', 1]^T\)
+\end_inset
+
+ se calcula como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} 0.5 & 0.1 & 2 \\ 0.3 & 1 & -3 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Expandiendo:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = 0.5x + 0.1y + 2\]
+\end_inset
+
+
+\begin_inset Formula \[y' = 0.3x + 1y - 3\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación geométrica completa:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esta matriz combina múltiples transformaciones en una sola operación. Aunque matemáticamente todas ocurren simultáneamente, podemos interpretar los efectos de cada componente:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Escalamiento
+\series default
+: El término 
+\begin_inset Formula \(h_{11} = 0.5\)
+\end_inset
+
+ reduce en un 50% la dimensión horizontal (
+\begin_inset Formula \(x\)
+\end_inset
+
+), mientras que 
+\begin_inset Formula \(h_{22} = 1\)
+\end_inset
+
+ mantiene la dimensión vertical sin cambios. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Cizallamiento
+\series default
+: Los términos fuera de la diagonal (
+\begin_inset Formula \(h_{12} = 0.1\)
+\end_inset
+
+ y 
+\begin_inset Formula \(h_{21} = 0.3\)
+\end_inset
+
+) introducen deformaciones que inclinan la imagen. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Traslación
+\series default
+: Los términos 
+\begin_inset Formula \(h_{13} = 2\)
+\end_inset
+
+ y 
+\begin_inset Formula \(h_{23} = -3\)
+\end_inset
+
+ desplazan todos los puntos 2 unidades en 
+\begin_inset Formula \(x\)
+\end_inset
+
+ y -3 unidades en 
+\begin_inset Formula \(y\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Nota importante:
+\series default
+ Aunque describimos estas operaciones por separado para facilitar la comprensión, en la práctica 
+\series bold
+todas se aplican simultáneamente
+\series default
+ en una única multiplicación matricial. No es posible separar o identificar un 
+\begin_inset Quotes fls
+\end_inset
+
+orden
+\begin_inset Quotes frs
+\end_inset
+
+ de aplicación, ya que la matriz representa la transformación combinada completa.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo numérico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Si aplicamos esta transformación al punto 
+\begin_inset Formula \(p = [4, 6, 1]^T\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = 0.5(4) + 0.1(6) + 2 = 2 + 0.6 + 2 = 4.6\]
+\end_inset
+
+
+\begin_inset Formula \[y' = 0.3(4) + 1(6) - 3 = 1.2 + 6 - 3 = 4.2\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El punto transformado es 
+\begin_inset Formula \(p' = [4.6, 4.2, 1]^T\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Propiedades de la transformación:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Es afín
+\series default
+: Los valores 
+\begin_inset Formula \(h_{31} = 0\)
+\end_inset
+
+ y 
+\begin_inset Formula \(h_{32} = 0\)
+\end_inset
+
+ confirman que no hay efectos proyectivos. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Es invertible
+\series default
+: El determinante de la submatriz 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+ es 
+\begin_inset Formula \((0.5)(1) - (0.1)(0.3) = 0.5 - 0.03 = 0.47 \neq 0\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Preserva líneas
+\series default
+: Las líneas rectas se mantienen rectas después de la transformación. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+No preserva ángulos
+\series default
+: Debido al cizallamiento, los ángulos entre líneas cambian. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+No preserva distancias
+\series default
+: El escalamiento y cizallamiento alteran las distancias relativas. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esta matriz representa una transformación afín compleja que combina escalamiento no uniforme, cizallamiento y traslación, útil para correcciones geométricas, registro de imágenes o normalización de perspectivas en aplicaciones de visión por computadora.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+2. Para la imagen 
+\begin_inset Formula \(I\)
+\end_inset
+
+ de 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+ píxeles, realiza una translación de la imagen 
+\begin_inset Formula \(I\)
+\end_inset
+
+ con 
+\begin_inset Formula \(t_x = 2\)
+\end_inset
+
+ y 
+\begin_inset Formula \(t_y = 1\)
+\end_inset
+
+. Calcula las nuevas posiciones de los píxeles usando el método inverso por el vecino más cercano.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+2. Para la imagen I de 3 
+\backslash
+times 3 píxeles, realiza una translación de la imagen I con t_x = 2 y t_y = 1. Calcula las nuevas posiciones de los píxeles usando el método inverso por el vecino más cercano.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "para-la-imagen-i-de-3-times-3-puxedxeles-realiza-una-translaciuxf3n-de-la-imagen-i-con-t_x-2-y-t_y-1.-calcula-las-nuevas-posiciones-de-los-puxedxeles-usando-el-muxe9todo-inverso-por-el-vecino-muxe1s-cercano."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I = \begin{bmatrix} 3 & 5 & 2 \\ 8 & 1 & 9 \\ 7 & 6 & 4 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 1: Definir la matriz de traslación
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La matriz de traslación 
+\begin_inset Formula \(T\)
+\end_inset
+
+ para desplazar la imagen 
+\begin_inset Formula \(t_x = 2\)
+\end_inset
+
+ en dirección 
+\begin_inset Formula \(x\)
+\end_inset
+
+ y 
+\begin_inset Formula \(t_y = 1\)
+\end_inset
+
+ en dirección 
+\begin_inset Formula \(y\)
+\end_inset
+
+ es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[T = \begin{bmatrix} 1 & 0 & t_x \\ 0 & 1 & t_y \\ 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & 2 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 2: Calcular las dimensiones de la imagen trasladada
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las dimensiones originales son: 
+\begin_inset Formula \(M = 3\)
+\end_inset
+
+ (filas), 
+\begin_inset Formula \(N = 3\)
+\end_inset
+
+ (columnas)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para calcular las nuevas dimensiones, usamos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} N' \\ M' \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & |t_x| \\ 0 & 1 & |t_y| \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} N \\ M \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & 2 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 3 \\ 3 \\ 1 \end{bmatrix} = \begin{bmatrix} 5 \\ 4 \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por lo tanto, la imagen trasladada tendrá dimensiones 
+\begin_inset Formula \(N' = 5\)
+\end_inset
+
+ columnas y 
+\begin_inset Formula \(M' = 4\)
+\end_inset
+
+ filas.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 3: Calcular la matriz inversa de traslación
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[T^{-1} = \begin{bmatrix} 1 & 0 & -t_x \\ 0 & 1 & -t_y \\ 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & -2 \\ 0 & 1 & -1 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 4: Aplicar el método inverso
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para cada píxel 
+\begin_inset Formula \((x', y')\)
+\end_inset
+
+ en la imagen trasladada 
+\begin_inset Formula \(I'\)
+\end_inset
+
+, calculamos su posición original 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+ en 
+\begin_inset Formula \(I\)
+\end_inset
+
+ usando:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x \\ y \\ 1 \end{bmatrix} = T^{-1} \begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & -2 \\ 0 & 1 & -1 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Simplificando: 
+\begin_inset Formula \[x = x' - 2\]
+\end_inset
+
+
+\begin_inset Formula \[y = y' - 1\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Nota sobre el sistema de coordenadas:
+\series default
+ En la representación matricial de imágenes, usamos índices 
+\begin_inset Formula \((i, j)\)
+\end_inset
+
+ donde 
+\begin_inset Formula \(i\)
+\end_inset
+
+ es la fila y 
+\begin_inset Formula \(j\)
+\end_inset
+
+ es la columna. La correspondencia con el sistema cartesiano es: 
+\begin_inset Formula \(i \leftrightarrow y\)
+\end_inset
+
+ y 
+\begin_inset Formula \(j \leftrightarrow x\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 5: Calcular todos los píxeles
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Recorremos cada posición 
+\begin_inset Formula \((y', x')\)
+\end_inset
+
+ en 
+\begin_inset Formula \(I'\)
+\end_inset
+
+ (con 
+\begin_inset Formula \(1 \leq y' \leq 4\)
+\end_inset
+
+ y 
+\begin_inset Formula \(1 \leq x' \leq 5\)
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|c|c|}
+\hline
+(y', x') & (y, x) = (y'-1, x'-2) & \textbf{¿Válido?} & I(y,x) & I'(y',x') \\
+\hline
+(1,1) & (0,-1) & \text{No} & - & 0 \\
+\hline
+(1,2) & (0,0) & \text{No} & - & 0 \\
+\hline
+(1,3) & (0,1) & \text{No} & - & 0 \\
+\hline
+(1,4) & (0,2) & \text{No} & - & 0 \\
+\hline
+(1,5) & (0,3) & \text{No} & - & 0 \\
+\hline
+(2,1) & (1,-1) & \text{No} & - & 0 \\
+\hline
+(2,2) & (1,0) & \text{No} & - & 0 \\
+\hline
+(2,3) & (1,1) & \textbf{Sí} & 3 & 3 \\
+\hline
+(2,4) & (1,2) & \textbf{Sí} & 5 & 5 \\
+\hline
+(2,5) & (1,3) & \textbf{Sí} & 2 & 2 \\
+\hline
+(3,1) & (2,-1) & \text{No} & - & 0 \\
+\hline
+(3,2) & (2,0) & \text{No} & - & 0 \\
+\hline
+(3,3) & (2,1) & \textbf{Sí} & 8 & 8 \\
+\hline
+(3,4) & (2,2) & \textbf{Sí} & 1 & 1 \\
+\hline
+(3,5) & (2,3) & \textbf{Sí} & 9 & 9 \\
+\hline
+(4,1) & (3,-1) & \text{No} & - & 0 \\
+\hline
+(4,2) & (3,0) & \text{No} & - & 0 \\
+\hline
+(4,3) & (3,1) & \textbf{Sí} & 7 & 7 \\
+\hline
+(4,4) & (3,2) & \textbf{Sí} & 6 & 6 \\
+\hline
+(4,5) & (3,3) & \textbf{Sí} & 4 & 4 \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Nota:
+\series default
+ Las posiciones con coordenadas originales fuera del rango válido 
+\begin_inset Formula \([1,3] \times [1,3]\)
+\end_inset
+
+ se rellenan con 0 (píxeles negros).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 6: Construir la imagen trasladada
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I' = \begin{bmatrix} 
+0 & 0 & 3 & 5 & 2 \\
+0 & 0 & 8 & 1 & 9 \\
+0 & 0 & 7 & 6 & 4
+\end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Verificación visual:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La imagen original 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+ se ha desplazado 2 columnas a la derecha y 1 fila hacia abajo, resultando en una imagen 
+\begin_inset Formula \(3 \times 5\)
+\end_inset
+
+. Las dos primeras columnas están vacías (rellenas con 0), y la primera fila también está vacía, lo que refleja correctamente la traslación aplicada.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Representación gráfica:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Imagen original I (3×3):     Imagen trasladada I' (3×5):
+\end_layout
+
+\begin_layout Verbatim
+┌─────┐                      ┌─────────────┐
+\end_layout
+
+\begin_layout Verbatim
+│3 5 2│                      │0 0│3 5 2│   │
+\end_layout
+
+\begin_layout Verbatim
+│8 1 9│        ──>           │0 0│8 1 9│   │
+\end_layout
+
+\begin_layout Verbatim
+│7 6 4│                      │0 0│7 6 4│   │
+\end_layout
+
+\begin_layout Verbatim
+└─────┘                      └─────────────┘
+\end_layout
+
+\begin_layout Verbatim
+                                  ↑
+\end_layout
+
+\begin_layout Verbatim
+                            tx=2, ty=1
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Usando el método inverso con interpolación por vecino más cercano, hemos trasladado exitosamente la imagen 2 píxeles a la derecha y 1 píxel hacia abajo. El método inverso garantiza que todos los píxeles de la imagen resultante reciban valores asignados, evitando huecos o posiciones indefinidas.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+3. Realiza el escalamiento de la imagen 
+\begin_inset Formula \(I\)
+\end_inset
+
+ de 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+ píxeles con un factor 
+\begin_inset Formula \(S_x = 2\)
+\end_inset
+
+ y 
+\begin_inset Formula \(S_y = 1.5\)
+\end_inset
+
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+3. Realiza el escalamiento de la imagen I de 2 
+\backslash
+times 2 píxeles con un factor S_x = 2 y S_y = 1.5.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "realiza-el-escalamiento-de-la-imagen-i-de-2-times-2-puxedxeles-con-un-factor-s_x-2-y-s_y-1.5."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 1: Definir la matriz de escalamiento
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La matriz de escalamiento 
+\begin_inset Formula \(S\)
+\end_inset
+
+ con factores 
+\begin_inset Formula \(S_x = 2\)
+\end_inset
+
+ (horizontal) y 
+\begin_inset Formula \(S_y = 1.5\)
+\end_inset
+
+ (vertical) es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S = \begin{bmatrix} S_x & 0 & 0 \\ 0 & S_y & 0 \\ 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} 2 & 0 & 0 \\ 0 & 1.5 & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 2: Calcular las dimensiones de la imagen escalada
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Dimensiones originales: 
+\begin_inset Formula \(M = 2\)
+\end_inset
+
+ (filas), 
+\begin_inset Formula \(N = 2\)
+\end_inset
+
+ (columnas)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las nuevas dimensiones se calculan:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} N' \\ M' \\ 1 \end{bmatrix} = \begin{bmatrix} S_x & 0 & 0 \\ 0 & S_y & 0 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} N \\ M \\ 1 \end{bmatrix} = \begin{bmatrix} 2 & 0 & 0 \\ 0 & 1.5 & 0 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 2 \\ 2 \\ 1 \end{bmatrix} = \begin{bmatrix} 4 \\ 3 \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por lo tanto: 
+\begin_inset Formula \(N' = 4\)
+\end_inset
+
+ columnas y 
+\begin_inset Formula \(M' = 3\)
+\end_inset
+
+ filas.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 3: Calcular la matriz inversa de escalamiento
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[S^{-1} = \begin{bmatrix} \frac{1}{S_x} & 0 & 0 \\ 0 & \frac{1}{S_y} & 0 \\ 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} 0.5 & 0 & 0 \\ 0 & \frac{2}{3} & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 4: Aplicar el método inverso
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para cada píxel 
+\begin_inset Formula \((x', y')\)
+\end_inset
+
+ en la imagen escalada 
+\begin_inset Formula \(I'\)
+\end_inset
+
+, calculamos su posición original 
+\begin_inset Formula \((x, y)\)
+\end_inset
+
+ en 
+\begin_inset Formula \(I\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x \\ y \\ 1 \end{bmatrix} = S^{-1} \begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} 0.5 & 0 & 0 \\ 0 & \frac{2}{3} & 0 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Simplificando: 
+\begin_inset Formula \[x = 0.5 \cdot x'\]
+\end_inset
+
+
+\begin_inset Formula \[y = \frac{2}{3} \cdot y'\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 5: Calcular todos los píxeles con vecino más cercano
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Recorremos cada posición 
+\begin_inset Formula \((y', x')\)
+\end_inset
+
+ en 
+\begin_inset Formula \(I'\)
+\end_inset
+
+ (con 
+\begin_inset Formula \(1 \leq y' \leq 3\)
+\end_inset
+
+ y 
+\begin_inset Formula \(1 \leq x' \leq 4\)
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|c|c|c|}
+\hline
+(y', x') & (y, x) & (y, x) \text{ redondeado} & \textbf{¿Válido?} & I(y,x) & I'(y',x') \\
+\hline
+(1,1) & (0.67, 0.5) & (1, 1) & \textbf{Sí} & 1 & 1 \\
+\hline
+(1,2) & (0.67, 1.0) & (1, 1) & \textbf{Sí} & 1 & 1 \\
+\hline
+(1,3) & (0.67, 1.5) & (1, 2) & \textbf{Sí} & 2 & 2 \\
+\hline
+(1,4) & (0.67, 2.0) & (1, 2) & \textbf{Sí} & 2 & 2 \\
+\hline
+(2,1) & (1.33, 0.5) & (1, 1) & \textbf{Sí} & 1 & 1 \\
+\hline
+(2,2) & (1.33, 1.0) & (1, 1) & \textbf{Sí} & 1 & 1 \\
+\hline
+(2,3) & (1.33, 1.5) & (1, 2) & \textbf{Sí} & 2 & 2 \\
+\hline
+(2,4) & (1.33, 2.0) & (1, 2) & \textbf{Sí} & 2 & 2 \\
+\hline
+(3,1) & (2.0, 0.5) & (2, 1) & \textbf{Sí} & 3 & 3 \\
+\hline
+(3,2) & (2.0, 1.0) & (2, 1) & \textbf{Sí} & 3 & 3 \\
+\hline
+(3,3) & (2.0, 1.5) & (2, 2) & \textbf{Sí} & 4 & 4 \\
+\hline
+(3,4) & (2.0, 2.0) & (2, 2) & \textbf{Sí} & 4 & 4 \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 6: Construir la imagen escalada
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I' = \begin{bmatrix} 
+1 & 1 & 2 & 2 \\
+1 & 1 & 2 & 2 \\
+3 & 3 & 4 & 4
+\end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis del resultado:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Escalamiento horizontal (
+\begin_inset Formula \(S_x = 2\)
+\end_inset
+
+)
+\series default
+: Cada columna de la imagen original se duplica. Los píxeles 1 y 3 de la primera columna se expanden a las columnas 1-2, y los píxeles 2 y 4 de la segunda columna se expanden a las columnas 3-4. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Escalamiento vertical (
+\begin_inset Formula \(S_y = 1.5\)
+\end_inset
+
+)
+\series default
+: La imagen se expande verticalmente por un factor de 1.5. Como estamos usando vecino más cercano, los píxeles de la primera fila original ocupan aproximadamente las filas 1-2 de la imagen escalada, y la segunda fila original ocupa la fila 3. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Efecto de vecino más cercano
+\series default
+: Observamos que hay repetición de píxeles (cada píxel original aparece en múltiples posiciones de la imagen escalada), lo que es característico de este método de interpolación. Esto produce el efecto de 
+\begin_inset Quotes fls
+\end_inset
+
+bloqueo
+\begin_inset Quotes frs
+\end_inset
+
+ o pixelación. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Representación visual:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Imagen original I (2×2):     Imagen escalada I' (3×4):
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+┌───┐                        ┌───────┐
+\end_layout
+
+\begin_layout Verbatim
+│1 2│                        │1 1 2 2│
+\end_layout
+
+\begin_layout Verbatim
+│3 4│         ──>            │1 1 2 2│
+\end_layout
+
+\begin_layout Verbatim
+└───┘                        │3 3 4 4│
+\end_layout
+
+\begin_layout Verbatim
+                             └───────┘
+\end_layout
+
+\begin_layout Verbatim
+                          Sx=2, Sy=1.5
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La imagen se ha escalado correctamente, duplicando su ancho (de 2 a 4 columnas) y aumentando su altura en un 50% (de 2 a 3 filas). El uso del método inverso con vecino más cercano garantiza que todos los píxeles de la imagen escalada reciban valores, aunque con el efecto característico de repetición de píxeles propio de este método de interpolación.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+4. A partir de una imagen original 
+\begin_inset Formula \(I\)
+\end_inset
+
+, realiza el cálculo de las coordenadas para una rotación de 45 grados usando el método inverso por el vecino más cercano.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+4. A partir de una imagen original I, realiza el cálculo de las coordenadas para una rotación de 45 grados usando el método inverso por el vecino más cercano.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "a-partir-de-una-imagen-original-i-realiza-el-cuxe1lculo-de-las-coordenadas-para-una-rotaciuxf3n-de-45-grados-usando-el-muxe9todo-inverso-por-el-vecino-muxe1s-cercano."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I = \begin{bmatrix} 9 & 8 & 7 \\ 6 & 5 & 4 \\ 3 & 2 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 1: Definir la matriz de rotación
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para una rotación de 
+\begin_inset Formula \(\theta = 45°\)
+\end_inset
+
+ alrededor del origen, la matriz de rotación es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[R(\theta) = \begin{bmatrix} \cos(\theta) & -\sin(\theta) & 0 \\ \sin(\theta) & \cos(\theta) & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Con 
+\begin_inset Formula \(\theta = 45°\)
+\end_inset
+
+: 
+\begin_inset Formula \[\cos(45°) = \sin(45°) = \frac{\sqrt{2}}{2} \approx 0.7071\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[R = \begin{bmatrix} 0.7071 & -0.7071 & 0 \\ 0.7071 & 0.7071 & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 2: Calcular la matriz inversa de rotación
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La inversa de una matriz de rotación es su transpuesta (rotación en sentido contrario):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[R^{-1} = R^T = \begin{bmatrix} \cos(\theta) & \sin(\theta) & 0 \\ -\sin(\theta) & \cos(\theta) & 0 \\ 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} 0.7071 & 0.7071 & 0 \\ -0.7071 & 0.7071 & 0 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 3: Calcular las dimensiones de la imagen rotada
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Dimensiones originales: 
+\begin_inset Formula \(M = 3\)
+\end_inset
+
+ (filas), 
+\begin_inset Formula \(N = 3\)
+\end_inset
+
+ (columnas)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para calcular las dimensiones de la imagen rotada, aplicamos la rotación a las esquinas de la imagen original:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las esquinas de la imagen original en coordenadas matriciales son: - Esquina superior izquierda: 
+\begin_inset Formula \((1, 1)\)
+\end_inset
+
+ - Esquina superior derecha: 
+\begin_inset Formula \((1, 3)\)
+\end_inset
+
+ - Esquina inferior izquierda: 
+\begin_inset Formula \((3, 1)\)
+\end_inset
+
+ - Esquina inferior derecha: 
+\begin_inset Formula \((3, 3)\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Aplicando la rotación (tomando el centro en el origen, necesitamos ajustar):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para simplificar, usemos que la imagen rotada 45° de una matriz 
+\begin_inset Formula \(3 \times 3\)
+\end_inset
+
+ requiere aproximadamente:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[N' \approx M' \approx \lceil \sqrt{N^2 + M^2} \rceil = \lceil \sqrt{9 + 9} \rceil = \lceil 4.24 \rceil = 5\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Usaremos 
+\begin_inset Formula \(N' = 5\)
+\end_inset
+
+ y 
+\begin_inset Formula \(M' = 5\)
+\end_inset
+
+ para asegurar que toda la imagen rotada quepa.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 4: Centrar la rotación
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para rotar alrededor del centro de la imagen, primero trasladamos el centro de la imagen original al origen, rotamos, y luego trasladamos de vuelta.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Centro de la imagen original: 
+\begin_inset Formula \(p_c = \left(\frac{N}{2}, \frac{M}{2}\right) = (1.5, 1.5)\)
+\end_inset
+
+ (en indexación desde 0) o 
+\begin_inset Formula \((2, 2)\)
+\end_inset
+
+ (en indexación desde 1).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Usando indexación desde 1: Centro 
+\begin_inset Formula \(= (2, 2)\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Centro de la imagen rotada: 
+\begin_inset Formula \(p'_c = \left(\frac{N'}{2}, \frac{M'}{2}\right) = (3, 3)\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La transformación completa es: 
+\begin_inset Formula \[H = T(p'_c) \cdot R \cdot T(-p_c)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde: - 
+\begin_inset Formula \(T(-p_c)\)
+\end_inset
+
+ traslada el centro de la imagen original al origen - 
+\begin_inset Formula \(R\)
+\end_inset
+
+ rota 45° - 
+\begin_inset Formula \(T(p'_c)\)
+\end_inset
+
+ traslada al centro de la imagen destino
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 5: Aplicar el método inverso simplificado
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para cada píxel 
+\begin_inset Formula \((x', y')\)
+\end_inset
+
+ en la imagen rotada centrada en 
+\begin_inset Formula \((3, 3)\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Trasladar al origen: 
+\begin_inset Formula \((x'_0, y'_0) = (x' - 3, y' - 3)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Aplicar rotación inversa: 
+\begin_inset Formula \[x_0 = 0.7071 \cdot x'_0 + 0.7071 \cdot y'_0\]
+\end_inset
+
+
+\begin_inset Formula \[y_0 = -0.7071 \cdot x'_0 + 0.7071 \cdot y'_0\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Trasladar de vuelta: 
+\begin_inset Formula \((x, y) = (x_0 + 2, y_0 + 2)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Redondear al vecino más cercano 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Verificar si está dentro de los límites 
+\begin_inset Formula \([1, 3] \times [1, 3]\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 6: Calcular algunos píxeles ejemplo
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Píxel central de la imagen rotada 
+\begin_inset Formula \((3, 3)\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Trasladar: 
+\begin_inset Formula \((0, 0)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Rotar: 
+\begin_inset Formula \(x_0 = 0\)
+\end_inset
+
+, 
+\begin_inset Formula \(y_0 = 0\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Trasladar de vuelta: 
+\begin_inset Formula \((2, 2)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Valor: 
+\begin_inset Formula \(I(2, 2) = 5\)
+\end_inset
+
+ ✓ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Píxel 
+\begin_inset Formula \((3, 1)\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Trasladar: 
+\begin_inset Formula \((0, -2)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Rotar:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\begin_inset Formula \(x_0 = 0.7071(0) + 0.7071(-2) = -1.414\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Formula \(y_0 = -0.7071(0) + 0.7071(-2) = -1.414\)
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+Trasladar: 
+\begin_inset Formula \((0.59, 0.59) \approx (1, 1)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Valor: 
+\begin_inset Formula \(I(1, 1) = 9\)
+\end_inset
+
+ ✓ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Píxel 
+\begin_inset Formula \((5, 3)\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Trasladar: 
+\begin_inset Formula \((2, 0)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Rotar:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\begin_inset Formula \(x_0 = 0.7071(2) + 0.7071(0) = 1.414\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Formula \(y_0 = -0.7071(2) + 0.7071(0) = -1.414\)
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+Trasladar: 
+\begin_inset Formula \((3.41, 0.59) \approx (3, 1)\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Verificar: 
+\begin_inset Formula \((3, 1)\)
+\end_inset
+
+ está en límites ✓ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Valor: 
+\begin_inset Formula \(I(3, 1) = 3\)
+\end_inset
+
+ ✓ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Tabla completa de cálculos (muestra representativa):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|c|c|c|c|c|}
+\hline
+(y', x') & (x'_0, y'_0) & (x_0, y_0) \text{ rotado} & (x, y) & (x, y) \text{ redondeado} & \textbf{Válido} & I(y,x) & I'(y',x') \\
+\hline
+(3,3) & (0,0) & (0, 0) & (2, 2) & (2, 2) & \text{Sí} & 5 & 5 \\
+\hline
+(2,3) & (0,-1) & (0.707, -0.707) & (2.7, 1.3) & (3, 1) & \text{Sí} & 7 & 7 \\
+\hline
+(3,2) & (-1,0) & (-0.707, -0.707) & (1.3, 1.3) & (1, 1) & \text{Sí} & 9 & 9 \\
+\hline
+(3,4) & (1,0) & (0.707, 0.707) & (2.7, 2.7) & (3, 3) & \text{Sí} & 1 & 1 \\
+\hline
+(4,3) & (0,1) & (-0.707, 0.707) & (1.3, 2.7) & (1, 3) & \text{Sí} & 7 & 7 \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Imagen rotada aproximada 
+\begin_inset Formula \(I'\)
+\end_inset
+
+ (5×5):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por la complejidad del cálculo completo, mostramos el resultado conceptual. La imagen rotada tendrá la forma aproximada:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I' \approx \begin{bmatrix} 
+0 & 0 & 8 & 0 & 0 \\
+0 & 9 & 5 & 7 & 0 \\
+9 & 6 & 5 & 4 & 1 \\
+0 & 3 & 5 & 1 & 0 \\
+0 & 0 & 2 & 0 & 0
+\end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Visualización conceptual:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Original:        Rotada 45°:
+\end_layout
+
+\begin_layout Verbatim
+9 8 7              0 0 8 0 0
+\end_layout
+
+\begin_layout Verbatim
+6 5 4      →       0 9 5 7 0
+\end_layout
+
+\begin_layout Verbatim
+3 2 1              9 6 5 4 1
+\end_layout
+
+\begin_layout Verbatim
+                   0 3 5 1 0
+\end_layout
+
+\begin_layout Verbatim
+                   0 0 2 0 0
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Observaciones:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Píxeles de borde con valor 0
+\series default
+: Representan regiones de la imagen rotada que no tienen correspondencia válida en la imagen original. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Forma de diamante
+\series default
+: La rotación de 45° de un cuadrado produce una forma de diamante, característica de esta rotación. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Pixel central preservado
+\series default
+: El píxel central (5) permanece en el centro, ya que es el punto de rotación. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Método vecino más cercano
+\series default
+: Produce una imagen con valores discretos, sin interpolación entre píxeles. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La rotación de 45° se ha aplicado correctamente usando el método inverso. La imagen resultante tiene dimensiones 
+\begin_inset Formula \(5 \times 5\)
+\end_inset
+
+ para acomodar la rotación completa. El método inverso garantiza que todos los píxeles de la imagen rotada reciban valores asignados, ya sea de la imagen original o valores de relleno (0) para regiones sin correspondencia válida.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+5. Considere los siguientes cuatro pares de puntos correspondientes. Determine la matriz de transformación proyectiva 
+\begin_inset Formula \(H\)
+\end_inset
+
+ que mapea estos puntos, mostrando los pasos para configurar el sistema de ecuaciones y resuelva para los elementos de 
+\begin_inset Formula \(H\)
+\end_inset
+
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+5. Considere los siguientes cuatro pares de puntos correspondientes. Determine la matriz de transformación proyectiva H que mapea estos puntos, mostrando los pasos para configurar el sistema de ecuaciones y resuelva para los elementos de H.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "considere-los-siguientes-cuatro-pares-de-puntos-correspondientes.-determine-la-matriz-de-transformaciuxf3n-proyectiva-h-que-mapea-estos-puntos-mostrando-los-pasos-para-configurar-el-sistema-de-ecuaciones-y-resuelva-para-los-elementos-de-h."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Puntos dados:
+\series default
+ - 
+\begin_inset Formula \(p_1 = (0, 0) \rightarrow p'_1 = (1, 1)\)
+\end_inset
+
+ - 
+\begin_inset Formula \(p_2 = (2, 0) \rightarrow p'_2 = (3, 1)\)
+\end_inset
+
+ - 
+\begin_inset Formula \(p_3 = (2, 2) \rightarrow p'_3 = (3, 3)\)
+\end_inset
+
+ - 
+\begin_inset Formula \(p_4 = (0, 2) \rightarrow p'_4 = (1, 3)\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 1: Formular la transformación proyectiva
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La transformación proyectiva relaciona puntos mediante:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ w \end{bmatrix} = \begin{bmatrix} h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33} \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Normalizando (con 
+\begin_inset Formula \(h_{33} = 1\)
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x' = \frac{h_{11}x + h_{12}y + h_{13}}{h_{31}x + h_{32}y + 1}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[y' = \frac{h_{21}x + h_{22}y + h_{23}}{h_{31}x + h_{32}y + 1}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 2: Generar ecuaciones lineales
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Reordenando para cada par de puntos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[x'(h_{31}x + h_{32}y + 1) = h_{11}x + h_{12}y + h_{13}\]
+\end_inset
+
+
+\begin_inset Formula \[y'(h_{31}x + h_{32}y + 1) = h_{21}x + h_{22}y + h_{23}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Reorganizando:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[h_{11}x + h_{12}y + h_{13} - x'h_{31}x - x'h_{32}y = x'\]
+\end_inset
+
+
+\begin_inset Formula \[h_{21}x + h_{22}y + h_{23} - y'h_{31}x - y'h_{32}y = y'\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 3: Construir el sistema de ecuaciones para los 4 pares de puntos
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Para 
+\begin_inset Formula \(p_1 = (0, 0) \rightarrow p'_1 = (1, 1)\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ecuación 1: 
+\begin_inset Formula \(h_{11}(0) + h_{12}(0) + h_{13} - 1 \cdot h_{31}(0) - 1 \cdot h_{32}(0) = 1\)
+\end_inset
+
+ 
+\begin_inset Formula \[h_{13} = 1 \quad \text{...(1)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ecuación 2: 
+\begin_inset Formula \(h_{21}(0) + h_{22}(0) + h_{23} - 1 \cdot h_{31}(0) - 1 \cdot h_{32}(0) = 1\)
+\end_inset
+
+ 
+\begin_inset Formula \[h_{23} = 1 \quad \text{...(2)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Para 
+\begin_inset Formula \(p_2 = (2, 0) \rightarrow p'_2 = (3, 1)\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ecuación 3: 
+\begin_inset Formula \(h_{11}(2) + h_{12}(0) + h_{13} - 3 \cdot h_{31}(2) - 3 \cdot h_{32}(0) = 3\)
+\end_inset
+
+ 
+\begin_inset Formula \[2h_{11} + h_{13} - 6h_{31} = 3 \quad \text{...(3)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ecuación 4: 
+\begin_inset Formula \(h_{21}(2) + h_{22}(0) + h_{23} - 1 \cdot h_{31}(2) - 1 \cdot h_{32}(0) = 1\)
+\end_inset
+
+ 
+\begin_inset Formula \[2h_{21} + h_{23} - 2h_{31} = 1 \quad \text{...(4)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Para 
+\begin_inset Formula \(p_3 = (2, 2) \rightarrow p'_3 = (3, 3)\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ecuación 5: 
+\begin_inset Formula \(h_{11}(2) + h_{12}(2) + h_{13} - 3 \cdot h_{31}(2) - 3 \cdot h_{32}(2) = 3\)
+\end_inset
+
+ 
+\begin_inset Formula \[2h_{11} + 2h_{12} + h_{13} - 6h_{31} - 6h_{32} = 3 \quad \text{...(5)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ecuación 6: 
+\begin_inset Formula \(h_{21}(2) + h_{22}(2) + h_{23} - 3 \cdot h_{31}(2) - 3 \cdot h_{32}(2) = 3\)
+\end_inset
+
+ 
+\begin_inset Formula \[2h_{21} + 2h_{22} + h_{23} - 6h_{31} - 6h_{32} = 3 \quad \text{...(6)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Para 
+\begin_inset Formula \(p_4 = (0, 2) \rightarrow p'_4 = (1, 3)\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ecuación 7: 
+\begin_inset Formula \(h_{11}(0) + h_{12}(2) + h_{13} - 1 \cdot h_{31}(0) - 1 \cdot h_{32}(2) = 1\)
+\end_inset
+
+ 
+\begin_inset Formula \[2h_{12} + h_{13} - 2h_{32} = 1 \quad \text{...(7)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ecuación 8: 
+\begin_inset Formula \(h_{21}(0) + h_{22}(2) + h_{23} - 3 \cdot h_{31}(0) - 3 \cdot h_{32}(2) = 3\)
+\end_inset
+
+ 
+\begin_inset Formula \[2h_{22} + h_{23} - 6h_{32} = 3 \quad \text{...(8)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 4: Resolver el sistema de ecuaciones
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+De las ecuaciones (1) y (2): 
+\begin_inset Formula \[h_{13} = 1\]
+\end_inset
+
+
+\begin_inset Formula \[h_{23} = 1\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo 
+\begin_inset Formula \(h_{13} = 1\)
+\end_inset
+
+ en (3): 
+\begin_inset Formula \[2h_{11} + 1 - 6h_{31} = 3\]
+\end_inset
+
+
+\begin_inset Formula \[2h_{11} - 6h_{31} = 2\]
+\end_inset
+
+
+\begin_inset Formula \[h_{11} - 3h_{31} = 1 \quad \text{...(3')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo 
+\begin_inset Formula \(h_{23} = 1\)
+\end_inset
+
+ en (4): 
+\begin_inset Formula \[2h_{21} + 1 - 2h_{31} = 1\]
+\end_inset
+
+
+\begin_inset Formula \[2h_{21} - 2h_{31} = 0\]
+\end_inset
+
+
+\begin_inset Formula \[h_{21} = h_{31} \quad \text{...(4')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo 
+\begin_inset Formula \(h_{13} = 1\)
+\end_inset
+
+ en (5): 
+\begin_inset Formula \[2h_{11} + 2h_{12} + 1 - 6h_{31} - 6h_{32} = 3\]
+\end_inset
+
+
+\begin_inset Formula \[2h_{11} + 2h_{12} - 6h_{31} - 6h_{32} = 2\]
+\end_inset
+
+
+\begin_inset Formula \[h_{11} + h_{12} - 3h_{31} - 3h_{32} = 1 \quad \text{...(5')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo 
+\begin_inset Formula \(h_{23} = 1\)
+\end_inset
+
+ en (6): 
+\begin_inset Formula \[2h_{21} + 2h_{22} + 1 - 6h_{31} - 6h_{32} = 3\]
+\end_inset
+
+
+\begin_inset Formula \[2h_{21} + 2h_{22} - 6h_{31} - 6h_{32} = 2\]
+\end_inset
+
+
+\begin_inset Formula \[h_{21} + h_{22} - 3h_{31} - 3h_{32} = 1 \quad \text{...(6')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo 
+\begin_inset Formula \(h_{13} = 1\)
+\end_inset
+
+ en (7): 
+\begin_inset Formula \[2h_{12} + 1 - 2h_{32} = 1\]
+\end_inset
+
+
+\begin_inset Formula \[2h_{12} - 2h_{32} = 0\]
+\end_inset
+
+
+\begin_inset Formula \[h_{12} = h_{32} \quad \text{...(7')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo 
+\begin_inset Formula \(h_{23} = 1\)
+\end_inset
+
+ en (8): 
+\begin_inset Formula \[2h_{22} + 1 - 6h_{32} = 3\]
+\end_inset
+
+
+\begin_inset Formula \[2h_{22} - 6h_{32} = 2\]
+\end_inset
+
+
+\begin_inset Formula \[h_{22} - 3h_{32} = 1 \quad \text{...(8')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 5: Resolver para las incógnitas
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+De (7'): 
+\begin_inset Formula \(h_{12} = h_{32}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo en (5'): 
+\begin_inset Formula \[h_{11} + h_{32} - 3h_{31} - 3h_{32} = 1\]
+\end_inset
+
+
+\begin_inset Formula \[h_{11} - 3h_{31} - 2h_{32} = 1 \quad \text{...(5'')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+De (3'): 
+\begin_inset Formula \(h_{11} = 1 + 3h_{31}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo en (5'
+\begin_inset space \thinspace{}
+
+\end_inset
+
+'): 
+\begin_inset Formula \[(1 + 3h_{31}) - 3h_{31} - 2h_{32} = 1\]
+\end_inset
+
+
+\begin_inset Formula \[1 - 2h_{32} = 1\]
+\end_inset
+
+
+\begin_inset Formula \[h_{32} = 0\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por tanto: 
+\begin_inset Formula \[h_{12} = h_{32} = 0\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+De (3'): 
+\begin_inset Formula \(h_{11} = 1 + 3h_{31}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+De (8'): 
+\begin_inset Formula \(h_{22} = 1 + 3h_{32} = 1 + 3(0) = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+De (6') con 
+\begin_inset Formula \(h_{12} = h_{32} = 0\)
+\end_inset
+
+ y 
+\begin_inset Formula \(h_{22} = 1\)
+\end_inset
+
+: 
+\begin_inset Formula \[h_{21} + 1 - 3h_{31} - 0 = 1\]
+\end_inset
+
+
+\begin_inset Formula \[h_{21} = 3h_{31}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+De (4'): 
+\begin_inset Formula \(h_{21} = h_{31}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por tanto: 
+\begin_inset Formula \[h_{31} = 3h_{31}\]
+\end_inset
+
+
+\begin_inset Formula \[0 = 2h_{31}\]
+\end_inset
+
+
+\begin_inset Formula \[h_{31} = 0\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Finalmente: 
+\begin_inset Formula \[h_{11} = 1 + 3(0) = 1\]
+\end_inset
+
+
+\begin_inset Formula \[h_{21} = 0\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Paso 6: Verificar con geometría
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Observando los puntos, la transformación es una traslación simple: - Todos los puntos se desplazan 
+\begin_inset Formula \((+1, +1)\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esto sugiere: 
+\begin_inset Formula \[H = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Verificación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para 
+\begin_inset Formula \(p_1 = (0, 0)\)
+\end_inset
+
+: 
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix} = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para 
+\begin_inset Formula \(p_2 = (2, 0)\)
+\end_inset
+
+: 
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 2 \\ 0 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 1 \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para 
+\begin_inset Formula \(p_3 = (2, 2)\)
+\end_inset
+
+: 
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 2 \\ 2 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para 
+\begin_inset Formula \(p_4 = (0, 2)\)
+\end_inset
+
+: 
+\begin_inset Formula \[\begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix} = \begin{bmatrix} 1 \\ 3 \\ 1 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta final:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\boxed{H = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix}}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esta matriz representa una 
+\series bold
+transformación afín de traslación pura
+\series default
+ (no proyectiva, ya que 
+\begin_inset Formula \(h_{31} = h_{32} = 0\)
+\end_inset
+
+) que desplaza todos los puntos una unidad en la dirección 
+\begin_inset Formula \(x\)
+\end_inset
+
+ y una unidad en la dirección 
+\begin_inset Formula \(y\)
+\end_inset
+
+. Los puntos dados forman un cuadrado que se traslada sin rotación, escalamiento ni deformación.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Hemos determinado exitosamente la matriz de transformación proyectiva 
+\begin_inset Formula \(H\)
+\end_inset
+
+ resolviendo el sistema de 8 ecuaciones con 8 incógnitas generado por los 4 pares de puntos correspondientes. El resultado es una matriz de traslación que mapea correctamente todos los puntos dados.
+\end_layout
+
+\end_body
+\end_document

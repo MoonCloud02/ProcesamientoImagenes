@@ -1,0 +1,8410 @@
+#LyX file created by tex2lyx 2.4
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin D:/Users/migue/Documents/Proyectos/markitdown/ProcesamientoDeImagenes/lyx_final/
+\textclass article
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig}% disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "pdflang={es},hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -\maxdimen
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+\lang spanish
+Capítulo 8: El Ruido - Respuestas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "capuxedtulo-8-el-ruido---respuestas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+8.5. Preguntas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+8.5.1. Preguntas sobre hechos del texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-sobre-hechos-del-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Cuáles son las tres métricas referenciales destacadas para evaluar la efectividad del filtrado de imágenes mencionadas en el documento?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1les-son-las-tres-muxe9tricas-referenciales-destacadas-para-evaluar-la-efectividad-del-filtrado-de-imuxe1genes-mencionadas-en-el-documento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las tres métricas referenciales destacadas son:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Error Cuadrático Medio (MSE - Mean Squared Error)
+\series default
+: Mide la diferencia promedio al cuadrado entre los valores de los píxeles de la imagen original y la imagen filtrada. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Relación Señal-Ruido de Pico (PSNR - Peak Signal-to-Noise Ratio)
+\series default
+: Métrica que evalúa la calidad de una imagen filtrada en comparación con la imagen original, expresando esta comparación en términos logarítmicos y en decibeles (dB). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Índice de Similitud Estructural (SSIM - Structural Similarity Index)
+\series default
+: Métrica utilizada para evaluar la similitud entre dos imágenes, enfocándose en tres aspectos clave: luminancia, contraste y estructura. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Estas se consideran 
+\series bold
+métricas de referencia completa (Full-Reference, FR)
+\series default
+, ya que requieren de la imagen original de referencia sin ruido nativo 
+\begin_inset Formula \(I_r\)
+\end_inset
+
+ y la imagen con ruido 
+\begin_inset Formula \(I_n\)
+\end_inset
+
+ agregado en algún proceso.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. ¿En qué unidades se mide el Error Cuadrático Medio (MSE)?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "en-quuxe9-unidades-se-mide-el-error-cuadruxe1tico-medio-mse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El Error Cuadrático Medio (MSE) se mide en 
+\series bold
+unidades de intensidad al cuadrado
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por ejemplo, si los valores de los píxeles se encuentran en un rango de 0 a 255, como es común en imágenes de 8 bits, el MSE estará en las 
+\series bold
+unidades de intensidad al cuadrado
+\series default
+ (es decir, sin unidad específica, pero corresponde a la magnitud al cuadrado del rango de píxeles).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo
+\series default
+: Si tenemos un MSE = 3.25, esto significa que el promedio de las diferencias al cuadrado entre los píxeles es 3.25 unidades cuadradas de intensidad.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. ¿Qué tres aspectos clave evalúa el Índice de Similitud Estructural (SSIM)?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-tres-aspectos-clave-evaluxfaa-el-uxedndice-de-similitud-estructural-ssim"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El SSIM evalúa tres aspectos clave que reflejan la percepción visual humana:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Luminancia 
+\begin_inset Formula \(l(r,n)\)
+\end_inset
+
+
+\series default
+: Mide la intensidad de la luz y el brillo global de las imágenes. Compara los valores medios de intensidad entre ambas imágenes.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r, n) = \frac{2\mu_r\mu_n + C_1}{\mu_r^2 + \mu_n^2 + C_1}\]
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Contraste 
+\begin_inset Formula \(c(r,n)\)
+\end_inset
+
+
+\series default
+: Evalúa la variación y diferencia de intensidades entre píxeles. Compara las desviaciones estándar de ambas imágenes.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[c(r, n) = \frac{2\sigma_r\sigma_n + C_2}{\sigma_r^2 + \sigma_n^2 + C_2}\]
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Estructura 
+\begin_inset Formula \(s(r,n)\)
+\end_inset
+
+
+\series default
+: Mide la correlación entre las dos imágenes utilizando la covarianza, analizando los patrones, texturas y relaciones espaciales entre píxeles.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[s(r, n) = \frac{\sigma_{rn} + C_3}{\sigma_r\sigma_n + C_3}\]
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+El SSIM combina estos tres componentes mediante:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{SSIM}(r, n) = [l(r, n)]^\alpha \cdot [c(r, n)]^\beta \cdot [s(r, n)]^\gamma\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde comúnmente se utiliza 
+\begin_inset Formula \(\alpha = \beta = \gamma = 1\)
+\end_inset
+
+, otorgando la misma importancia a todas las variables.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+4. ¿Cuál es el rango de valores que puede tomar el SSIM y qué indican estos valores?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1l-es-el-rango-de-valores-que-puede-tomar-el-ssim-y-quuxe9-indican-estos-valores"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Rango de valores del SSIM:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El SSIM proporciona un valor que está 
+\series bold
+entre -1 y 1
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación de los valores:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+SSIM = 1
+\series default
+: Indica una 
+\series bold
+similitud estructural perfecta
+\series default
+ entre las dos imágenes. Las imágenes son idénticas en términos de luminancia, contraste y estructura. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+SSIM = -1
+\series default
+: Representa una 
+\series bold
+inversión completa
+\series default
+, aunque esta situación es rara en imágenes naturales. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Rango práctico [0, 1]
+\series default
+: En la práctica, los valores del SSIM se sitúan generalmente entre 0 y 1:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+SSIM ≈ 0
+\series default
+: Indica la 
+\series bold
+ausencia de correlación
+\series default
+ entre las imágenes (muy diferentes) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+SSIM cercano a 1
+\series default
+: Indica 
+\series bold
+alta similitud
+\series default
+ estructural entre las imágenes 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación intuitiva:
+\series default
+ Los valores del SSIM más cercanos a 1 indican una alta similitud, lo cual es fácil de interpretar y comparar. Por ejemplo, un SSIM de 0.98 indica que las imágenes son muy similares estructuralmente.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. ¿Cuál es el valor típico de PSNR considerado aceptable para imágenes de 8 bits?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1l-es-el-valor-tuxedpico-de-psnr-considerado-aceptable-para-imuxe1genes-de-8-bits"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El valor típico de PSNR considerado 
+\series bold
+aceptable
+\series default
+ para imágenes de 8 bits es 
+\series bold
+a partir de los 30 dB (decibeles)
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Criterios de calidad según PSNR:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+PSNR 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+textgreater
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 40 dB
+\series default
+: Calidad excelente, diferencias imperceptibles 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+PSNR ≈ 30-40 dB
+\series default
+: Buena calidad, aceptable para la mayoría de aplicaciones 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+PSNR 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+textless
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 30 dB
+\series default
+: Calidad pobre, distorsiones notables 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo:
+\series default
+ En el texto se muestra un ejemplo donde un PSNR de 43.01 dB indica que 
+\begin_inset Quotes fls
+\end_inset
+
+la imagen filtrada es de buena calidad
+\begin_inset Quotes frs
+\end_inset
+
+, lo cual está considerablemente por encima del umbral mínimo de 30 dB.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La medición en decibeles permite comparar diferencias grandes en una escala reducida y comprensible, siendo una medida intuitiva donde 
+\series bold
+valores más altos implican mejor calidad
+\series default
+ de imagen.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+8.5.2. Preguntas de análisis y comprensión sobre el texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-anuxe1lisis-y-comprensiuxf3n-sobre-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Por qué el MSE, a pesar de ser una medida directa de distorsión, tiene limitaciones en la evaluación de la calidad de imágenes? Explique.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "por-quuxe9-el-mse-a-pesar-de-ser-una-medida-directa-de-distorsiuxf3n-tiene-limitaciones-en-la-evaluaciuxf3n-de-la-calidad-de-imuxe1genes-explique."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El MSE, aunque es una medida cuantitativa útil, presenta varias 
+\series bold
+limitaciones importantes
+\series default
+ en la evaluación de la calidad de imágenes:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Limitaciones principales:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Limitaciones principales:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "limitaciones-principales"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+No captura la percepción humana:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El MSE mide solo el error absoluto entre píxeles correspondientes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+No considera cómo el sistema visual humano percibe las diferencias 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Dos imágenes con el mismo MSE pueden tener calidades percibidas muy diferentes 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Falta de normalización:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El MSE no está normalizado, por lo que sus valores absolutos dependen de la escala de los píxeles 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Esto complica la comparación entre diferentes imágenes o condiciones de evaluación 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Un MSE de 100 puede ser bueno o malo dependiendo del contexto de la imagen 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Unidades al cuadrado no intuitivas:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Al medir el error en unidades al cuadrado, el MSE produce valores que no son intuitivos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Difícil de interpretar en términos perceptuales, especialmente para valores de error grandes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+No hay una correspondencia directa con la calidad visual percibida 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+No considera aspectos estructurales:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El MSE trata todos los errores por igual, sin importar su ubicación o contexto 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+No distingue entre errores que afectan la estructura visual y los que no 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Ignora aspectos como texturas, bordes y patrones que son importantes para la percepción 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Ejemplo ilustrativo:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Ejemplo ilustrativo:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejemplo-ilustrativo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Dos imágenes pueden tener el mismo MSE pero diferente calidad percibida: - 
+\series bold
+Imagen A
+\series default
+: Ruido uniformemente distribuido (poco perceptible) - 
+\series bold
+Imagen B
+\series default
+: Artefactos de bloque concentrados en áreas importantes (muy perceptible)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ambas podrían tener MSE = 100, pero la Imagen B sería percibida como de mucha peor calidad.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Conclusión:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Conclusión:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conclusiuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como menciona el texto: 
+\emph on
+
+\begin_inset Quotes fls
+\end_inset
+
+En muchas ocasiones, una imagen con un MSE bajo aún puede presentar artefactos visuales significativos que no son evidentes a partir de la métrica del error cuadrático. Por ello, el MSE se complementa usualmente con otras métricas como el PSNR y el Índice de Similitud Estructural (SSIM).
+\begin_inset Quotes frs
+\end_inset
+
+
+\emph default
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. Compare las ventajas y desventajas del PSNR frente al MSE en la evaluación de la calidad de imágenes filtradas.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "compare-las-ventajas-y-desventajas-del-psnr-frente-al-mse-en-la-evaluaciuxf3n-de-la-calidad-de-imuxe1genes-filtradas."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Tabla comparativa PSNR vs MSE:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Tabla comparativa PSNR vs MSE:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tabla-comparativa-psnr-vs-mse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\text{Aspecto} & \text{MSE} & \text{PSNR} \\
+\hline
+\textbf{Unidades} & \text{Intensidad al cuadrado} & \text{Decibeles (dB)} \\
+\textbf{Escala} & \text{Lineal} & \text{Logarítmica} \\
+\textbf{Interpretación} & \text{Difícil (valores grandes)} & \text{Intuitiva (más alto = mejor)} \\
+\textbf{Rango típico} & 0 \text{ a } \infty & 0 \text{ a } \infty \text{ dB (típicamente 20-50 dB)} \\
+\textbf{Normalización} & \text{No normalizado} & \text{Normalizado por } \text{MAX}_I^2 \\
+\textbf{Relación} & - & \text{Se calcula a partir del MSE} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Ventajas del PSNR sobre el MSE:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Ventajas del PSNR sobre el MSE:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ventajas-del-psnr-sobre-el-mse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Interpretación intuitiva:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El uso de decibeles facilita la comprensión de la calidad 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Un PSNR más alto implica menos distorsión y mejor fidelidad 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Escala logarítmica más manejable para comparaciones 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Normalización implícita:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Al usar 
+\begin_inset Formula \(\text{MAX}_I^2\)
+\end_inset
+
+ en el numerador, se normaliza respecto al rango de la imagen 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Facilita comparaciones entre imágenes con diferentes profundidades de bits 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Estándar ampliamente aceptado:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Métrica común en procesamiento de imágenes y video 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Facilita la comparación entre diferentes algoritmos y técnicas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Valores de referencia conocidos (30 dB como mínimo aceptable) 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Escala comprimida:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La escala logarítmica comprime grandes diferencias en valores de MSE 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Hace más evidentes las mejoras incrementales en calidad 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Desventajas compartidas entre PSNR y MSE:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Desventajas compartidas entre PSNR y MSE:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "desventajas-compartidas-entre-psnr-y-mse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+No captura percepción visual:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Ambas métricas no consideran aspectos perceptuales, estructurales o visuales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Pueden no correlacionarse bien con la calidad percibida por humanos 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Sensibilidad a picos de error:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El PSNR puede ser engañoso en imágenes con errores localizados (artefactos) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Estos impactan la percepción visual más de lo que reflejan los valores numéricos 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Limitación para altos valores:
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Valores muy altos de PSNR pueden no traducirse en mejoras perceptuales significativas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El ojo humano no percibe diferencias a partir de ciertos umbrales 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Fórmula de relación:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Fórmula de relación:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fuxf3rmula-de-relaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{\text{MAX}_I^2}{\text{MSE}}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventaja clave:
+\series default
+ El PSNR convierte el MSE en una escala logarítmica con unidades estándar (dB), haciendo la interpretación mucho más intuitiva sin perder la información cuantitativa del error.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Ejemplo comparativo:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Ejemplo comparativo:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejemplo-comparativo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para imágenes de 8 bits (
+\begin_inset Formula \(\text{MAX}_I = 255\)
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\text{MSE} & \text{PSNR (dB)} & \text{Interpretación} \\
+\hline
+1 & 48.13 & \text{Excelente} \\
+10 & 38.13 & \text{Muy buena} \\
+100 & 28.13 & \text{Límite aceptable} \\
+1000 & 18.13 & \text{Pobre} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como se observa, el PSNR proporciona una escala más intuitiva para evaluar la calidad.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. ¿Cómo se relaciona el SSIM con la percepción visual humana y por qué esto es importante en el procesamiento de imágenes?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuxf3mo-se-relaciona-el-ssim-con-la-percepciuxf3n-visual-humana-y-por-quuxe9-esto-es-importante-en-el-procesamiento-de-imuxe1genes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Relación del SSIM con la percepción visual humana:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Relación del SSIM con la percepción visual humana:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "relaciuxf3n-del-ssim-con-la-percepciuxf3n-visual-humana"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El SSIM está 
+\series bold
+específicamente diseñado
+\series default
+ para alinearse con la forma en que el sistema visual humano (HVS - Human Visual System) percibe y evalúa la calidad de las imágenes. Esta alineación se logra a través de sus tres componentes fundamentales:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+1. Luminancia - Sensibilidad al brillo:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+1. Luminancia - Sensibilidad al brillo:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "luminancia---sensibilidad-al-brillo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r, n) = \frac{2\mu_r\mu_n + C_1}{\mu_r^2 + \mu_n^2 + C_1}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El sistema visual humano es muy sensible a cambios en el brillo promedio 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El componente de luminancia evalúa si la intensidad global es similar entre imágenes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Los humanos perciben diferencias en brillo antes que diferencias en detalles finos 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+2. Contraste - Sensibilidad a variaciones:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+2. Contraste - Sensibilidad a variaciones:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "contraste---sensibilidad-a-variaciones"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[c(r, n) = \frac{2\sigma_r\sigma_n + C_2}{\sigma_r^2 + \sigma_n^2 + C_2}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El HVS es sensible a las variaciones de intensidad local 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El contraste determina nuestra capacidad de distinguir objetos del fondo 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Las diferencias de contraste son críticas para la percepción de calidad 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+3. Estructura - Patrones y texturas:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+3. Estructura - Patrones y texturas:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "estructura---patrones-y-texturas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[s(r, n) = \frac{\sigma_{rn} + C_3}{\sigma_r\sigma_n + C_3}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+El HVS es extremadamente sensible a cambios estructurales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Reconocemos objetos y escenas principalmente por su estructura 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La correlación espacial entre píxeles es fundamental para la percepción 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Importancia en el procesamiento de imágenes:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Importancia en el procesamiento de imágenes:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "importancia-en-el-procesamiento-de-imuxe1genes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+1. Evaluación más realista de la calidad:
+\series default
+ - Proporciona medidas que se correlacionan mejor con juicios subjetivos humanos - Útil para validar algoritmos de compresión, restauración y mejora - Ayuda a optimizar parámetros según criterios perceptuales
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+2. Aplicaciones críticas:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+a) Compresión de imágenes/video:
+\series default
+ - Permite ajustar algoritmos para preservar características visualmente importantes - Optimiza el balance entre tamaño de archivo y calidad percibida - Streaming y transmisión en tiempo real
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+b) Restauración de imágenes:
+\series default
+ - Asegura que el proceso de restauración preserve la integridad estructural - Evita introducir artefactos perceptualmente molestos - Valida técnicas de denoising y deblurring
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+c) Procesamiento de imágenes médicas:
+\series default
+ - 
+\series bold
+Crítico
+\series default
+: Garantiza que las imágenes conserven su integridad estructural - Esencial para diagnóstico clínico correcto - Detecta degradaciones que podrían afectar la interpretación médica
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+d) Realidad aumentada/virtual:
+\series default
+ - Valida que las imágenes sintéticas sean perceptualmente coherentes - Importante para la experiencia de usuario
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Ventaja sobre MSE/PSNR:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Ventaja sobre MSE/PSNR:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ventaja-sobre-msepsnr"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como menciona el texto: 
+\emph on
+
+\begin_inset Quotes fls
+\end_inset
+
+Esta técnica está alineada con la percepción visual humana, lo que la hace especialmente útil para comparar imágenes de manera que refleje cómo los humanos perciben las diferencias.
+\begin_inset Quotes frs
+\end_inset
+
+
+\emph default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo práctico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Dos imágenes con el mismo MSE/PSNR pero diferente SSIM: - 
+\series bold
+Imagen A
+\series default
+: Ruido gaussiano uniforme → MSE bajo, SSIM alto (poco perceptible) - 
+\series bold
+Imagen B
+\series default
+: Desplazamiento de bordes → MSE bajo, SSIM bajo (muy perceptible)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El SSIM detecta correctamente que la Imagen B tiene peor calidad percibida, mientras que MSE/PSNR no hacen esta distinción.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Conclusión:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Conclusión:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conclusiuxf3n-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El SSIM es importante porque 
+\series bold
+trasciende las métricas puramente numéricas
+\series default
+ para incorporar principios de la percepción visual, proporcionando una herramienta más efectiva para evaluar y optimizar algoritmos de procesamiento de imágenes en función de cómo los humanos realmente experimentan la calidad visual.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+4. Analice por qué el SSIM podría ser preferible al MSE o PSNR en aplicaciones de procesamiento de imágenes médicas.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "analice-por-quuxe9-el-ssim-podruxeda-ser-preferible-al-mse-o-psnr-en-aplicaciones-de-procesamiento-de-imuxe1genes-muxe9dicas."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Razones por las que el SSIM es preferible en imágenes médicas:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Razones por las que el SSIM es preferible en imágenes médicas:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "razones-por-las-que-el-ssim-es-preferible-en-imuxe1genes-muxe9dicas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El procesamiento de imágenes médicas tiene 
+\series bold
+requisitos únicos y críticos
+\series default
+ que hacen al SSIM particularmente valioso:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+1. Preservación de la integridad estructural (CRÍTICO):
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+1. Preservación de la integridad estructural (CRÍTICO):
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preservaciuxf3n-de-la-integridad-estructural-cruxedtico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Importancia médica:
+\series default
+ - En diagnóstico médico, las 
+\series bold
+estructuras anatómicas
+\series default
+ son fundamentales - Tumores, lesiones, calcificaciones y otras patologías se identifican por su estructura - La pérdida de información estructural puede llevar a 
+\series bold
+diagnósticos erróneos
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventaja del SSIM:
+\series default
+ - El componente estructural 
+\begin_inset Formula \(s(r,n)\)
+\end_inset
+
+ evalúa específicamente la correlación espacial - Detecta alteraciones en patrones y texturas que son imperceptibles para MSE/PSNR - Garantiza que las características anatómicas se preserven fielmente
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Escenario: Imagen de mamografía procesada
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+MSE/PSNR: Valor excelente (MSE bajo, PSNR alto)
+\end_layout
+
+\begin_layout Verbatim
+- Ruido reducido uniformemente
+\end_layout
+
+\begin_layout Verbatim
+- Pero microcalcificaciones ligeramente difuminadas
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+SSIM: Valor moderado
+\end_layout
+
+\begin_layout Verbatim
+- Detecta pérdida de definición estructural
+\end_layout
+
+\begin_layout Verbatim
+- Alerta sobre posible degradación de características diagnósticas
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+2. Sensibilidad a distorsiones clínicamente relevantes:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+2. Sensibilidad a distorsiones clínicamente relevantes:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sensibilidad-a-distorsiones-cluxednicamente-relevantes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+a) Cambios de contraste locales:
+\series default
+ - En imágenes médicas, el contraste local es esencial para distinguir tejidos - El componente 
+\begin_inset Formula \(c(r,n)\)
+\end_inset
+
+ del SSIM evalúa específicamente el contraste - MSE/PSNR pueden no detectar pérdida de contraste que sí afecta el diagnóstico
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+b) Preservación de bordes:
+\series default
+ - Bordes de órganos, tumores y vasos sanguíneos son críticos - SSIM es sensible a cambios en bordes y transiciones - MSE puede reportar valores bajos incluso con bordes degradados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+c) Detección de artefactos:
+\series default
+ - Artefactos de compresión o procesamiento pueden ser clínicamente engañosos - SSIM detecta artefactos estructurales mejor que métricas puntuales
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+3. Modalidades médicas específicas:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+3. Modalidades médicas específicas:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "modalidades-muxe9dicas-especuxedficas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+a) Resonancia Magnética (MRI):
+\series default
+ - Múltiples secuencias con diferentes contrastes - La estructura anatómica debe preservarse a través de todas las secuencias - SSIM valida consistencia estructural entre secuencias
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+b) Tomografía Computarizada (CT):
+\series default
+ - Reconstrucción 3D a partir de proyecciones - Estructuras óseas y tejidos blandos deben mantenerse coherentes - SSIM asegura integridad en reconstrucciones
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+c) Rayos X digitales:
+\series default
+ - Compresión necesaria para almacenamiento PACS - SSIM garantiza que estructuras finas (fracturas, nódulos) se preserven
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+d) Ultrasonido:
+\series default
+ - Alto nivel de ruido speckle - SSIM evalúa si el denoising preserva estructuras reales vs.
+\begin_inset space ~
+
+\end_inset
+
+elimina ruido
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+4. Regulaciones y responsabilidad legal:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+4. Regulaciones y responsabilidad legal:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "regulaciones-y-responsabilidad-legal"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Contexto regulatorio:
+\series default
+ - Imágenes médicas están sujetas a regulaciones estrictas (FDA, CE, etc.) - Se requiere demostrar que el procesamiento no afecta el valor diagnóstico - SSIM proporciona evidencia cuantitativa de preservación estructural
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Trazabilidad:
+\series default
+ - SSIM permite documentar que el procesamiento mantiene fidelidad diagnóstica - Importante en auditorías y casos médico-legales
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+5. Optimización de algoritmos médicos:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+5. Optimización de algoritmos médicos:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "optimizaciuxf3n-de-algoritmos-muxe9dicos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+a) Reducción de dosis de radiación:
+\series default
+ - Objetivo: minimizar radiación manteniendo calidad diagnóstica - SSIM guía la optimización: ¿cuánto ruido es aceptable sin perder estructura? - MSE/PSNR no proporcionan esta información perceptual
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+b) Compresión de archivos PACS:
+\series default
+ - Sistemas de almacenamiento médico requieren compresión - SSIM asegura que la compresión sea 
+\begin_inset Quotes fls
+\end_inset
+
+perceptualmente lossless
+\begin_inset Quotes frs
+\end_inset
+
+ - Equilibrio entre espacio de almacenamiento y calidad diagnóstica
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+c) Registro y fusión de imágenes:
+\series default
+ - Combinación de diferentes modalidades (PET/CT, MRI/fMRI) - SSIM valida que las estructuras coincidan correctamente - MSE puede ser bajo incluso con desalineaciones estructurales
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+6. Correlación con evaluación de radiólogos:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+6. Correlación con evaluación de radiólogos:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "correlaciuxf3n-con-evaluaciuxf3n-de-radiuxf3logos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Validación clínica:
+\series default
+ - Estudios muestran que SSIM se correlaciona mejor con evaluaciones de expertos - Los radiólogos evalúan calidad basándose en: - Visibilidad de estructuras anatómicas (estructura) - Diferenciación de tejidos (contraste) - Brillo apropiado (luminancia) - Estos son exactamente los componentes del SSIM
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo de flujo de trabajo:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Algoritmo de denoising en imágenes CT:
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+Paso 1: Aplicar filtrado
+\end_layout
+
+\begin_layout Verbatim
+Paso 2: Evaluar con múltiples métricas
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+MSE = 50  → Parece aceptable
+\end_layout
+
+\begin_layout Verbatim
+PSNR = 31 dB → Justo en el límite
+\end_layout
+
+\begin_layout Verbatim
+SSIM = 0.75 → CUIDADO: Estructura comprometida
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+Decisión: Ajustar parámetros del filtro
+\end_layout
+
+\begin_layout Verbatim
+         Mayor preservación estructural
+\end_layout
+
+\begin_layout Verbatim
+         
+\end_layout
+
+\begin_layout Verbatim
+Resultado final:
+\end_layout
+
+\begin_layout Verbatim
+MSE = 80  → Aumentó
+\end_layout
+
+\begin_layout Verbatim
+PSNR = 29 dB → Disminuyó  
+\end_layout
+
+\begin_layout Verbatim
+SSIM = 0.92 → Estructura preservada
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+Validación radiológica: Imagen diagnósticamente superior
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+7. Comparación de métricas en contexto médico:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+7. Comparación de métricas en contexto médico:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "comparaciuxf3n-de-muxe9tricas-en-contexto-muxe9dico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|c|}
+\hline
+\text{Aspecto} & \text{MSE/PSNR} & \text{SSIM} & \text{Relevancia Médica} \\
+\hline
+\text{Ruido uniforme} & \text{Detecta bien} & \text{Detecta bien} & \text{Media} \\
+\text{Pérdida de bordes} & \text{Detecta mal} & \text{Detecta bien} & \textbf{ALTA} \\
+\text{Cambios de contraste} & \text{Detecta mal} & \text{Detecta bien} & \textbf{ALTA} \\
+\text{Distorsión estructural} & \text{Detecta mal} & \text{Detecta bien} & \textbf{CRÍTICA} \\
+\text{Artefactos localizados} & \text{Detecta mal} & \text{Detecta bien} & \textbf{ALTA} \\
+\text{Difuminación} & \text{Detecta mal} & \text{Detecta bien} & \textbf{ALTA} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+8. Limitaciones y consideraciones:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+8. Limitaciones y consideraciones:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "limitaciones-y-consideraciones"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aspectos a considerar:
+\series default
+ - SSIM es computacionalmente más costoso (puede ser aceptable en contexto no crítico de tiempo) - Requiere implementación cuidadosa para ventanas apropiadas - Debe complementarse con evaluación clínica, no reemplazarla
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Conclusión:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Conclusión:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conclusiuxf3n-2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como menciona el texto: 
+\emph on
+
+\begin_inset Quotes fls
+\end_inset
+
+En el ámbito del procesamiento de imágenes médicas, desempeña un papel relevante al garantizar que las imágenes conserven su integridad estructural, algo 
+\series bold
+crítico en el diagnóstico clínico
+\series default
+.
+\begin_inset Quotes frs
+\end_inset
+
+
+\emph default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El SSIM es preferible en aplicaciones médicas porque:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Preserva estructuras críticas
+\series default
+ para el diagnóstico 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Detecta distorsiones clínicamente relevantes
+\series default
+ que MSE/PSNR pasan por alto 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Se correlaciona con evaluación de expertos
+\series default
+ médicos 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Proporciona trazabilidad regulatoria
+\series default
+ y legal 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Optimiza algoritmos
+\series default
+ según criterios diagnósticos reales 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En imágenes médicas, 
+\series bold
+un error en la evaluación de calidad puede tener consecuencias fatales
+\series default
+. El SSIM proporciona la seguridad adicional de que las imágenes procesadas mantienen su valor diagnóstico, algo que las métricas puramente numéricas no pueden garantizar.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. ¿Cómo afecta la escala logarítmica del PSNR a la interpretación de la calidad de la imagen en comparación con el MSE?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuxf3mo-afecta-la-escala-logaruxedtmica-del-psnr-a-la-interpretaciuxf3n-de-la-calidad-de-la-imagen-en-comparaciuxf3n-con-el-mse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Impacto de la escala logarítmica del PSNR:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Impacto de la escala logarítmica del PSNR:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "impacto-de-la-escala-logaruxedtmica-del-psnr"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La transformación logarítmica del MSE al PSNR tiene efectos profundos en cómo interpretamos y comparamos la calidad de imágenes:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+1. Compresión de la escala de valores:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+1. Compresión de la escala de valores:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "compresiuxf3n-de-la-escala-de-valores"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Fórmula de transformación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{\text{MAX}_I^2}{\text{MSE}}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Efecto de compresión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\text{MSE} & \text{PSNR (dB)} & \text{Diferencia PSNR} \\
+\hline
+1 & 48.13 & - \\
+10 & 38.13 & -10 \text{ dB} \\
+100 & 28.13 & -10 \text{ dB} \\
+1000 & 18.13 & -10 \text{ dB} \\
+10000 & 8.13 & -10 \text{ dB} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Observación clave:
+\series default
+ - Incrementos de 
+\series bold
+10× en MSE
+\series default
+ corresponden a reducciones de 
+\series bold
+10 dB en PSNR
+\series default
+ - La escala logarítmica comprime grandes variaciones en MSE a diferencias manejables en dB - Facilita la comparación visual de rangos muy diferentes
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+2. Interpretación intuitiva mejorada:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+2. Interpretación intuitiva mejorada:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "interpretaciuxf3n-intuitiva-mejorada"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Escala MSE (lineal):
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+MSE:    1    10    100    1000    10000    100000
+\end_layout
+
+\begin_layout Verbatim
+        |----|----|------|-------|--------|---------> (difícil de visualizar)
+\end_layout
+
+\begin_layout Verbatim
+        Excelente          Pobre         Terrible
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Escala PSNR (logarítmica):
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+PSNR:   48   38    28     18      8       -2  dB
+\end_layout
+
+\begin_layout Verbatim
+        |----|----|------|-------|--------|---------> (fácil de visualizar)
+\end_layout
+
+\begin_layout Verbatim
+        Excelente  Límite  Pobre  Terrible
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas de interpretación:
+\series default
+ - Valores típicos en un rango manejable (20-50 dB) - Umbrales conocidos (30 dB como mínimo aceptable) - Diferencias incrementales más evidentes
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+3. Sensibilidad diferencial a cambios:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+3. Sensibilidad diferencial a cambios:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sensibilidad-diferencial-a-cambios"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+a) Región de alta calidad (MSE bajo):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo:
+\series default
+ Mejora de MSE = 10 a MSE = 1
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\Delta\text{PSNR} = 38.13 - 48.13 = 10 \text{ dB}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Cambio en MSE:
+\series default
+ Factor de 10 (90% de reducción) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Cambio en PSNR:
+\series default
+ +10 dB (incremento significativo) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+ Mejora sustancial muy visible 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+b) Región de baja calidad (MSE alto):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo:
+\series default
+ Mejora de MSE = 1000 a MSE = 100
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\Delta\text{PSNR} = 18.13 - 28.13 = 10 \text{ dB}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Cambio en MSE:
+\series default
+ Factor de 10 (90% de reducción) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Cambio en PSNR:
+\series default
+ +10 dB (mismo incremento) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+ Mejora proporcional a la escala de calidad 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Implicación:
+\series default
+ La escala logarítmica hace que 
+\series bold
+mejoras proporcionales
+\series default
+ (factores multiplicativos) en MSE se traduzcan en 
+\series bold
+incrementos aditivos constantes
+\series default
+ en PSNR.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+4. Comparación visual de mejoras incrementales:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+4. Comparación visual de mejoras incrementales:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "comparaciuxf3n-visual-de-mejoras-incrementales"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Escenario: Optimización de un algoritmo de compresión
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Con MSE (lineal):
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Iteración 1: MSE = 1000
+\end_layout
+
+\begin_layout Verbatim
+Iteración 2: MSE = 500  → Mejora de 500 (50%)
+\end_layout
+
+\begin_layout Verbatim
+Iteración 3: MSE = 250  → Mejora de 250 (50%)
+\end_layout
+
+\begin_layout Verbatim
+Iteración 4: MSE = 125  → Mejora de 125 (50%)
+\end_layout
+
+\begin_layout Verbatim
+Iteración 5: MSE = 62.5 → Mejora de 62.5 (50%)
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Problema:
+\series default
+ Las mejoras absolutas disminuyen, difícil ver el progreso proporcional 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Visualización:
+\series default
+ La gráfica es exponencial decreciente 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Con PSNR (logarítmico):
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Iteración 1: PSNR = 18.13 dB
+\end_layout
+
+\begin_layout Verbatim
+Iteración 2: PSNR = 21.14 dB → Mejora de 3.01 dB
+\end_layout
+
+\begin_layout Verbatim
+Iteración 3: PSNR = 24.15 dB → Mejora de 3.01 dB
+\end_layout
+
+\begin_layout Verbatim
+Iteración 4: PSNR = 27.16 dB → Mejora de 3.01 dB
+\end_layout
+
+\begin_layout Verbatim
+Iteración 5: PSNR = 30.17 dB → Mejora de 3.01 dB
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Ventaja:
+\series default
+ Las mejoras proporcionales constantes (50%) son visibles como incrementos constantes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Visualización:
+\series default
+ La gráfica es lineal ascendente 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+5. Percepción de diferencias de calidad:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+5. Percepción de diferencias de calidad:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "percepciuxf3n-de-diferencias-de-calidad"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aspecto psicofísico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La 
+\series bold
+Ley de Weber-Fechner
+\series default
+ establece que la percepción humana de cambios es 
+\series bold
+logarítmica
+\series default
+: - Los humanos percibimos diferencias proporcionales, no absolutas - Un cambio de 1 a 2 se percibe similar a un cambio de 10 a 20
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Alineación del PSNR:
+\series default
+ - La escala logarítmica del PSNR se alinea mejor con la percepción humana - Diferencias de 3 dB son típicamente perceptibles - Diferencias de 1 dB pueden ser apenas detectables
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo perceptual:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|c|}
+\hline
+\text{Comparación} & \text{Diferencia MSE} & \text{Diferencia PSNR} & \text{Percepción} \\
+\hline
+A \text{ (MSE=1) vs } B \text{ (MSE=2)} & 1 & 3 \text{ dB} & \text{Apenas notable} \\
+C \text{ (MSE=100) vs } D \text{ (MSE=101)} & 1 & 0.04 \text{ dB} & \text{Imperceptible} \\
+E \text{ (MSE=1) vs } F \text{ (MSE=10)} & 9 & 10 \text{ dB} & \text{Muy notable} \\
+G \text{ (MSE=100) vs } H \text{ (MSE=1000)} & 900 & 10 \text{ dB} & \text{Muy notable (similar a E vs F)} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+ PSNR refleja mejor la 
+\series bold
+percepción relativa
+\series default
+ de diferencias de calidad.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+6. Facilitación de benchmarking:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+6. Facilitación de benchmarking:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "facilitaciuxf3n-de-benchmarking"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas para comparación de algoritmos:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Con MSE:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Algoritmo A: MSE = 85
+\end_layout
+
+\begin_layout Verbatim
+Algoritmo B: MSE = 90  → 5.9% peor
+\end_layout
+
+\begin_layout Verbatim
+Algoritmo C: MSE = 150 → 76% peor
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+¿Es el algoritmo B mucho mejor que C?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Con PSNR:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Algoritmo A: PSNR = 38.84 dB
+\end_layout
+
+\begin_layout Verbatim
+Algoritmo B: PSNR = 38.59 dB → -0.25 dB (diferencia marginal)
+\end_layout
+
+\begin_layout Verbatim
+Algoritmo C: PSNR = 36.37 dB → -2.47 dB (diferencia notable)
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+Interpretación clara: B ≈ A > C
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Estándares de la industria:
+\series default
+ - Benchmarks típicos: 
+\begin_inset Quotes fls
+\end_inset
+
+Nuestro algoritmo logra 35 dB en CODEC X
+\begin_inset Quotes frs
+\end_inset
+
+ - Comparaciones directas: 
+\begin_inset Quotes fls
+\end_inset
+
++2 dB sobre el estado del arte
+\begin_inset Quotes frs
+\end_inset
+
+ - Umbrales conocidos: 
+\begin_inset Quotes fls
+\end_inset
+
+Cumple con el estándar de 30 dB mínimo
+\begin_inset Quotes frs
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+7. Limitaciones de la escala logarítmica:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+7. Limitaciones de la escala logarítmica:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "limitaciones-de-la-escala-logaruxedtmica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+a) Asimetría en errores:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR}(\text{MSE} \rightarrow 0) \rightarrow \infty\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Cuando MSE es muy pequeño, PSNR tiende a infinito 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Diferencias en región de muy alta calidad pueden ser exageradas 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+b) Sensibilidad reducida en baja calidad:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Grandes cambios en MSE alto se comprimen en pequeños cambios de PSNR 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Puede ocultar mejoras significativas en imágenes de baja calidad 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+c) No elimina la desconexión perceptual:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Aunque la escala es logarítmica, PSNR sigue sin capturar aspectos estructurales 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La mejora de interpretación es sobre MSE, no sobre percepción visual real 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+8. Ejemplo comparativo completo:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+8. Ejemplo comparativo completo:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejemplo-comparativo-completo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Contexto:
+\series default
+ Evaluación de 5 versiones de un algoritmo de denoising
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|c|c|c|c|}
+\hline
+\text{Versión} & \text{MSE} & \text{Cambio MSE} & \text{PSNR (dB)} & \text{Cambio PSNR} & \text{Interpretación MSE} & \text{Interpretación PSNR} \\
+\hline
+V1 & 1000 & - & 18.13 & - & \text{Inicial} & \text{Muy pobre} \\
+V2 & 500 & -500 \text{ (-50\%)} & 21.14 & +3.01 & \text{Mejora grande} & \text{Mejora constante} \\
+V3 & 250 & -250 \text{ (-50\%)} & 24.15 & +3.01 & \text{Mejora media} & \text{Mejora constante} \\
+V4 & 125 & -125 \text{ (-50\%)} & 27.16 & +3.01 & \text{Mejora pequeña} & \text{Mejora constante} \\
+V5 & 62.5 & -62.5 \text{ (-50\%)} & 30.17 & +3.01 & \text{Mejora muy pequeña} & \text{Mejora constante} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Con MSE:
+\series default
+ Parece que el progreso se desacelera (mejoras absolutas decrecientes)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Con PSNR:
+\series default
+ Muestra claramente que cada versión logra una mejora proporcional constante (50% de reducción en error)
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Conclusión:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Conclusión:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conclusiuxf3n-3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La escala logarítmica del PSNR afecta profundamente la interpretación de la calidad:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Comprime rangos grandes
+\series default
+ en escalas manejables 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Hace visibles mejoras proporcionales
+\series default
+ como incrementos constantes 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Se alinea mejor
+\series default
+ con la percepción humana logarítmica 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Facilita comparaciones
+\series default
+ y establecimiento de umbrales 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+No elimina
+\series default
+ las limitaciones fundamentales de no capturar aspectos estructurales 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como menciona el texto: 
+\emph on
+
+\begin_inset Quotes fls
+\end_inset
+
+A diferencia del MSE, que mide el error absoluto entre las imágenes, el PSNR traduce esa diferencia en una escala logarítmica que 
+\series bold
+facilita la interpretación de la calidad percibida
+\series default
+; un valor más alto de PSNR corresponde a una mejor calidad de imagen filtrada.
+\begin_inset Quotes frs
+\end_inset
+
+
+\emph default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El PSNR no es una métrica fundamentalmente diferente al MSE, sino una 
+\series bold
+re-escala logarítmica
+\series default
+ que hace el MSE más interpretable, comparable y alineado con la percepción humana de diferencias proporcionales.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+8.5.3. Problemas Numéricos sobre Ruido en Imágenes
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "problemas-numuxe9ricos-sobre-ruido-en-imuxe1genes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+1. Calcule el Error Cuadrático Medio (MSE), el PSNR y el SSIM para las imágenes 
+\begin_inset Formula \(I_r\)
+\end_inset
+
+ de referencia e 
+\begin_inset Formula \(I_n\)
+\end_inset
+
+ con ruido de 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+ píxeles:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+1. Calcule el Error Cuadrático Medio (MSE), el PSNR y el SSIM para las imágenes I_r de referencia e I_n con ruido de 2 
+\backslash
+times 2 píxeles:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "calcule-el-error-cuadruxe1tico-medio-mse-el-psnr-y-el-ssim-para-las-imuxe1genes-i_r-de-referencia-e-i_n-con-ruido-de-2-times-2-puxedxeles"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I_r = \begin{bmatrix} 100 & 150 \\ 200 & 250 \end{bmatrix} \quad I_n = \begin{bmatrix} 105 & 148 \\ 202 & 245 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Solución:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Solución:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Paso 1: Calcular el MSE
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 1: Calcular el MSE
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-1-calcular-el-mse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La fórmula del MSE para imágenes de tamaño 
+\begin_inset Formula \(M \times N\)
+\end_inset
+
+ es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{MSE} = \frac{1}{M \times N} \sum_{i=1}^{M} \sum_{j=1}^{N} [I_r(i,j) - I_n(i,j)]^2\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para nuestras imágenes de 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{MSE} = \frac{1}{2 \times 2} [(100-105)^2 + (150-148)^2 + (200-202)^2 + (250-245)^2]\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Calculando cada término: - 
+\begin_inset Formula \((100-105)^2 = (-5)^2 = 25\)
+\end_inset
+
+ - 
+\begin_inset Formula \((150-148)^2 = (2)^2 = 4\)
+\end_inset
+
+ - 
+\begin_inset Formula \((200-202)^2 = (-2)^2 = 4\)
+\end_inset
+
+ - 
+\begin_inset Formula \((250-245)^2 = (5)^2 = 25\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{MSE} = \frac{1}{4}(25 + 4 + 4 + 25) = \frac{58}{4} = 14.5\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ 
+\begin_inset Formula \(\boxed{\text{MSE} = 14.5}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Paso 2: Calcular el PSNR
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 2: Calcular el PSNR
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-2-calcular-el-psnr"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La fórmula del PSNR es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{\text{MAX}_I^2}{\text{MSE}}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para una imagen de 8 bits: 
+\begin_inset Formula \(\text{MAX}_I = 255\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{255^2}{14.5}\right) = 10 \cdot \log_{10}\left(\frac{65025}{14.5}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}(4484.48) = 10 \times 3.6517 = 36.517 \text{ dB}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ 
+\begin_inset Formula \(\boxed{\text{PSNR} = 36.52 \text{ dB}}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+ Este valor está por encima del umbral mínimo de 30 dB, indicando una calidad aceptable.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Paso 3: Calcular el SSIM
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 3: Calcular el SSIM
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-3-calcular-el-ssim"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El SSIM se calcula mediante:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{SSIM}(r, n) = l(r, n) \cdot c(r, n) \cdot s(r, n)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+a) Calcular las medias 
+\begin_inset Formula \(\mu_r\)
+\end_inset
+
+ y 
+\begin_inset Formula \(\mu_n\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\mu_r = \frac{1}{4}(100 + 150 + 200 + 250) = \frac{700}{4} = 175\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\mu_n = \frac{1}{4}(105 + 148 + 202 + 245) = \frac{700}{4} = 175\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+b) Calcular las desviaciones estándar 
+\begin_inset Formula \(\sigma_r\)
+\end_inset
+
+ y 
+\begin_inset Formula \(\sigma_n\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_r = \sqrt{\frac{1}{4}\sum_{i,j}[I_r(i,j) - \mu_r]^2}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_r = \sqrt{\frac{1}{4}[(100-175)^2 + (150-175)^2 + (200-175)^2 + (250-175)^2]}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_r = \sqrt{\frac{1}{4}[5625 + 625 + 625 + 5625]} = \sqrt{\frac{12500}{4}} = \sqrt{3125} = 55.90\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_n = \sqrt{\frac{1}{4}[(105-175)^2 + (148-175)^2 + (202-175)^2 + (245-175)^2]}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_n = \sqrt{\frac{1}{4}[4900 + 729 + 729 + 4900]} = \sqrt{\frac{11258}{4}} = \sqrt{2814.5} = 53.05\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+c) Calcular la covarianza 
+\begin_inset Formula \(\sigma_{rn}\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_{rn} = \frac{1}{4}\sum_{i,j}[I_r(i,j) - \mu_r][I_n(i,j) - \mu_n]\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_{rn} = \frac{1}{4}[(100-175)(105-175) + (150-175)(148-175)\]
+\end_inset
+
+
+\begin_inset Formula \[+ (200-175)(202-175) + (250-175)(245-175)]\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_{rn} = \frac{1}{4}[(-75)(-70) + (-25)(-27) + (25)(27) + (75)(70)]\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_{rn} = \frac{1}{4}[5250 + 675 + 675 + 5250] = \frac{11850}{4} = 2962.5\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+d) Definir las constantes para 
+\begin_inset Formula \(L = 255\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[C_1 = (0.01 \times 255)^2 = (2.55)^2 = 6.5025\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[C_2 = (0.03 \times 255)^2 = (7.65)^2 = 58.5225\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[C_3 = \frac{C_2}{2} = \frac{58.5225}{2} = 29.2612\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+e) Calcular los componentes del SSIM:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Luminancia:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r,n) = \frac{2\mu_r\mu_n + C_1}{\mu_r^2 + \mu_n^2 + C_1} = \frac{2(175)(175) + 6.5025}{175^2 + 175^2 + 6.5025}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r,n) = \frac{61250 + 6.5025}{30625 + 30625 + 6.5025} = \frac{61256.5025}{61256.5025} = 1.0000\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Contraste:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[c(r,n) = \frac{2\sigma_r\sigma_n + C_2}{\sigma_r^2 + \sigma_n^2 + C_2} = \frac{2(55.90)(53.05) + 58.5225}{55.90^2 + 53.05^2 + 58.5225}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[c(r,n) = \frac{5930.79 + 58.5225}{3124.81 + 2814.30 + 58.5225} = \frac{5989.3125}{5997.6325} = 0.9986\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Estructura:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[s(r,n) = \frac{\sigma_{rn} + C_3}{\sigma_r\sigma_n + C_3} = \frac{2962.5 + 29.2612}{(55.90)(53.05) + 29.2612}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[s(r,n) = \frac{2991.7612}{2965.4950 + 29.2612} = \frac{2991.7612}{2994.7562} = 0.9990\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+f) SSIM total:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{SSIM}(r,n) = l(r,n) \cdot c(r,n) \cdot s(r,n)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{SSIM}(r,n) = 1.0000 \times 0.9986 \times 0.9990 = 0.9976\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ 
+\begin_inset Formula \(\boxed{\text{SSIM} = 0.9976}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+ Un SSIM de 0.9976 (muy cercano a 1) indica una similitud estructural excelente entre las dos imágenes.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Resumen de resultados:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Resumen de resultados:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "resumen-de-resultados"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\text{Métrica} & \text{Valor} & \text{Interpretación} \\
+\hline
+\text{MSE} & 14.5 & \text{Error promedio al cuadrado moderado} \\
+\text{PSNR} & 36.52 \text{ dB} & \text{Calidad buena (> 30 dB)} \\
+\text{SSIM} & 0.9976 & \text{Similitud estructural excelente} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. Dadas dos imágenes de 8 bits con un MSE calculado de 100, determine el valor de PSNR.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "dadas-dos-imuxe1genes-de-8-bits-con-un-mse-calculado-de-100-determine-el-valor-de-psnr."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Solución:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Solución:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Datos:
+\series default
+ - MSE = 100 - Imágenes de 8 bits → 
+\begin_inset Formula \(\text{MAX}_I = 2^8 - 1 = 255\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Fórmula del PSNR:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{\text{MAX}_I^2}{\text{MSE}}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Sustituyendo valores:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{255^2}{100}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{65025}{100}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}(650.25)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \times 2.8131 = 28.131 \text{ dB}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ 
+\begin_inset Formula \(\boxed{\text{PSNR} = 28.13 \text{ dB}}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+ - Este valor está 
+\series bold
+ligeramente por debajo
+\series default
+ del umbral mínimo aceptable de 30 dB - Indica calidad 
+\series bold
+límite o pobre
+\series default
+ - Sería necesario mejorar el algoritmo o reducir el ruido para alcanzar el estándar de 30 dB
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+3. Calcule los componentes de luminancia 
+\begin_inset Formula \(l\)
+\end_inset
+
+ y contraste 
+\begin_inset Formula \(c\)
+\end_inset
+
+ del SSIM para las imágenes 
+\begin_inset Formula \(I_r\)
+\end_inset
+
+ de referencia e 
+\begin_inset Formula \(I_n\)
+\end_inset
+
+ con ruido de 
+\begin_inset Formula \(2 \times 2\)
+\end_inset
+
+ píxeles:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+3. Calcule los componentes de luminancia l y contraste c del SSIM para las imágenes I_r de referencia e I_n con ruido de 2 
+\backslash
+times 2 píxeles:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "calcule-los-componentes-de-luminancia-l-y-contraste-c-del-ssim-para-las-imuxe1genes-i_r-de-referencia-e-i_n-con-ruido-de-2-times-2-puxedxeles"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[I_r = \begin{bmatrix} 50 & 100 \\ 150 & 200 \end{bmatrix} \quad I_n = \begin{bmatrix} 55 & 98 \\ 152 & 195 \end{bmatrix}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Utilice 
+\begin_inset Formula \(C_1 = 6.5025\)
+\end_inset
+
+ y 
+\begin_inset Formula \(C_2 = 58.5225\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Solución:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Solución:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Paso 1: Calcular las medias 
+\begin_inset Formula \(\mu_r\)
+\end_inset
+
+ y 
+\begin_inset Formula \(\mu_n\)
+\end_inset
+
+
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 1: Calcular las medias 
+\backslash
+mu_r y 
+\backslash
+mu_n
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-1-calcular-las-medias-mu_r-y-mu_n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\mu_r = \frac{1}{2 \times 2}(50 + 100 + 150 + 200) = \frac{500}{4} = 125\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\mu_n = \frac{1}{2 \times 2}(55 + 98 + 152 + 195) = \frac{500}{4} = 125\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Paso 2: Calcular el componente de luminancia 
+\begin_inset Formula \(l(r,n)\)
+\end_inset
+
+
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 2: Calcular el componente de luminancia l(r,n)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-2-calcular-el-componente-de-luminancia-lrn"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Fórmula:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r,n) = \frac{2\mu_r\mu_n + C_1}{\mu_r^2 + \mu_n^2 + C_1}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Sustituyendo valores:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r,n) = \frac{2(125)(125) + 6.5025}{125^2 + 125^2 + 6.5025}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r,n) = \frac{31250 + 6.5025}{15625 + 15625 + 6.5025}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r,n) = \frac{31256.5025}{31256.5025} = 1.0000\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ 
+\begin_inset Formula \(\boxed{l(r,n) = 1.0000}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+ Las dos imágenes tienen exactamente la misma luminancia (brillo promedio), lo que indica una similitud perfecta en este aspecto.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Paso 3: Calcular las desviaciones estándar 
+\begin_inset Formula \(\sigma_r\)
+\end_inset
+
+ y 
+\begin_inset Formula \(\sigma_n\)
+\end_inset
+
+
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 3: Calcular las desviaciones estándar 
+\backslash
+sigma_r y 
+\backslash
+sigma_n
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-3-calcular-las-desviaciones-estuxe1ndar-sigma_r-y-sigma_n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Para 
+\begin_inset Formula \(\sigma_r\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_r = \sqrt{\frac{1}{4}\sum_{i,j}[I_r(i,j) - \mu_r]^2}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_r = \sqrt{\frac{1}{4}[(50-125)^2 + (100-125)^2 + (150-125)^2 + (200-125)^2]}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Calculando cada término: - 
+\begin_inset Formula \((50-125)^2 = (-75)^2 = 5625\)
+\end_inset
+
+ - 
+\begin_inset Formula \((100-125)^2 = (-25)^2 = 625\)
+\end_inset
+
+ - 
+\begin_inset Formula \((150-125)^2 = (25)^2 = 625\)
+\end_inset
+
+ - 
+\begin_inset Formula \((200-125)^2 = (75)^2 = 5625\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_r = \sqrt{\frac{1}{4}(5625 + 625 + 625 + 5625)} = \sqrt{\frac{12500}{4}} = \sqrt{3125} = 55.90\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Para 
+\begin_inset Formula \(\sigma_n\)
+\end_inset
+
+:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_n = \sqrt{\frac{1}{4}\sum_{i,j}[I_n(i,j) - \mu_n]^2}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_n = \sqrt{\frac{1}{4}[(55-125)^2 + (98-125)^2 + (152-125)^2 + (195-125)^2]}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Calculando cada término: - 
+\begin_inset Formula \((55-125)^2 = (-70)^2 = 4900\)
+\end_inset
+
+ - 
+\begin_inset Formula \((98-125)^2 = (-27)^2 = 729\)
+\end_inset
+
+ - 
+\begin_inset Formula \((152-125)^2 = (27)^2 = 729\)
+\end_inset
+
+ - 
+\begin_inset Formula \((195-125)^2 = (70)^2 = 4900\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\sigma_n = \sqrt{\frac{1}{4}(4900 + 729 + 729 + 4900)} = \sqrt{\frac{11258}{4}} = \sqrt{2814.5} = 53.05\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Paso 4: Calcular el componente de contraste 
+\begin_inset Formula \(c(r,n)\)
+\end_inset
+
+
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Paso 4: Calcular el componente de contraste c(r,n)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "paso-4-calcular-el-componente-de-contraste-crn"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Fórmula:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[c(r,n) = \frac{2\sigma_r\sigma_n + C_2}{\sigma_r^2 + \sigma_n^2 + C_2}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Sustituyendo valores:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[c(r,n) = \frac{2(55.90)(53.05) + 58.5225}{(55.90)^2 + (53.05)^2 + 58.5225}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Calculando el numerador: 
+\begin_inset Formula \[2(55.90)(53.05) = 5930.79\]
+\end_inset
+
+
+\begin_inset Formula \[\text{Numerador} = 5930.79 + 58.5225 = 5989.3125\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Calculando el denominador: 
+\begin_inset Formula \[(55.90)^2 = 3124.81\]
+\end_inset
+
+
+\begin_inset Formula \[(53.05)^2 = 2814.30\]
+\end_inset
+
+
+\begin_inset Formula \[\text{Denominador} = 3124.81 + 2814.30 + 58.5225 = 5997.6325\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[c(r,n) = \frac{5989.3125}{5997.6325} = 0.9986\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ 
+\begin_inset Formula \(\boxed{c(r,n) = 0.9986}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+ El contraste entre las dos imágenes es muy similar (0.9986 ≈ 1), indicando que la variabilidad de intensidades es casi idéntica.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Resumen de resultados:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Resumen de resultados:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "resumen-de-resultados-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\text{Componente} & \text{Valor} & \text{Interpretación} \\
+\hline
+\textbf{Luminancia } l(r,n) & 1.0000 & \text{Brillo promedio idéntico} \\
+\textbf{Contraste } c(r,n) & 0.9986 & \text{Variabilidad muy similar} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Nota:
+\series default
+ Estos componentes forman parte del cálculo del SSIM total. Para obtener el SSIM completo, también se necesitaría calcular el componente de estructura 
+\begin_inset Formula \(s(r,n)\)
+\end_inset
+
+ usando la covarianza.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+4. Una imagen de 
+\begin_inset Formula \(512 \times 512\)
+\end_inset
+
+ píxeles tiene un valor máximo de píxel de 255. Si el PSNR entre esta y una versión comprimida es de 30 dB, ¿cuál es el valor del MSE?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+4. Una imagen de 512 
+\backslash
+times 512 píxeles tiene un valor máximo de píxel de 255. Si el PSNR entre esta y una versión comprimida es de 30 dB, ¿cuál es el valor del MSE?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "una-imagen-de-512-times-512-puxedxeles-tiene-un-valor-muxe1ximo-de-puxedxel-de-255.-si-el-psnr-entre-esta-y-una-versiuxf3n-comprimida-es-de-30-db-cuuxe1l-es-el-valor-del-mse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Solución:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Solución:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Datos:
+\series default
+ - Dimensiones: 
+\begin_inset Formula \(512 \times 512\)
+\end_inset
+
+ píxeles (no relevante para el cálculo del MSE a partir del PSNR) - 
+\begin_inset Formula \(\text{MAX}_I = 255\)
+\end_inset
+
+ (imagen de 8 bits) - 
+\begin_inset Formula \(\text{PSNR} = 30\)
+\end_inset
+
+ dB
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Fórmula del PSNR:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{\text{MAX}_I^2}{\text{MSE}}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Despejando MSE:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[30 = 10 \cdot \log_{10}\left(\frac{255^2}{\text{MSE}}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Dividiendo ambos lados por 10:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[3 = \log_{10}\left(\frac{255^2}{\text{MSE}}\right)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Aplicando la exponencial base 10 a ambos lados:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[10^3 = \frac{255^2}{\text{MSE}}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[1000 = \frac{65025}{\text{MSE}}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Despejando MSE:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{MSE} = \frac{65025}{1000} = 65.025\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ 
+\begin_inset Formula \(\boxed{\text{MSE} = 65.025}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+ - Un PSNR de 
+\series bold
+exactamente 30 dB
+\series default
+ corresponde a un MSE de 
+\series bold
+65.025
+\series default
+ - Este es el 
+\series bold
+límite mínimo aceptable
+\series default
+ de calidad para imágenes de 8 bits - Un MSE mayor (y por tanto PSNR menor) indicaría calidad insuficiente
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Verificación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{PSNR} = 10 \cdot \log_{10}\left(\frac{65025}{65.025}\right) = 10 \cdot \log_{10}(1000) = 10 \times 3 = 30 \text{ dB} \quad \checkmark\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. Calcule el SSIM total para dos imágenes, dado que:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "calcule-el-ssim-total-para-dos-imuxe1genes-dado-que"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[l(r, n) = 0.98, \quad c(r, n) = 0.95, \quad s(r, n) = 0.97\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Asuma que 
+\begin_inset Formula \(\alpha = \beta = \gamma = 1\)
+\end_inset
+
+ en la fórmula del SSIM.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Solución:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Solución:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Fórmula general del SSIM:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{SSIM}(r, n) = [l(r, n)]^\alpha \cdot [c(r, n)]^\beta \cdot [s(r, n)]^\gamma\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Con los parámetros dados:
+\series default
+ 
+\begin_inset Formula \(\alpha = \beta = \gamma = 1\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La fórmula se simplifica a:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{SSIM}(r, n) = l(r, n) \cdot c(r, n) \cdot s(r, n)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Sustituyendo los valores:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[\text{SSIM}(r, n) = 0.98 \times 0.95 \times 0.97\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Cálculo paso a paso:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[0.98 \times 0.95 = 0.931\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[0.931 \times 0.97 = 0.90307\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ 
+\begin_inset Formula \(\boxed{\text{SSIM}(r, n) = 0.9031}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Interpretación:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+SSIM = 0.9031
+\series default
+ indica una 
+\series bold
+alta similitud estructural
+\series default
+ entre las imágenes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Está relativamente cerca de 1 (similitud perfecta) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Los tres componentes son altos (todos 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+textgreater
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 0.95), lo que sugiere:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Luminancia
+\series default
+ (0.98): Brillo muy similar 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Contraste
+\series default
+ (0.95): Variabilidad similar 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Estructura
+\series default
+ (0.97): Patrones y correlaciones muy similares 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis del impacto de cada componente:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{|c|c|c|}
+\hline
+\text{Componente} & \text{Valor} & \text{Contribución al resultado} \\
+\hline
+\text{Luminancia } l & 0.98 & \text{Reduce SSIM en 2\%} \\
+\text{Contraste } c & 0.95 & \text{Reduce SSIM en 5\%} \\
+\text{Estructura } s & 0.97 & \text{Reduce SSIM en 3\%} \\
+\hline
+\textbf{Total} & \textbf{0.9031} & \textbf{Reducción acumulada }\sim\textbf{10\%} \\
+\hline
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Nota sobre el producto:
+\series default
+ El SSIM usa el 
+\series bold
+producto
+\series default
+ de los tres componentes, por lo que cualquier componente bajo afecta desproporcionadamente el resultado. En este caso, el contraste (0.95) es el componente más bajo y tiene el mayor impacto en reducir el SSIM final.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Comparación con estándares:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+SSIM 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+textgreater
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 0.90 generalmente indica 
+\series bold
+buena calidad
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+SSIM 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+textgreater
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 0.95 indica 
+\series bold
+muy buena calidad
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+SSIM 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+textgreater
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 0.98 indica 
+\series bold
+excelente calidad
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El valor de 
+\series bold
+0.9031
+\series default
+ está justo por encima del umbral de buena calidad, sugiriendo que las imágenes son muy similares pero tienen algunas diferencias notables, principalmente en el contraste.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

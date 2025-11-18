@@ -1,0 +1,397 @@
+#LyX file created by tex2lyx 2.4
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin D:/Users/migue/Documents/Proyectos/markitdown/ProcesamientoDeImagenes/lyx_final/
+\textclass article
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig}% disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "pdflang={es},hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -\maxdimen
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+\lang spanish
+Respuestas al Capítulo 1: Antecedentes
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "respuestas-al-capuxedtulo-1-antecedentes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+1.2. Preguntas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1.2.1. Preguntas de comprensión
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-comprensiuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+¿Quién realizó la primera radiografía médica y qué mostró?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Wilhelm Roentgen realizó la primera radiografía médica en 1895, la cual mostró los huesos de la mano de su esposa, Anna Bertha. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Quiénes fueron los inventores de la tecnología CCD y en qué año la desarrollaron?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Los inventores fueron Willard S. Boyle y George E. Smith, quienes desarrollaron la tecnología CCD (Charge-Coupled Device) en 1969. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Quién tomó la primera fotografía a color de la historia y cómo lo logró?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Thomas Sutton tomó la primera fotografía a color de la historia en 1861, utilizando el método tricromático propuesto por James Clerk Maxwell, que consistía en capturar tres imágenes separadas con filtros rojo, verde y azul, y luego combinarlas. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Cuál fue la primera imagen digital de la historia y quién la creó?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La primera imagen digital de la historia fue la fotografía de la hija recién nacida de Philippe Kahn, enviada por teléfono celular en 1997. Philippe Kahn la creó conectando una cámara digital a un teléfono celular y transmitiéndola en tiempo real. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Qué astronauta aparece en la famosa fotografía del hombre en la luna?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ El astronauta que aparece en la famosa fotografía del hombre en la luna es Buzz Aldrin, tomada durante la misión Apollo 11 en 1969. 
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1.2.2. Preguntas de aplicación y evaluación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-aplicaciuxf3n-y-evaluaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+¿Por qué la invención de la fotografía por Niépce fue tan revolucionaria e importante en la historia?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La invención de la fotografía por Joseph Nicéphore Niépce en 1826 fue revolucionaria porque produjo la primera imagen permanente conocida de la historia, capturando una escena exterior iluminada por la luz solar proyectada en una placa de peltre tratada químicamente. Esto marcó el inicio de la capacidad de registrar visualmente la realidad de manera objetiva y duradera, sentando las bases para el desarrollo de la fotografía moderna y sus aplicaciones en diversos campos. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Cómo ha cambiado la fotografía la manera en que registramos y compartimos momentos especiales?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La fotografía ha transformado la manera en que registramos y compartimos momentos especiales al permitir capturar y preservar eventos históricos y personales de forma objetiva. Con el advenimiento de la fotografía digital y los dispositivos móviles, como se ejemplifica con la primera foto enviada por celular en 1997, ahora podemos compartir imágenes en tiempo real con amigos y familiares, facilitando la conexión inmediata y cambiando los aspectos socioculturales de la comunicación visual. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Por qué el desarrollo de la fotografía digital fue tan lento al inicio?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ El desarrollo de la fotografía digital fue lento al inicio debido a la necesidad de avances tecnológicos significativos en sensores de imagen, informática y procesamiento de señales. La invención del CCD en 1969 fue un paso clave, pero requería de mejoras en la capacidad de cómputo y almacenamiento para hacer viable la captura y manipulación digital de imágenes a gran escala. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+¿Qué factores permitieron su expansión?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La expansión de la fotografía digital fue permitida por factores como la invención y mejora de dispositivos como el CCD, los avances en la tecnología informática que permitieron el procesamiento digital eficiente, y el desarrollo de software para la manipulación de imágenes. Además, la integración con dispositivos móviles y la capacidad de transmisión en tiempo real, como se vio con la innovación de Philippe Kahn, facilitaron su adopción masiva. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Evalúa el impacto ético de la manipulación de imágenes a lo largo de la historia.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ La manipulación de imágenes ha tenido un impacto ético significativo a lo largo de la historia, permitiendo tanto beneficios creativos como riesgos potenciales. Por un lado, ha sido utilizada para correcciones artísticas y mejoras estéticas, pero también para alterar la realidad, como en casos de propaganda o falsificación de documentos históricos. Esto plantea dilemas éticos sobre la veracidad de la información visual, la confianza en las imágenes como evidencia, y la responsabilidad de quienes las manipulan. En la era digital, con herramientas avanzadas, es crucial promover el uso ético para evitar desinformación y preservar la integridad de los registros históricos. 
+\end_layout
+
+\end_body
+\end_document

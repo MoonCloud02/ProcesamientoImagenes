@@ -1,0 +1,5805 @@
+#LyX file created by tex2lyx 2.4
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin D:/Users/migue/Documents/Proyectos/markitdown/ProcesamientoDeImagenes/lyx_final/
+\textclass article
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig}% disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "pdflang={es},hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -\maxdimen
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+\lang spanish
+Capítulo 6: Conversión a Escala de Grises - Respuestas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "capuxedtulo-6-conversiuxf3n-a-escala-de-grises---respuestas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+6.7.1. Preguntas de Hechos Indicados en el Texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-hechos-indicados-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Por qué las imágenes en escala de grises requieren solo una matriz bidimensional para su representación?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "por-quuxe9-las-imuxe1genes-en-escala-de-grises-requieren-solo-una-matriz-bidimensional-para-su-representaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las imágenes en escala de grises requieren solo una matriz bidimensional (2D) porque únicamente almacenan información de intensidad luminosa, sin considerar las diferentes fuentes espectrales de color. A diferencia de las imágenes RGB que necesitan tres matrices (una para cada canal: rojo, verde y azul), las imágenes en escala de grises representan cada píxel mediante un único valor que indica su nivel de intensidad o luminancia. Esta representación simplificada es suficiente para capturar la información de brillo de la imagen, lo que resulta en una estructura de datos más simple y eficiente computacionalmente.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. ¿Cuáles son las técnicas de conversión a escala de grises enunciadas en el documento?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1les-son-las-tuxe9cnicas-de-conversiuxf3n-a-escala-de-grises-enunciadas-en-el-documento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El documento enuncia las siguientes técnicas de conversión a escala de grises:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Técnica del Promedio
+\series default
+: Calcula el promedio aritmético simple de los tres canales RGB con pesos iguales (
+\begin_inset Formula \(w_R = w_G = w_B = \frac{1}{3}\)
+\end_inset
+
+). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Técnica del Midgray
+\series default
+: Se define como la media de las componentes de color máxima y mínima, proporcionando un tono intermedio de gris. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Técnica de la Luminancia
+\series default
+: Utiliza un promedio ponderado de las componentes RGB que considera la percepción visual humana. Incluye dos estándares principales:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+NTSC 601
+\series default
+: Con pesos 
+\begin_inset Formula \(w_R = 0.299\)
+\end_inset
+
+, 
+\begin_inset Formula \(w_G = 0.587\)
+\end_inset
+
+, 
+\begin_inset Formula \(w_B = 0.114\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Rec. 709
+\series default
+: Con pesos 
+\begin_inset Formula \(w_R = 0.2226\)
+\end_inset
+
+, 
+\begin_inset Formula \(w_G = 0.7152\)
+\end_inset
+
+, 
+\begin_inset Formula \(w_B = 0.0722\)
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+
+\lang spanish
+3. ¿Qué problema se plantea al intentar convertir una imagen RGB a escala de grises?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-problema-se-plantea-al-intentar-convertir-una-imagen-rgb-a-escala-de-grises"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El problema principal es que cada capa de color individual (roja, verde o azul) solo contiene información espectral de su propia tonalidad y no representa fielmente la imagen completa. Por ejemplo:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La capa roja muestra claros los rojos y obscuros el azul 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El color amarillo aparece blanco en la capa roja (porque es mezcla de rojo y verde) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La capa verde también muestra blanco el amarillo y obscuro los colores rojo y azul 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La capa azul muestra blanco solo el azul y negro los demás colores 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por lo tanto, simplemente tomar una de las capas no produce una representación adecuada de la imagen en escala de grises. Se requiere una combinación apropiada de las tres capas que considere tanto las características físicas del color como la percepción visual humana.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+4. ¿Cuál de las técnicas le da más peso o ponderación a uno de los colores RGB, y por qué?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1l-de-las-tuxe9cnicas-le-da-muxe1s-peso-o-ponderaciuxf3n-a-uno-de-los-colores-rgb-y-por-quuxe9"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La 
+\series bold
+técnica de la luminancia
+\series default
+ (tanto NTSC 601 como Rec. 709) le da más peso al color 
+\series bold
+verde
+\series default
+. Específicamente:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+NTSC 601
+\series default
+: 
+\begin_inset Formula \(w_G = 0.587\)
+\end_inset
+
+ (mayor que 
+\begin_inset Formula \(w_R = 0.299\)
+\end_inset
+
+ y 
+\begin_inset Formula \(w_B = 0.114\)
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Rec. 709
+\series default
+: 
+\begin_inset Formula \(w_G = 0.7152\)
+\end_inset
+
+ (mayor que 
+\begin_inset Formula \(w_R = 0.2226\)
+\end_inset
+
+ y 
+\begin_inset Formula \(w_B = 0.0722\)
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Razón
+\series default
+: Este mayor peso al verde se debe a que el ojo humano tiene un mayor número de conos sensibles al color verde en la retina. Por lo tanto, la percepción humana de la luminosidad está más influenciada por la componente verde que por las componentes roja y azul. Esto hace que la imagen resultante sea más brillante y se aproxime mejor a cómo los humanos perciben el brillo de la imagen.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. Entre NTSC 601 y Rec. 709, ¿cuál es más antigua y cuál es su uso principal?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "entre-ntsc-601-y-rec.-709-cuuxe1l-es-muxe1s-antigua-y-cuuxe1l-es-su-uso-principal"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+NTSC 601 es más antigua
+\series default
+ que Rec. 709.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+NTSC 601
+\series default
+: - Desarrollada originalmente para la codificación de señales analógicas de televisión a color - Es una norma técnica utilizada para la codificación de video analógico en televisión - Especifica la forma en que se codifica la información de color en el formato YUV para televisión analógica - Uso principal: Televisión analógica de definición estándar
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Rec. 709
+\series default
+ (ITU-R BT.709): - Desarrollada por la Unión Internacional de Telecomunicaciones (ITU) en 1990 - Es un estándar internacional más reciente - Uso principal: Producción, transmisión y visualización de imágenes de televisión en color de 
+\series bold
+alta definición (HD)
+\series default
+ - Los valores de ponderación fueron establecidos experimentalmente para producir una imagen en escala de grises que parece más natural al ojo humano en contenido HD
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+6.7.2. Preguntas de Comprensión con Base en el Texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-comprensiuxf3n-con-base-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Por qué el verde tiene mayor peso en las técnicas de conversión con base en la luminancia?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "por-quuxe9-el-verde-tiene-mayor-peso-en-las-tuxe9cnicas-de-conversiuxf3n-con-base-en-la-luminancia"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El verde tiene mayor peso en las técnicas de conversión basadas en luminancia porque está directamente relacionado con la 
+\series bold
+fisiología del ojo humano
+\series default
+. La retina humana contiene tres tipos de conos responsables de la percepción del color, pero el número de conos no está distribuido uniformemente entre los tres colores primarios.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Explicación detallada
+\series default
+:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Mayor densidad de conos verdes
+\series default
+: La retina humana tiene una mayor cantidad de conos sensibles a las longitudes de onda del verde en comparación con los conos sensibles al rojo y al azul. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Sensibilidad espectral
+\series default
+: El ojo humano es más sensible a las longitudes de onda correspondientes al color verde (aproximadamente 555 nm), que se encuentra en el centro del espectro visible. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Percepción de luminancia
+\series default
+: Debido a esta mayor sensibilidad, la componente verde contribuye más significativamente a la percepción de brillo o luminancia de una escena. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Resultado práctico
+\series default
+: Al asignar mayor peso al canal verde (0.587 en NTSC 601 o 0.7152 en Rec. 709), la imagen resultante en escala de grises se aproxima mejor a cómo los humanos perciben realmente el brillo de la imagen original, haciéndola más brillante y perceptualmente más precisa. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esta ponderación no es arbitraria, sino que está basada en estudios experimentales de la respuesta del sistema visual humano.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. ¿Es posible convertir imágenes en escala de grises de vuelta a color a partir de solo sus valores en gris?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "es-posible-convertir-imuxe1genes-en-escala-de-grises-de-vuelta-a-color-a-partir-de-solo-sus-valores-en-gris"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+No, no es posible
+\series default
+ realizar una conversión directa e inequívoca de una imagen en escala de grises de vuelta a sus colores originales utilizando únicamente los valores de gris.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Razones fundamentales
+\series default
+:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Pérdida de información
+\series default
+: La conversión a escala de grises es un proceso irreversible que implica pérdida de información. Por ejemplo, con NTSC 601: 
+\begin_inset Formula \[Y = 0.299R + 0.587G + 0.114B\]
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Esta ecuación tiene infinitas soluciones para 
+\begin_inset Formula \((R, G, B)\)
+\end_inset
+
+ dado un valor fijo de 
+\begin_inset Formula \(Y\)
+\end_inset
+
+. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Múltiples combinaciones
+\series default
+: Como ilustra la Figura 6.5 del texto, múltiples combinaciones de valores RGB pueden producir el mismo valor en escala de grises. Colores visualmente diferentes pueden tener la misma luminancia. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Sistema subdeterminado
+\series default
+: Matemáticamente, tenemos una ecuación (el valor de gris) con tres incógnitas 
+\begin_inset Formula \((R, G, B)\)
+\end_inset
+
+, lo que resulta en un sistema subdeterminado con infinitas soluciones. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Alternativas mencionadas en el texto
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sin embargo, existen técnicas de 
+\series bold
+colorización
+\series default
+ o 
+\series bold
+falso color
+\series default
+ que pueden agregar color a imágenes en escala de grises:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Procesamiento de falso color
+\series default
+: Se usa para representar datos como gradientes de temperatura, información meteorológica, rayos X, etc. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Colorización basada en conocimiento
+\series default
+: Si se conoce información adicional sobre la imagen original (por ejemplo, que contiene piel humana, cielo, mar, árboles), se pueden estimar aproximaciones a las tonalidades originales. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Algoritmos de reconocimiento
+\series default
+: Se han desarrollado algoritmos que reconocen objetos específicos y los colorean según su naturaleza esperada (firmamento azul, mar azul, árboles verdes, etc.). 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Es importante enfatizar que estas técnicas 
+\series bold
+no recuperan los colores originales exactos
+\series default
+, sino que generan aproximaciones o representaciones basadas en información adicional o suposiciones sobre el contenido de la imagen.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. ¿Cómo afectan las técnicas de conversión a la percepción visual en aplicaciones prácticas?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuxf3mo-afectan-las-tuxe9cnicas-de-conversiuxf3n-a-la-percepciuxf3n-visual-en-aplicaciones-pruxe1cticas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las técnicas de conversión a escala de grises tienen un impacto significativo en la percepción visual y su efectividad varía según la aplicación práctica:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Impacto según la técnica utilizada:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Impacto según la técnica utilizada:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "impacto-seguxfan-la-tuxe9cnica-utilizada"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Técnica del Promedio
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Ventaja
+\series default
+: Computacionalmente simple y rápida 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Desventaja
+\series default
+: No refleja fielmente la percepción humana de luminosidad 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Impacto visual
+\series default
+: Puede producir imágenes que parecen menos naturales o con menor contraste de lo esperado 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Aplicaciones
+\series default
+: Útil cuando la velocidad es prioritaria sobre la fidelidad visual 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Técnica del Midgray
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Ventaja
+\series default
+: Mantiene un nivel básico de contraste 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Desventaja
+\series default
+: Pérdida considerable de información y detalle 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Impacto visual
+\series default
+: Proporciona un tono intermedio uniforme pero puede no adaptarse bien a imágenes con distribuciones de color complejas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Aplicaciones
+\series default
+: Soluciones simples donde se requiere contraste básico 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Técnica de Luminancia (NTSC 601 / Rec. 709)
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Ventaja
+\series default
+: Refleja mejor la percepción humana al ponderar más el verde 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Impacto visual
+\series default
+: Produce imágenes más brillantes y naturales que se aproximan a cómo el ojo humano percibe el brillo 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Aplicaciones
+\series default
+: Preferida para procesamiento profesional de imagen y video 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Efectos en aplicaciones prácticas:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Efectos en aplicaciones prácticas:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "efectos-en-aplicaciones-pruxe1cticas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Detección de bordes y segmentación
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La luminancia ponderada preserva mejor los gradientes de intensidad que corresponden a características visuales importantes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Mejora la efectividad de algoritmos como Canny y Sobel al mantener información perceptualmente relevante 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Reconocimiento de patrones
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La representación en escala de grises que refleja la percepción humana facilita el reconocimiento de objetos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El contraste apropiado es crucial para distinguir características discriminantes 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Compresión y transmisión
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Las técnicas que preservan la percepción visual permiten mayor compresión sin pérdida perceptual significativa 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Importante en aplicaciones de videoconferencia y streaming 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Análisis médico
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+En rayos X y resonancias magnéticas, la representación fiel de la luminancia puede ser crítica para diagnósticos precisos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+El contraste adecuado facilita la identificación de anomalías 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Robótica y visión artificial
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Como menciona el texto, en robótica móvil para seguimiento de líneas, la escala de grises reduce información no relevante 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+La simplificación mejora el rendimiento sin sacrificar funcionalidad 
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+
+\lang spanish
+4. ¿Qué desafíos presenta la conversión a escala de grises en términos de la preservación de detalles?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-desafuxedos-presenta-la-conversiuxf3n-a-escala-de-grises-en-tuxe9rminos-de-la-preservaciuxf3n-de-detalles"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La conversión a escala de grises enfrenta varios desafíos significativos relacionados con la preservación de detalles:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+1. Pérdida de información cromática distintiva
+\series default
+:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+1. Pérdida de información cromática distintiva:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "puxe9rdida-de-informaciuxf3n-cromuxe1tica-distintiva"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Problema
+\series default
+: Como ilustra el texto con la bandera (Fig. 6.1), colores diferentes pueden tener luminancias similares 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Ejemplo práctico
+\series default
+: El rojo y el verde pueden aparecer con el mismo tono de gris a pesar de ser colores completamente distintos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Impacto
+\series default
+: Objetos que se distinguen claramente por color pueden volverse indistinguibles en escala de grises 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Consecuencia
+\series default
+: Pérdida de información crítica en aplicaciones como segmentación de objetos por color 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+2. Reducción del espacio de representación
+\series default
+:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+2. Reducción del espacio de representación:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "reducciuxf3n-del-espacio-de-representaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Problema matemático
+\series default
+: Se pasa de un espacio tridimensional RGB (posiblemente 
+\begin_inset Formula \(256^3 \approx 16.7\)
+\end_inset
+
+ millones de colores) a un espacio unidimensional (256 niveles de gris) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Pérdida de dimensionalidad
+\series default
+: Dos grados de libertad se eliminan completamente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Impacto
+\series default
+: Múltiples combinaciones RGB colapsan en el mismo valor de gris (como muestra la Fig. 6.5) 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+3. Colapso de texturas y patrones de color
+\series default
+:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+3. Colapso de texturas y patrones de color:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "colapso-de-texturas-y-patrones-de-color"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Desafío
+\series default
+: Texturas que dependen de variaciones cromáticas pueden desaparecer 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Ejemplo
+\series default
+: Un patrón de rayas rojas y verdes de igual luminancia aparecería como una superficie uniforme 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Aplicaciones afectadas
+\series default
+: Análisis de texturas, reconocimiento de materiales, clasificación de superficies 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+4. Sensibilidad a las capas individuales
+\series default
+:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+4. Sensibilidad a las capas individuales:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sensibilidad-a-las-capas-individuales"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Problema
+\series default
+: Como menciona el texto, cada capa de color (R, G, B) individual no representa fielmente la imagen 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Capa roja
+\series default
+: Muestra claros los rojos y obscuros el azul; el amarillo aparece blanco 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Capa verde
+\series default
+: Muestra blanco el amarillo, obscuros el rojo y azul 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Capa azul
+\series default
+: Solo el azul se ve blanco, los demás lucen negros 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Desafío
+\series default
+: Elegir la técnica apropiada es crucial para preservar los detalles relevantes 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+5. Pérdida de contraste selectivo
+\series default
+:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+5. Pérdida de contraste selectivo:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "puxe9rdida-de-contraste-selectivo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Problema
+\series default
+: Objetos con colores complementarios que tienen alto contraste cromático pero similar luminancia pierden separación 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Ejemplo
+\series default
+: Texto azul sobre fondo rojo puede volverse casi ilegible en escala de grises 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Impacto
+\series default
+: Afecta la legibilidad y distinguibilidad en interfaces y documentos 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+6. Dependencia del contexto y aplicación
+\series default
+:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+6. Dependencia del contexto y aplicación:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "dependencia-del-contexto-y-aplicaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Desafío
+\series default
+: No existe una técnica universal óptima 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Técnica del promedio
+\series default
+: Puede perder detalles en regiones con predominancia de un color 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Midgray
+\series default
+: Puede no adaptarse a características específicas de la imagen 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Luminancia
+\series default
+: Mejor para percepción general, pero puede no ser óptima para análisis técnico específico 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+7. Variaciones en iluminación
+\series default
+:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+7. Variaciones en iluminación:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "variaciones-en-iluminaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Problema
+\series default
+: La conversión puede amplificar o atenuar efectos de iluminación no uniforme 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Desafío práctico
+\series default
+: En el ejemplo del mango (Fig. 6.3 del texto), se menciona que la técnica puede fracasar cuando no hay luz homogénea 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Impacto
+\series default
+: Dificulta la segmentación y el procesamiento en condiciones reales 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Estrategias de mitigación mencionadas en el texto
+\series default
+:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Estrategias de mitigación mencionadas en el texto:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "estrategias-de-mitigaciuxf3n-mencionadas-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Selección de capa apropiada
+\series default
+: En la Fig. 6.3, la capa azul separa mejor el mango del fondo porque los mangos carecen de componente azul 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Análisis en espacio HSV
+\series default
+: Como muestra el ejemplo de segmentación del auto amarillo (Fig. 6.6), trabajar en HSV permite mantener separación por color antes de convertir a grises 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Segmentación selectiva
+\series default
+: Mantener ciertos elementos en color mientras el resto se convierte a grises (técnica de falso color) 
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. ¿Cuál es la relación entre los estándares NTSC 601 y Rec. 709 y la evolución de la tecnología?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1l-es-la-relaciuxf3n-entre-los-estuxe1ndares-ntsc-601-y-rec.-709-y-la-evoluciuxf3n-de-la-tecnologuxeda"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La relación entre NTSC 601 y Rec. 709 refleja claramente la evolución tecnológica en sistemas de video y televisión:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Evolución cronológica y tecnológica:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Evolución cronológica y tecnológica:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "evoluciuxf3n-cronoluxf3gica-y-tecnoluxf3gica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+1. NTSC 601 - Era analógica de televisión
+\series default
+:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Contexto histórico
+\series default
+: Desarrollada para la televisión analógica a color de definición estándar (SD) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Tecnología
+\series default
+: Sistemas de transmisión analógica con limitaciones de ancho de banda 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Resolución
+\series default
+: Diseñada para televisión de definición estándar (aproximadamente 480i/576i) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Formato de color
+\series default
+: Especifica la codificación en formato YUV para señales analógicas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Coeficientes de luminancia
+\series default
+: 
+\begin_inset Formula \(Y = 0.299R + 0.587G + 0.114B\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+2. Rec. 709 (ITU-R BT.709) - Era digital HD
+\series default
+:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Contexto histórico
+\series default
+: Desarrollada en 1990 por la Unión Internacional de Telecomunicaciones (ITU) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Tecnología
+\series default
+: Sistemas digitales de alta definición (HD) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Resolución
+\series default
+: Diseñada para HD (720p, 1080i, 1080p) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Coeficientes actualizados
+\series default
+: 
+\begin_inset Formula \(Y = 0.2226R + 0.7152G + 0.0722B\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Objetivo
+\series default
+: Producir una imagen que parece más natural al ojo humano en displays modernos 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Diferencias clave y su significado tecnológico:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Diferencias clave y su significado tecnológico:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "diferencias-clave-y-su-significado-tecnoluxf3gico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+1. Mayor peso al verde en Rec. 709
+\series default
+: - NTSC 601: 
+\begin_inset Formula \(w_G = 0.587\)
+\end_inset
+
+ (58.7%) - Rec. 709: 
+\begin_inset Formula \(w_G = 0.7152\)
+\end_inset
+
+ (71.52%) - 
+\series bold
+Razón evolutiva
+\series default
+: Investigación más refinada sobre la respuesta del sistema visual humano y displays digitales más precisos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+2. Reducción del peso del rojo
+\series default
+: - NTSC 601: 
+\begin_inset Formula \(w_R = 0.299\)
+\end_inset
+
+ (29.9%) - Rec. 709: 
+\begin_inset Formula \(w_R = 0.2226\)
+\end_inset
+
+ (22.26%) - 
+\series bold
+Implicación
+\series default
+: Mejor aproximación a la sensibilidad espectral real del ojo humano
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+3. Reducción del peso del azul
+\series default
+: - NTSC 601: 
+\begin_inset Formula \(w_B = 0.114\)
+\end_inset
+
+ (11.4%) - Rec. 709: 
+\begin_inset Formula \(w_B = 0.0722\)
+\end_inset
+
+ (7.22%) - 
+\series bold
+Significado
+\series default
+: El ojo humano es menos sensible al azul de lo que se consideraba originalmente
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Drivers de la evolución tecnológica:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Drivers de la evolución tecnológica:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "drivers-de-la-evoluciuxf3n-tecnoluxf3gica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Mejores displays
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Transición de CRTs analógicos a pantallas digitales (LCD, LED, OLED) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Mayor precisión en reproducción de color y luminancia 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Rec. 709 optimizada para características de displays digitales modernos 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Procesamiento digital
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+NTSC 601 diseñada para limitaciones analógicas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Rec. 709 aprovecha capacidades de procesamiento digital sin restricciones analógicas 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Investigación en visión humana
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Estudios experimentales más precisos sobre percepción visual 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Comprensión mejorada de la distribución y sensibilidad de conos en la retina 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Rec. 709 incorpora este conocimiento actualizado 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Ancho de banda y compresión
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Mayor ancho de banda disponible en era digital 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Técnicas de compresión más sofisticadas (MPEG, H.264, H.265) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Rec. 709 diseñada para trabajar eficientemente con estos códecs 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Resolución y calidad
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Transición de SD (~480p) a HD (~1080p) y más allá 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Necesidad de estándares que preserven mejor detalles en altas resoluciones 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Impacto en aplicaciones prácticas:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Impacto en aplicaciones prácticas:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "impacto-en-aplicaciones-pruxe1cticas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Compatibilidad retroactiva
+\series default
+: Sistemas modernos a menudo soportan ambos estándares para contenido legacy 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Flujos de trabajo profesionales
+\series default
+: Producción de video moderna usa Rec. 709 como estándar 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Evolución continua
+\series default
+: Rec. 709 es base para estándares aún más avanzados (Rec. 2020 para UHD/4K con mayor gamut) 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Lecciones sobre evolución tecnológica:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+Lecciones sobre evolución tecnológica:
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "lecciones-sobre-evoluciuxf3n-tecnoluxf3gica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Los estándares evolucionan con la tecnología
+\series default
+: NTSC 601 fue óptima para su época, Rec. 709 para la siguiente 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Conocimiento científico mejorado
+\series default
+: Mejor comprensión del sistema visual humano impulsó cambios 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Trade-offs diferentes
+\series default
+: Cada generación tecnológica tiene diferentes limitaciones y posibilidades 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Coexistencia necesaria
+\series default
+: Ambos estándares persisten para soportar contenido de diferentes épocas 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión
+\series default
+: La relación entre NTSC 601 y Rec. 709 ejemplifica cómo los estándares técnicos evolucionan respondiendo a avances en tecnología de displays, procesamiento digital, y comprensión científica de la percepción humana, manteniendo siempre el objetivo de representar imágenes de la manera más natural posible para el espectador.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+6.7.3. Ejercicios Numéricos con Base en el Texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicios-numuxe9ricos-con-base-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+1. Dada una imagen con píxeles RGB 
+\begin_inset Formula \((R, G, B) = (120, 200, 80)\)
+\end_inset
+
+, calcule el valor en escala de grises usando las técnicas del promedio y Midgray.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+1. Dada una imagen con píxeles RGB (R, G, B) = (120, 200, 80), calcule el valor en escala de grises usando las técnicas del promedio y Midgray.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "dada-una-imagen-con-puxedxeles-rgb-r-g-b-120-200-80-calcule-el-valor-en-escala-de-grises-usando-las-tuxe9cnicas-del-promedio-y-midgray."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Datos:
+\series default
+ - 
+\begin_inset Formula \(R = 120\)
+\end_inset
+
+ - 
+\begin_inset Formula \(G = 200\)
+\end_inset
+
+ - 
+\begin_inset Formula \(B = 80\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+a) Técnica del Promedio
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "a-tuxe9cnica-del-promedio"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La técnica del promedio utiliza pesos iguales para las tres componentes:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{\text{promedio}} = w_R \cdot R + w_G \cdot G + w_B \cdot B\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde 
+\begin_inset Formula \(w_R = w_G = w_B = \frac{1}{3}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{\text{promedio}} = \frac{1}{3} \cdot 120 + \frac{1}{3} \cdot 200 + \frac{1}{3} \cdot 80\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{\text{promedio}} = \frac{120 + 200 + 80}{3} = \frac{400}{3} = 133.33\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado:
+\series default
+ 
+\begin_inset Formula \(Y_{\text{promedio}} = 133.33\)
+\end_inset
+
+ (redondeando a 
+\begin_inset Formula \(133\)
+\end_inset
+
+ para valores enteros)
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+b) Técnica del Midgray
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "b-tuxe9cnica-del-midgray"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La técnica del Midgray se define como la media de las componentes máxima y mínima:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{\text{Midgray}} = \frac{\max(R, G, B) + \min(R, G, B)}{2}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Identificando los valores extremos: - 
+\begin_inset Formula \(\max(120, 200, 80) = 200\)
+\end_inset
+
+ - 
+\begin_inset Formula \(\min(120, 200, 80) = 80\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{\text{Midgray}} = \frac{200 + 80}{2} = \frac{280}{2} = 140\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado:
+\series default
+ 
+\begin_inset Formula \(Y_{\text{Midgray}} = 140\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Comparación:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "comparaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Promedio: 
+\begin_inset Formula \(133.33\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Midgray: 
+\begin_inset Formula \(140\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La técnica Midgray produce un valor ligeramente mayor en este caso porque solo considera los valores extremos, mientras que el promedio considera también el valor intermedio.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+2. Para un píxel RGB con valores 
+\begin_inset Formula \((80, 160, 100)\)
+\end_inset
+
+, calcule el valor en escala de grises usando NTSC 601 y Rec. 709, y discuta los resultados.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+2. Para un píxel RGB con valores (80, 160, 100), calcule el valor en escala de grises usando NTSC 601 y Rec. 709, y discuta los resultados.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "para-un-puxedxel-rgb-con-valores-80-160-100-calcule-el-valor-en-escala-de-grises-usando-ntsc-601-y-rec.-709-y-discuta-los-resultados."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Datos:
+\series default
+ - 
+\begin_inset Formula \(R = 80\)
+\end_inset
+
+ - 
+\begin_inset Formula \(G = 160\)
+\end_inset
+
+ - 
+\begin_inset Formula \(B = 100\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+a) NTSC 601
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "a-ntsc-601"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Los coeficientes NTSC 601 son: - 
+\begin_inset Formula \(w_R = 0.299\)
+\end_inset
+
+ - 
+\begin_inset Formula \(w_G = 0.587\)
+\end_inset
+
+ - 
+\begin_inset Formula \(w_B = 0.114\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{601} = 0.299 \cdot R + 0.587 \cdot G + 0.114 \cdot B\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{601} = 0.299 \cdot 80 + 0.587 \cdot 160 + 0.114 \cdot 100\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{601} = 23.92 + 93.92 + 11.40 = 129.24\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado:
+\series default
+ 
+\begin_inset Formula \(Y_{601} = 129.24\)
+\end_inset
+
+ (redondeando a 
+\begin_inset Formula \(129\)
+\end_inset
+
+ para valores enteros)
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+b) Rec. 709
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "b-rec.-709"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Los coeficientes Rec. 709 son: - 
+\begin_inset Formula \(w_R = 0.2226\)
+\end_inset
+
+ - 
+\begin_inset Formula \(w_G = 0.7152\)
+\end_inset
+
+ - 
+\begin_inset Formula \(w_B = 0.0722\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{709} = 0.2226 \cdot R + 0.7152 \cdot G + 0.0722 \cdot B\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{709} = 0.2226 \cdot 80 + 0.7152 \cdot 160 + 0.0722 \cdot 100\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{709} = 17.808 + 114.432 + 7.22 = 139.46\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado:
+\series default
+ 
+\begin_inset Formula \(Y_{709} = 139.46\)
+\end_inset
+
+ (redondeando a 
+\begin_inset Formula \(139\)
+\end_inset
+
+ para valores enteros)
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Discusión de Resultados:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "discusiuxf3n-de-resultados"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Diferencia en luminancia
+\series default
+: Rec. 709 produce un valor más alto (
+\begin_inset Formula \(139.46\)
+\end_inset
+
+) que NTSC 601 (
+\begin_inset Formula \(129.24\)
+\end_inset
+
+), una diferencia de aproximadamente 
+\begin_inset Formula \(10.22\)
+\end_inset
+
+ unidades o 
+\begin_inset Formula \(7.9\%\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Mayor peso al verde
+\series default
+: Rec. 709 asigna un peso significativamente mayor al canal verde (
+\begin_inset Formula \(0.7152\)
+\end_inset
+
+ vs 
+\begin_inset Formula \(0.587\)
+\end_inset
+
+), lo que explica el valor más alto dado que 
+\begin_inset Formula \(G = 160\)
+\end_inset
+
+ es la componente dominante en este píxel. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Menor peso al rojo
+\series default
+: Rec. 709 reduce el peso del rojo (
+\begin_inset Formula \(0.2226\)
+\end_inset
+
+ vs 
+\begin_inset Formula \(0.299\)
+\end_inset
+
+), lo que tiene menos impacto en este caso específico donde el rojo es el valor más bajo. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Compensación en azul
+\series default
+: El peso del azul disminuye ligeramente en Rec. 709 (
+\begin_inset Formula \(0.0722\)
+\end_inset
+
+ vs 
+\begin_inset Formula \(0.114\)
+\end_inset
+
+), pero el impacto es menor dado el valor intermedio de 
+\begin_inset Formula \(B = 100\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Percepción visual
+\series default
+: Rec. 709, al ser un estándar más moderno diseñado para HD, produce una imagen que parece más natural al ojo humano, haciendo la imagen más brillante debido al mayor peso del verde, que es donde el ojo humano tiene mayor sensibilidad. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Aplicación práctica
+\series default
+: Para contenido HD moderno, se debe preferir Rec. 709, mientras que NTSC 601 es más apropiado para contenido de video analógico o de definición estándar. 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+3. Dadas las intensidades 
+\begin_inset Formula \(R = 10\)
+\end_inset
+
+ como valor mínimo, 
+\begin_inset Formula \(Y_{\text{Midgray}} = 45\)
+\end_inset
+
+ y 
+\begin_inset Formula \(Y_{\text{Promedio}} = 40\)
+\end_inset
+
+, determine los valores faltantes de 
+\begin_inset Formula \(B\)
+\end_inset
+
+ y 
+\begin_inset Formula \(G\)
+\end_inset
+
+, sabiendo que esta última no es el máximo.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+3. Dadas las intensidades R = 10 como valor mínimo, Y_{
+\backslash
+text{Midgray}} = 45 y Y_{
+\backslash
+text{Promedio}} = 40, determine los valores faltantes de B y G, sabiendo que esta última no es el máximo.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "dadas-las-intensidades-r-10-como-valor-muxednimo-y_textmidgray-45-y-y_textpromedio-40-determine-los-valores-faltantes-de-b-y-g-sabiendo-que-esta-uxfaltima-no-es-el-muxe1ximo."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Datos:
+\series default
+ - 
+\begin_inset Formula \(R = 10\)
+\end_inset
+
+ (valor mínimo) - 
+\begin_inset Formula \(Y_{\text{Midgray}} = 45\)
+\end_inset
+
+ - 
+\begin_inset Formula \(Y_{\text{Promedio}} = 40\)
+\end_inset
+
+ - 
+\begin_inset Formula \(G\)
+\end_inset
+
+ no es el máximo
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Dado que 
+\begin_inset Formula \(R = 10\)
+\end_inset
+
+ es el mínimo, entonces 
+\begin_inset Formula \(G \geq 10\)
+\end_inset
+
+ y 
+\begin_inset Formula \(B \geq 10\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como 
+\begin_inset Formula \(G\)
+\end_inset
+
+ no es el máximo, entonces 
+\begin_inset Formula \(B\)
+\end_inset
+
+ debe ser el máximo: 
+\begin_inset Formula \(B \geq G \geq R = 10\)
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Ecuación 1: Midgray
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ecuaciuxf3n-1-midgray"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{\text{Midgray}} = \frac{\max(R, G, B) + \min(R, G, B)}{2}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Como 
+\begin_inset Formula \(R = 10\)
+\end_inset
+
+ es el mínimo y 
+\begin_inset Formula \(B\)
+\end_inset
+
+ es el máximo:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[45 = \frac{B + 10}{2}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[90 = B + 10\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[B = 80\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Ecuación 2: Promedio
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ecuaciuxf3n-2-promedio"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{\text{Promedio}} = \frac{R + G + B}{3}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[40 = \frac{10 + G + 80}{3}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[120 = 10 + G + 80\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[120 = 90 + G\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[G = 30\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Verificación:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "verificaciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Verificamos que se cumplan las condiciones: 1. 
+\begin_inset Formula \(R = 10\)
+\end_inset
+
+ es el mínimo: 
+\begin_inset Formula \(10 < 30 < 80\)
+\end_inset
+
+ 2. 
+\begin_inset Formula \(G = 30\)
+\end_inset
+
+ no es el máximo: 
+\begin_inset Formula \(B = 80\)
+\end_inset
+
+ es el máximo 3. Midgray: 
+\begin_inset Formula \(\frac{80 + 10}{2} = \frac{90}{2} = 45\)
+\end_inset
+
+ 4. Promedio: 
+\begin_inset Formula \(\frac{10 + 30 + 80}{3} = \frac{120}{3} = 40\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado:
+\series default
+ - 
+\begin_inset Formula \(G = 30\)
+\end_inset
+
+ - 
+\begin_inset Formula \(B = 80\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El píxel completo es 
+\begin_inset Formula \((R, G, B) = (10, 30, 80)\)
+\end_inset
+
+, donde predomina el azul.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+4. Dado un valor en escala de grises 
+\begin_inset Formula \(Y = 128\)
+\end_inset
+
+ y los coeficientes de NTSC 601 y Rec. 709, determine el valor de 
+\begin_inset Formula \(R\)
+\end_inset
+
+ si 
+\begin_inset Formula \(G = 100\)
+\end_inset
+
+ y 
+\begin_inset Formula \(B = 50\)
+\end_inset
+
+ en cada caso. Comente si la solución es única.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+4. Dado un valor en escala de grises Y = 128 y los coeficientes de NTSC 601 y Rec. 709, determine el valor de R si G = 100 y B = 50 en cada caso. Comente si la solución es única.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "dado-un-valor-en-escala-de-grises-y-128-y-los-coeficientes-de-ntsc-601-y-rec.-709-determine-el-valor-de-r-si-g-100-y-b-50-en-cada-caso.-comente-si-la-soluciuxf3n-es-uxfanica."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Datos:
+\series default
+ - 
+\begin_inset Formula \(Y = 128\)
+\end_inset
+
+ - 
+\begin_inset Formula \(G = 100\)
+\end_inset
+
+ - 
+\begin_inset Formula \(B = 50\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+a) NTSC 601
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "a-ntsc-601-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La ecuación de luminancia es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{601} = 0.299 \cdot R + 0.587 \cdot G + 0.114 \cdot B\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo los valores conocidos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[128 = 0.299 \cdot R + 0.587 \cdot 100 + 0.114 \cdot 50\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[128 = 0.299 \cdot R + 58.7 + 5.7\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[128 = 0.299 \cdot R + 64.4\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[128 - 64.4 = 0.299 \cdot R\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[63.6 = 0.299 \cdot R\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[R = \frac{63.6}{0.299} = 212.71\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado NTSC 601:
+\series default
+ 
+\begin_inset Formula \(R \approx 213\)
+\end_inset
+
+ (redondeado)
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+b) Rec. 709
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "b-rec.-709-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La ecuación de luminancia es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[Y_{709} = 0.2226 \cdot R + 0.7152 \cdot G + 0.0722 \cdot B\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sustituyendo los valores conocidos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[128 = 0.2226 \cdot R + 0.7152 \cdot 100 + 0.0722 \cdot 50\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[128 = 0.2226 \cdot R + 71.52 + 3.61\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[128 = 0.2226 \cdot R + 75.13\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[128 - 75.13 = 0.2226 \cdot R\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[52.87 = 0.2226 \cdot R\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[R = \frac{52.87}{0.2226} = 237.48\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado Rec. 709:
+\series default
+ 
+\begin_inset Formula \(R \approx 237\)
+\end_inset
+
+ (redondeado)
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Verificación de validez:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "verificaciuxf3n-de-validez"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+NTSC 601: 
+\begin_inset Formula \(R = 213\)
+\end_inset
+
+ está en el rango válido 
+\begin_inset Formula \([0, 255]\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Rec. 709: 
+\begin_inset Formula \(R = 237\)
+\end_inset
+
+ está en el rango válido 
+\begin_inset Formula \([0, 255]\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Comentario sobre unicidad de la solución:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "comentario-sobre-unicidad-de-la-soluciuxf3n"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+La solución ES única
+\series default
+ en cada caso, dado que:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Sistema determinado
+\series default
+: Tenemos una ecuación lineal con una incógnita (
+\begin_inset Formula \(R\)
+\end_inset
+
+) y todos los demás valores son conocidos (
+\begin_inset Formula \(Y\)
+\end_inset
+
+, 
+\begin_inset Formula \(G\)
+\end_inset
+
+, 
+\begin_inset Formula \(B\)
+\end_inset
+
+ y los coeficientes). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Diferencia entre estándares
+\series default
+: Los dos estándares producen valores diferentes de 
+\begin_inset Formula \(R\)
+\end_inset
+
+ para el mismo valor de 
+\begin_inset Formula \(Y\)
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+NTSC 601: 
+\begin_inset Formula \(R = 213\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Rec. 709: 
+\begin_inset Formula \(R = 237\)
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Standard
+
+\lang spanish
+Esta diferencia de 
+\begin_inset Formula \(24\)
+\end_inset
+
+ unidades es significativa y se debe a los diferentes coeficientes de ponderación. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+No hay solución única general
+\series default
+: Sin embargo, si 
+\series bold
+no
+\series default
+ se especifican los valores de 
+\begin_inset Formula \(G\)
+\end_inset
+
+ y 
+\begin_inset Formula \(B\)
+\end_inset
+
+, entonces el problema tendría infinitas soluciones, ya que tendríamos una ecuación con tres incógnitas. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Restricciones físicas
+\series default
+: La solución es única solo dentro del rango válido 
+\begin_inset Formula \([0, 255]\)
+\end_inset
+
+. Si la solución calculada estuviera fuera de este rango, indicaría que no existe una combinación RGB válida que produzca ese valor de luminancia con los valores dados de 
+\begin_inset Formula \(G\)
+\end_inset
+
+ y 
+\begin_inset Formula \(B\)
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión
+\series default
+: Cuando se fijan dos de las tres componentes RGB (
+\begin_inset Formula \(G\)
+\end_inset
+
+ y 
+\begin_inset Formula \(B\)
+\end_inset
+
+ en este caso) y se conoce el valor de luminancia 
+\begin_inset Formula \(Y\)
+\end_inset
+
+, la solución para la tercera componente (
+\begin_inset Formula \(R\)
+\end_inset
+
+) es 
+\series bold
+única y determinada
+\series default
+ para cada estándar específico (NTSC 601 o Rec. 709).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+5. Dado un píxel con luminancias conocidas 
+\begin_inset Formula \(Y_{601} = 150\)
+\end_inset
+
+ (según NTSC 601) y 
+\begin_inset Formula \(Y_{709} = 145\)
+\end_inset
+
+ (según Rec. 709), determine los valores de 
+\begin_inset Formula \(R\)
+\end_inset
+
+ y 
+\begin_inset Formula \(G\)
+\end_inset
+
+ si el valor de 
+\begin_inset Formula \(B = 80\)
+\end_inset
+
+. Asegúrese de que los valores calculados para 
+\begin_inset Formula \(R\)
+\end_inset
+
+ y 
+\begin_inset Formula \(G\)
+\end_inset
+
+ estén en el rango entero entre 
+\begin_inset Formula \([0, 255]\)
+\end_inset
+
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+5. Dado un píxel con luminancias conocidas Y_{601} = 150 (según NTSC 601) y Y_{709} = 145 (según Rec. 709), determine los valores de R y G si el valor de B = 80. Asegúrese de que los valores calculados para R y G estén en el rango entero entre [0, 255].
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "dado-un-puxedxel-con-luminancias-conocidas-y_601-150-seguxfan-ntsc-601-y-y_709-145-seguxfan-rec.-709-determine-los-valores-de-r-y-g-si-el-valor-de-b-80.-aseguxfarese-de-que-los-valores-calculados-para-r-y-g-estuxe9n-en-el-rango-entero-entre-0-255."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Datos:
+\series default
+ - 
+\begin_inset Formula \(Y_{601} = 150\)
+\end_inset
+
+ - 
+\begin_inset Formula \(Y_{709} = 145\)
+\end_inset
+
+ - 
+\begin_inset Formula \(B = 80\)
+\end_inset
+
+ - Incógnitas: 
+\begin_inset Formula \(R\)
+\end_inset
+
+ y 
+\begin_inset Formula \(G\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Sistema de ecuaciones:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sistema-de-ecuaciones"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Tenemos dos ecuaciones con dos incógnitas:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ecuación 1 (NTSC 601):
+\series default
+ 
+\begin_inset Formula \[Y_{601} = 0.299R + 0.587G + 0.114B\]
+\end_inset
+
+
+\begin_inset Formula \[150 = 0.299R + 0.587G + 0.114(80)\]
+\end_inset
+
+
+\begin_inset Formula \[150 = 0.299R + 0.587G + 9.12\]
+\end_inset
+
+
+\begin_inset Formula \[140.88 = 0.299R + 0.587G \quad \text{...(1)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ecuación 2 (Rec. 709):
+\series default
+ 
+\begin_inset Formula \[Y_{709} = 0.2226R + 0.7152G + 0.0722B\]
+\end_inset
+
+
+\begin_inset Formula \[145 = 0.2226R + 0.7152G + 0.0722(80)\]
+\end_inset
+
+
+\begin_inset Formula \[145 = 0.2226R + 0.7152G + 5.776\]
+\end_inset
+
+
+\begin_inset Formula \[139.224 = 0.2226R + 0.7152G \quad \text{...(2)}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Resolución del sistema:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "resoluciuxf3n-del-sistema"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Método de eliminación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Multiplicamos la ecuación (1) por 
+\begin_inset Formula \(0.2226\)
+\end_inset
+
+ y la ecuación (2) por 
+\begin_inset Formula \(0.299\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[0.2226 \times 140.88 = 0.2226 \times (0.299R + 0.587G)\]
+\end_inset
+
+
+\begin_inset Formula \[31.364 = 0.066577R + 0.130666G \quad \text{...(1')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[0.299 \times 139.224 = 0.299 \times (0.2226R + 0.7152G)\]
+\end_inset
+
+
+\begin_inset Formula \[41.628 = 0.066557R + 0.213845G \quad \text{...(2')}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Restamos (1') de (2'):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[41.628 - 31.364 = (0.066557 - 0.066577)R + (0.213845 - 0.130666)G\]
+\end_inset
+
+
+\begin_inset Formula \[10.264 = -0.00002R + 0.083179G\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Dado que el coeficiente de 
+\begin_inset Formula \(R\)
+\end_inset
+
+ es prácticamente cero (error de redondeo), podemos aproximar:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[10.264 \approx 0.083179G\]
+\end_inset
+
+
+\begin_inset Formula \[G = \frac{10.264}{0.083179} = 123.43\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado:
+\series default
+ 
+\begin_inset Formula \(G \approx 123\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ahora sustituimos 
+\begin_inset Formula \(G = 123.43\)
+\end_inset
+
+ en la ecuación (1):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[140.88 = 0.299R + 0.587(123.43)\]
+\end_inset
+
+
+\begin_inset Formula \[140.88 = 0.299R + 72.453\]
+\end_inset
+
+
+\begin_inset Formula \[68.427 = 0.299R\]
+\end_inset
+
+
+\begin_inset Formula \[R = \frac{68.427}{0.299} = 228.85\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado:
+\series default
+ 
+\begin_inset Formula \(R \approx 229\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Verificación:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "verificaciuxf3n-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Con 
+\begin_inset Formula \(R = 229\)
+\end_inset
+
+, 
+\begin_inset Formula \(G = 123\)
+\end_inset
+
+, 
+\begin_inset Formula \(B = 80\)
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+NTSC 601:
+\series default
+ 
+\begin_inset Formula \[Y_{601} = 0.299(229) + 0.587(123) + 0.114(80)\]
+\end_inset
+
+
+\begin_inset Formula \[Y_{601} = 68.471 + 72.201 + 9.12 = 149.79 \approx 150\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Rec. 709:
+\series default
+ 
+\begin_inset Formula \[Y_{709} = 0.2226(229) + 0.7152(123) + 0.0722(80)\]
+\end_inset
+
+
+\begin_inset Formula \[Y_{709} = 50.975 + 87.970 + 5.776 = 144.72 \approx 145\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Validación del rango:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "validaciuxf3n-del-rango"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\begin_inset Formula \(R = 229 \in [0, 255]\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Formula \(G = 123 \in [0, 255]\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Formula \(B = 80 \in [0, 255]\)
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado final:
+\series default
+ - 
+\begin_inset Formula \(R = 229\)
+\end_inset
+
+ - 
+\begin_inset Formula \(G = 123\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El píxel completo es 
+\begin_inset Formula \((R, G, B) = (229, 123, 80)\)
+\end_inset
+
+, donde predomina el rojo, seguido del verde.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Observaciones:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Sistema determinado
+\series default
+: Al tener dos ecuaciones lineales independientes con dos incógnitas, el sistema tiene solución única. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Consistencia física
+\series default
+: Los valores de luminancia diferentes para los dos estándares (
+\begin_inset Formula \(Y_{601} = 150\)
+\end_inset
+
+ y 
+\begin_inset Formula \(Y_{709} = 145\)
+\end_inset
+
+) son consistentes con un mismo píxel RGB, lo cual es esperado ya que cada estándar utiliza diferentes coeficientes de ponderación. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Valores válidos
+\series default
+: Todos los valores calculados están dentro del rango entero válido 
+\begin_inset Formula \([0, 255]\)
+\end_inset
+
+, lo que confirma que existe una solución física para este problema. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Predominancia del rojo
+\series default
+: El píxel resultante tiene un alto componente rojo (
+\begin_inset Formula \(229\)
+\end_inset
+
+), un componente medio de verde (
+\begin_inset Formula \(123\)
+\end_inset
+
+) y un componente relativamente bajo de azul (
+\begin_inset Formula \(80\)
+\end_inset
+
+), lo que produciría un color naranja-rojizo. 
+\end_layout
+
+\end_body
+\end_document

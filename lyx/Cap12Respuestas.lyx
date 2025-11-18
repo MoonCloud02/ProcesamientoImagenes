@@ -1,0 +1,4039 @@
+#LyX file created by tex2lyx 2.4
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin D:/Users/migue/Documents/Proyectos/markitdown/ProcesamientoDeImagenes/lyx_final/
+\textclass article
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig}% disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "pdflang={es},hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -\maxdimen
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+\lang spanish
+Capítulo 12: Etiquetado - Respuestas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "capuxedtulo-12-etiquetado---respuestas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+12.4.1. Preguntas sobre hechos indicados en el texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-sobre-hechos-indicados-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Qué tipo de imágenes se utilizan principalmente para aplicar el análisis de componentes conexos?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-tipo-de-imuxe1genes-se-utilizan-principalmente-para-aplicar-el-anuxe1lisis-de-componentes-conexos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El análisis de componentes conexos se aplica principalmente a 
+\series bold
+imágenes binarias
+\series default
+, las cuales provienen de un proceso de segmentación que permite separar los objetos del fondo. El proceso se utiliza para extraer características estructurales o funcionales de los objetos presentes en una imagen digital.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. ¿Cuáles son las dos formas de conectividad descritas para definir la vecindad entre píxeles en una imagen binaria?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cuuxe1les-son-las-dos-formas-de-conectividad-descritas-para-definir-la-vecindad-entre-puxedxeles-en-una-imagen-binaria"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las dos formas de conectividad descritas son:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Conectividad 4 (Conector 4)
+\series default
+: Los píxeles están conectados si sus bordes se tocan. Esto significa que un par de píxeles adyacentes forman parte del mismo objeto solo si ambos están dentro y están conectados a lo largo de la dirección horizontal o vertical. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Conectividad 8 (Conector 8)
+\series default
+: Los píxeles están conectados si sus bordes o esquinas se tocan. Esto significa que un par de píxeles adyacentes están dentro, forman parte del mismo objeto, independientemente de si están conectados a lo largo de la dirección horizontal, vertical, o diagonal. 
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. ¿En qué consiste la primera pasada del algoritmo de etiquetado de componentes conectados?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "en-quuxe9-consiste-la-primera-pasada-del-algoritmo-de-etiquetado-de-componentes-conectados"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La primera pasada consiste en la 
+\series bold
+asignación inicial y registro de equivalencias
+\series default
+. El proceso es el siguiente:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Se recorre la imagen de izquierda a derecha y de arriba hacia abajo, evaluando cada píxel uno a uno. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Para cada píxel que forma parte de un objeto (es decir, diferente del fondo), se revisan sus vecinos ya procesados (por ejemplo, el de arriba y el de la izquierda en conectividad 4). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Si ningún vecino tiene etiqueta asignada, se asigna una nueva etiqueta al píxel actual. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Si uno o más vecinos tienen etiqueta, se asigna al píxel la etiqueta más pequeña entre ellas. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Si los vecinos tienen etiquetas diferentes, se registra que dichas etiquetas son equivalentes (es decir, pertenecen al mismo componente conectado). 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Este paso puede producir etiquetas redundantes para regiones conectadas de forma indirecta, lo cual se resuelve en la segunda pasada.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+4. ¿Qué operación se realiza en la segunda pasada del proceso de etiquetado?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-operaciuxf3n-se-realiza-en-la-segunda-pasada-del-proceso-de-etiquetado"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En la segunda pasada se realiza la 
+\series bold
+resolución de equivalencias
+\series default
+. El proceso consiste en:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Se vuelve a recorrer la imagen en el mismo orden (de izquierda a derecha y de arriba hacia abajo). 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Para cada píxel etiquetado, se reemplaza su valor por la etiqueta equivalente mínima, utilizando la información de equivalencias registrada en la primera pasada. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Al finalizar este recorrido, todas las etiquetas redundantes se habrán unificado correctamente, y cada componente conectado tendrá una etiqueta única y consistente en toda su extensión. 
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. ¿Qué es una colisión en el algoritmo de etiquetado presentado?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-es-una-colisiuxf3n-en-el-algoritmo-de-etiquetado-presentado"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Una 
+\series bold
+colisión
+\series default
+ ocurre cuando se detecta que dos o más etiquetas diferentes deben representar en realidad el mismo componente conectado. Esto sucede cuando, durante la primera pasada, dos regiones inicialmente etiquetadas como distintas resultan estar conectadas a través de un píxel común según el criterio de conectividad utilizado (4 u 8).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por ejemplo, en el ejemplo de clase mostrado en la Figura 12.3, se identificaron colisiones entre las etiquetas: - 
+\begin_inset Formula \([1, 2]\)
+\end_inset
+
+ - cuando un píxel tiene vecinos con etiquetas 1 y 2 - 
+\begin_inset Formula \([3, 4, 5, 6]\)
+\end_inset
+
+ - cuando múltiples etiquetas deben unificarse
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Estas colisiones se registran durante la primera pasada y se resuelven en la segunda pasada, asignando la etiqueta mínima del conjunto de etiquetas equivalentes a todos los píxeles del componente conectado.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+12.4.2. Preguntas de análisis y comprensión con base en el texto
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "preguntas-de-anuxe1lisis-y-comprensiuxf3n-con-base-en-el-texto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+1. ¿Por qué es necesario un algoritmo de dos pasadas en el proceso de etiquetado de componentes conectados, y qué soluciona su uso?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "por-quuxe9-es-necesario-un-algoritmo-de-dos-pasadas-en-el-proceso-de-etiquetado-de-componentes-conectados-y-quuxe9-soluciona-su-uso"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El algoritmo de dos pasadas es necesario porque durante el recorrido secuencial de la imagen (de izquierda a derecha y de arriba hacia abajo) 
+\series bold
+no es posible conocer de antemano la estructura completa de cada componente conectado
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Problema que resuelve:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Durante la primera pasada, cuando se escanea la imagen píxel por píxel, pueden surgir situaciones donde una misma región conexa recibe múltiples etiquetas temporales. Esto ocurre porque al procesar un píxel solo se tiene información de sus vecinos ya visitados (arriba e izquierda en conectividad 4), pero no de los píxeles que se procesarán posteriormente. Por ejemplo, dos partes de una misma región en forma de 
+\begin_inset Quotes fls
+\end_inset
+
+U
+\begin_inset Quotes frs
+\end_inset
+
+ pueden recibir etiquetas diferentes inicialmente, y solo cuando se procesa el píxel que las conecta en la parte inferior se descubre que pertenecen al mismo componente.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución mediante las dos pasadas:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Primera pasada
+\series default
+: Asigna etiquetas preliminares y registra todas las equivalencias detectadas (colisiones) cuando píxeles con diferentes etiquetas resultan ser vecinos del mismo componente. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Segunda pasada
+\series default
+: Utiliza la información de equivalencias recopilada para unificar todas las etiquetas redundantes, reemplazándolas por la etiqueta mínima de cada conjunto de equivalencias. Esto garantiza que cada componente conectado tenga una etiqueta única y consistente en toda su extensión. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Sin el uso de las dos pasadas, sería necesario realizar múltiples recorridos iterativos hasta que no se detecten más cambios, lo cual sería computacionalmente menos eficiente.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+2. Explique cómo el uso de conectividad 4 en lugar de conectividad 8 puede afectar la cantidad y forma de los componentes detectados.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "explique-cuxf3mo-el-uso-de-conectividad-4-en-lugar-de-conectividad-8-puede-afectar-la-cantidad-y-forma-de-los-componentes-detectados."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El tipo de conectividad utilizado tiene un 
+\series bold
+impacto significativo
+\series default
+ tanto en la cantidad como en la forma de los componentes detectados:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conectividad 4 (horizontal y vertical):
+\series default
+ - Solo considera vecinos que comparten un borde (arriba, abajo, izquierda, derecha) - Tiende a 
+\series bold
+identificar más componentes
+\series default
+ porque regiones conectadas únicamente por diagonales se consideran separadas - Es más restrictiva y puede fragmentar objetos que en la realidad perceptual humana parecen conectados - Útil cuando se requiere una separación estricta de objetos que solo se tocan en las esquinas
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conectividad 8 (horizontal, vertical y diagonal):
+\series default
+ - Considera vecinos que comparten un borde o una esquina (incluye las 8 direcciones) - Tiende a 
+\series bold
+identificar menos componentes
+\series default
+ porque une regiones conectadas diagonalmente - Es más permisiva y refleja mejor la percepción visual humana de continuidad - Puede unir objetos que están muy cerca pero que conceptualmente deberían estar separados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo práctico:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Considérese la siguiente configuración binaria:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{bmatrix}
+1 & 0 & 1 \\
+0 & 1 & 0 \\
+1 & 0 & 1
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Con 
+\series bold
+conectividad 4
+\series default
+: Se detectarían 
+\series bold
+5 componentes
+\series default
+ separados (el píxel central y los 4 en las esquinas) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Con 
+\series bold
+conectividad 8
+\series default
+: Se detectaría 
+\series bold
+1 solo componente
+\series default
+ (todos los píxeles con valor 1 estarían conectados a través del píxel central) 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Implicaciones en aplicaciones:
+\series default
+ - Para análisis médico o industrial donde la precisión es crítica, conectividad 4 puede ser preferible - Para reconocimiento de objetos o análisis de formas naturales, conectividad 8 suele ser más apropiada
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+3. Analice el papel del registro de equivalencias durante la primera pasada. ¿Qué pasaría si no se almacenaran estas equivalencias?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "analice-el-papel-del-registro-de-equivalencias-durante-la-primera-pasada.-quuxe9-pasaruxeda-si-no-se-almacenaran-estas-equivalencias"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El 
+\series bold
+registro de equivalencias
+\series default
+ es fundamental para el correcto funcionamiento del algoritmo de etiquetado, actuando como una 
+\series bold
+estructura de memoria que mapea las relaciones entre etiquetas
+\series default
+ que pertenecen al mismo componente conectado.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Papel del registro de equivalencias:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Captura relaciones transitivas
+\series default
+: Cuando se descubre que las etiquetas 
+\begin_inset Formula \(A\)
+\end_inset
+
+ y 
+\begin_inset Formula \(B\)
+\end_inset
+
+ son equivalentes, y posteriormente que 
+\begin_inset Formula \(B\)
+\end_inset
+
+ y 
+\begin_inset Formula \(C\)
+\end_inset
+
+ también lo son, el registro permite inferir que 
+\begin_inset Formula \(A\)
+\end_inset
+
+, 
+\begin_inset Formula \(B\)
+\end_inset
+
+ y 
+\begin_inset Formula \(C\)
+\end_inset
+
+ pertenecen al mismo componente. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Permite la unificación posterior
+\series default
+: Almacena toda la información necesaria para la segunda pasada, donde se resolverán las etiquetas redundantes. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Minimiza el procesamiento
+\series default
+: Evita tener que recorrer la imagen múltiples veces buscando todas las conexiones posibles. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Estructura de datos tipo Union-Find
+\series default
+: Típicamente se implementa como una tabla de equivalencias o estructura de conjuntos disjuntos que permite operaciones eficientes de unión y búsqueda. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+¿Qué pasaría sin el registro de equivalencias?
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Si no se almacenaran estas equivalencias durante la primera pasada, ocurrirían los siguientes problemas:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Etiquetado incorrecto
+\series default
+: La imagen final tendría múltiples etiquetas para un mismo componente conectado, produciendo una segmentación errónea que reportaría más objetos de los que realmente existen. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Pérdida de información crítica
+\series default
+: No se podría determinar qué etiquetas deben unificarse en la segunda pasada, haciendo imposible completar el algoritmo correctamente. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Necesidad de algoritmos alternativos
+\series default
+: Se requeriría un enfoque completamente diferente, como:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Crecimiento de regiones (region growing) desde cada píxel semilla 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Múltiples pasadas iterativas hasta convergencia 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Algoritmos de búsqueda en profundidad (DFS) o amplitud (BFS) para cada componente 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Ineficiencia computacional
+\series default
+: Cualquier alternativa sin registro de equivalencias sería significativamente menos eficiente que el algoritmo de dos pasadas. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo ilustrativo:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En la Figura 12.3 del texto, sin el registro de las colisiones 
+\begin_inset Formula \([1, 2]\)
+\end_inset
+
+ y 
+\begin_inset Formula \([3, 4, 5, 6]\)
+\end_inset
+
+, la imagen final mantendría 6 etiquetas diferentes cuando en realidad solo existen 2 componentes conectados con conectividad 4.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+4. ¿Qué ventajas ofrece la visualización en falso color de los componentes conectados frente a una imagen etiquetada en escala de grises?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "quuxe9-ventajas-ofrece-la-visualizaciuxf3n-en-falso-color-de-los-componentes-conectados-frente-a-una-imagen-etiquetada-en-escala-de-grises"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La visualización en 
+\series bold
+falso color
+\series default
+ ofrece múltiples ventajas significativas sobre la representación en escala de grises:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas perceptuales:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Mayor discriminación visual
+\series default
+: El ojo humano puede distinguir muchos más colores diferentes que tonos de gris. Mientras que podemos diferenciar aproximadamente 30-50 tonos de gris, podemos discriminar miles de colores distintos. Esto es crucial cuando hay muchos componentes conectados en la imagen. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Identificación inmediata
+\series default
+: Los colores brillantes y contrastantes (como los del mapa `jet': azul, cyan, verde, amarillo, rojo) permiten identificar rápidamente componentes individuales sin necesidad de observar detenidamente valores numéricos sutiles. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Evita ambigüedad
+\series default
+: En escala de grises, componentes con etiquetas numéricamente cercanas pueden tener tonos muy similares y ser difíciles de distinguir. Por ejemplo, las etiquetas 127 y 128 en una imagen de 8 bits serían prácticamente indistinguibles visualmente. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ventajas prácticas:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{enumi}{3}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Mejor para presentaciones y documentación
+\series default
+: Las imágenes en falso color son más atractivas visualmente y comunican mejor los resultados en presentaciones, informes o publicaciones científicas. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Facilita la verificación
+\series default
+: Permite a los desarrolladores y usuarios verificar rápidamente si el algoritmo de etiquetado funcionó correctamente, detectando visualmente si regiones que deberían estar unidas aparecen con colores diferentes o viceversa. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Análisis espacial mejorado
+\series default
+: Facilita el seguimiento visual de componentes específicos a través de la imagen, especialmente útil en imágenes complejas con muchos objetos. 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo del texto:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En la Figura 12.4 del texto se muestra claramente esta diferencia: - 
+\series bold
+Imagen (a)
+\series default
+ en escala de grises: Las etiquetas numéricas son 
+\begin_inset Quotes fls
+\end_inset
+
+apenas distinguibles visualmente
+\begin_inset Quotes frs
+\end_inset
+
+ - 
+\series bold
+Imagen (b)
+\series default
+ en falso color con mapa `jet': Facilita considerablemente 
+\begin_inset Quotes fls
+\end_inset
+
+la identificación visual de los diferentes componentes
+\begin_inset Quotes frs
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Limitación:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La única desventaja potencial es que para análisis cuantitativos automatizados, la representación numérica original (escala de grises con valores enteros) es más apropiada, pero esto no impide usar falso color para visualización mientras se mantienen los datos numéricos para procesamiento.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+5. El texto menciona que el etiquetado permite individualizar objetos para análisis posteriores. ¿Para qué podría usarse posteriormente?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "el-texto-menciona-que-el-etiquetado-permite-individualizar-objetos-para-anuxe1lisis-posteriores.-para-quuxe9-podruxeda-usarse-posteriormente"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El etiquetado de componentes conectados es una operación fundamental que sirve como base para numerosas aplicaciones avanzadas en visión por computador y procesamiento de imágenes. Según el texto, una vez individualizados los objetos, se pueden realizar múltiples análisis:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis morfológico y geométrico:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Medición de propiedades geométricas
+\series default
+: Para cada componente etiquetado se puede calcular:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Área
+\series default
+: Número total de píxeles del componente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Perímetro
+\series default
+: Longitud del contorno del objeto 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Centroide
+\series default
+: Centro de masa o posición promedio del objeto 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Orientación
+\series default
+: Ángulo del eje principal del objeto 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Excentricidad
+\series default
+: Medida de cuán alargado es el objeto 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Circularidad
+\series default
+: Relación entre área y perímetro para determinar qué tan circular es 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Momento de inercia
+\series default
+: Para análisis de forma más complejos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Bounding box
+\series default
+: Rectángulo mínimo que contiene el objeto 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Filtrado y selección:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{enumi}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Filtrado por tamaño
+\series default
+: Eliminar componentes muy pequeños que representen ruido o muy grandes que sean irrelevantes 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Filtrado por forma
+\series default
+: Seleccionar solo objetos que cumplan ciertos criterios morfológicos (ej: solo objetos circulares, alargados, etc.) 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Selección de regiones de interés (ROI)
+\series default
+: Como se muestra en el ejemplo Python (Figura 12.4c), extraer un componente específico aplicando una máscara sobre la imagen original 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conteo y clasificación:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{enumi}{4}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Conteo automático de objetos
+\series default
+: Determinar cuántos objetos distintos existen en la imagen (el texto menciona que la función 
+\family typewriter
+bwlabel
+\family default
+ retorna 
+\begin_inset Formula \(N\)
+\end_inset
+
+, el número total de componentes) 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Clasificación de objetos
+\series default
+: Categorizar los componentes según sus características (ej: clasificar células por tamaño, identificar defectos en manufactura) 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicaciones en dominios específicos:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{enumi}{6}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Visión médica
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Contar células en imágenes microscópicas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Medir tumores en imágenes de rayos X o resonancias magnéticas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Analizar estructuras anatómicas 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Control de calidad industrial
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Inspección de piezas manufacturadas 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Detección de defectos en productos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Conteo de componentes en líneas de ensamblaje 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Análisis de documentos
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Segmentación de caracteres en OCR (reconocimiento óptico de caracteres) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Identificación de regiones de texto vs.
+\begin_inset space ~
+
+\end_inset
+
+imágenes 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Extracción de tablas y gráficos 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Agricultura de precisión
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Conteo de plantas o frutos 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Medición de áreas de cultivo 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Detección de plagas o enfermedades 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Procesamiento posterior:
+\series default
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{enumi}{10}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Extracción de características (feature extraction)
+\series default
+: Cada componente puede servir como entrada para algoritmos de machine learning que clasifiquen o reconozcan objetos 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Tracking de objetos
+\series default
+: En secuencias de video, el etiquetado permite seguir objetos individuales a través de los frames 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Análisis estadístico
+\series default
+: Generar distribuciones de tamaños, formas u otras propiedades de los objetos detectados 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo del texto:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En la Sección 11.8.2 y 12.2.5, se muestra un caso práctico donde, tras etiquetar herramientas en una imagen (tools.jpg), se selecciona una herramienta específica (etiqueta 4) para extraerla y visualizarla sobre la imagen original en color, demostrando cómo el etiquetado permite 
+\begin_inset Quotes fls
+\end_inset
+
+alimentar etapas posteriores de un sistema de visión artificial
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+12.4.3. Ejercicio numérico
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicio-numuxe9rico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Ejercicio: Comparación entre conectividad 4 y conectividad 8
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ejercicio-comparaciuxf3n-entre-conectividad-4-y-conectividad-8"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Instrucciones:
+\series default
+ Aplique el algoritmo de etiquetado de componentes conectados a la siguiente imagen binaria de 
+\begin_inset Formula \(7 \times 7\)
+\end_inset
+
+, primero utilizando conectividad 4 y luego conectividad 8. Realice las dos pasadas del algoritmo en cada caso y determine el número total de componentes conectados identificados en cada situación.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Imagen binaria original:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{bmatrix}
+0 & 0 & 1 & 0 & 0 & 1 & 0 \\
+0 & 1 & 1 & 1 & 0 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+0 & 0 & 1 & 1 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 0 & 0
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Pregunta 1: Realice el etiquetado completo utilizando conectividad 4. ¿Cuántos componentes conectados se detectan?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "pregunta-1-realice-el-etiquetado-completo-utilizando-conectividad-4.-cuuxe1ntos-componentes-conectados-se-detectan"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Solución con Conectividad 4
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-con-conectividad-4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Primera Pasada: Asignación inicial de etiquetas
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Se recorre la imagen de izquierda a derecha, de arriba hacia abajo. Para cada píxel con valor 1, se revisan los vecinos superior (arriba) e izquierdo:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Si no tienen etiqueta, se asigna una nueva 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Si tienen etiqueta, se asigna la menor 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Si tienen etiquetas diferentes, se registra la equivalencia 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado de la primera pasada:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{bmatrix}
+0 & 0 & 1 & 0 & 0 & 2 & 0 \\
+0 & 1 & 1 & 1 & 0 & 0 & 0 \\
+3 & 3 & 1 & 1 & 1 & 1 & 1 \\
+0 & 3 & 0 & 1 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+0 & 0 & 4 & 4 & 0 & 0 & 0 \\
+0 & 4 & 4 & 4 & 4 & 0 & 0
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis detallado por filas:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Fila 1, columna 3
+\series default
+: Valor 1, sin vecinos → Etiqueta 
+\series bold
+1
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 1, columna 6
+\series default
+: Valor 1, sin vecinos → Etiqueta 
+\series bold
+2
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 2, columna 2
+\series default
+: Valor 1, sin vecinos → Etiqueta 
+\series bold
+1
+\series default
+ (conectado con superior) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 2, columna 3
+\series default
+: Valor 1, vecino arriba=1 y izquierda=1 → Etiqueta 
+\series bold
+1
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 2, columna 4
+\series default
+: Valor 1, vecino izquierda=1 → Etiqueta 
+\series bold
+1
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 3, columna 1
+\series default
+: Valor 1, sin vecinos → Etiqueta 
+\series bold
+3
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 3, columna 2
+\series default
+: Valor 1, vecino izquierda=3 y arriba=1 → Etiqueta 
+\series bold
+1
+\series default
+ (mínima), 
+\series bold
+colisión [1,3]
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 3, columnas 3-7
+\series default
+: Continúan con etiqueta 
+\series bold
+1
+\series default
+ (conectadas horizontalmente) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 4, columna 2
+\series default
+: Valor 1, vecino arriba=1 → Etiqueta 
+\series bold
+1
+\series default
+ (ahora conectado), 
+\series bold
+confirma [1,3]
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 4, columnas 4-7
+\series default
+: Etiqueta 
+\series bold
+1
+\series default
+ (conectadas con fila superior) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 5, columnas 6-7
+\series default
+: Etiqueta 
+\series bold
+1
+\series default
+ (conectadas con fila superior) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 6, columnas 3-4
+\series default
+: Valor 1, sin conexión arriba → Etiqueta 
+\series bold
+4
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 7, columnas 2-5
+\series default
+: Etiqueta 
+\series bold
+4
+\series default
+ (conectadas con fila superior) 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Equivalencias registradas:
+\series default
+ - 
+\begin_inset Formula \([1, 2]\)
+\end_inset
+
+ - cuando la columna 6 de fila 3 conecta con fila 1 - 
+\begin_inset Formula \([1, 3]\)
+\end_inset
+
+ - cuando fila 3, columna 2 conecta con ambos lados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Segunda Pasada: Resolución de equivalencias
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Se unifican todas las etiquetas equivalentes. Las equivalencias son: - Conjunto 1: 
+\begin_inset Formula \(\{1, 2, 3\}\)
+\end_inset
+
+ → Etiqueta mínima: 
+\series bold
+1
+\series default
+ - Conjunto 2: 
+\begin_inset Formula \(\{4\}\)
+\end_inset
+
+ → Etiqueta mínima: 
+\series bold
+4
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado final con Conectividad 4:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{bmatrix}
+0 & 0 & 1 & 0 & 0 & 1 & 0 \\
+0 & 1 & 1 & 1 & 0 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+0 & 0 & 4 & 4 & 0 & 0 & 0 \\
+0 & 4 & 4 & 4 & 4 & 0 & 0
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ Con conectividad 4 se detectan 
+\series bold
+2 componentes conectados
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Pregunta 2: Repita el proceso utilizando conectividad 8. ¿Cuántos componentes conectados se detectan ahora?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "pregunta-2-repita-el-proceso-utilizando-conectividad-8.-cuuxe1ntos-componentes-conectados-se-detectan-ahora"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+Solución con Conectividad 8
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "soluciuxf3n-con-conectividad-8"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Con conectividad 8, además de los vecinos superior e izquierdo, se consideran las 
+\series bold
+diagonales
+\series default
+ (superior-izquierda y superior-derecha).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Primera Pasada con Conectividad 8:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{bmatrix}
+0 & 0 & 1 & 0 & 0 & 2 & 0 \\
+0 & 1 & 1 & 1 & 0 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+0 & 0 & 1 & 1 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 0 & 0
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis de diferencias clave con conectividad 8:
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Fila 3, columna 1
+\series default
+: Conectada diagonalmente con (2,2) → Recibe etiqueta 
+\series bold
+1
+\series default
+ en lugar de crear nueva 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 6, columna 3
+\series default
+: Ahora puede conectar diagonalmente con (5,4) si hubiera un 1, pero como no hay, analiza con (7,2) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Fila 7, columna 2
+\series default
+: Conectada diagonalmente con (6,3) → Todo el bloque inferior se conecta con el superior 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Equivalencias registradas:
+\series default
+ - Todas las etiquetas se unifican: 
+\begin_inset Formula \([1, 2, 3, 4]\)
+\end_inset
+
+ porque las conexiones diagonales unen todo
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Segunda Pasada: Resolución de equivalencias
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Con las conexiones diagonales adicionales, todos los píxeles con valor 1 terminan conectados en un único componente.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Resultado final con Conectividad 8:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{bmatrix}
+0 & 0 & 1 & 0 & 0 & 1 & 0 \\
+0 & 1 & 1 & 1 & 0 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+0 & 0 & 1 & 1 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 0 & 0
+\end{bmatrix}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Respuesta:
+\series default
+ Con conectividad 8 se detecta 
+\series bold
+1 solo componente conectado
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Pregunta 3: ¿Qué diferencias observa entre los resultados obtenidos con conectividad 4 y conectividad 8?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "pregunta-3-quuxe9-diferencias-observa-entre-los-resultados-obtenidos-con-conectividad-4-y-conectividad-8"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las diferencias fundamentales observadas son:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+1. Número de componentes:
+\series default
+ - 
+\series bold
+Conectividad 4
+\series default
+: 2 componentes separados - 
+\series bold
+Conectividad 8
+\series default
+: 1 componente único
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+2. Criterio de conexión:
+\series default
+ - 
+\series bold
+Conectividad 4
+\series default
+: Solo considera adyacencias horizontales y verticales directas (4 direcciones) - 
+\series bold
+Conectividad 8
+\series default
+: Incluye también conexiones diagonales (8 direcciones)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+3. Fragmentación de la imagen:
+\series default
+ - Con 
+\series bold
+conectividad 4
+\series default
+, el bloque inferior (filas 6-7) aparece 
+\series bold
+aislado
+\series default
+ del componente principal porque no existe un camino de píxeles adyacentes horizontal/vertical que los una - Con 
+\series bold
+conectividad 8
+\series default
+, el bloque inferior se 
+\series bold
+une
+\series default
+ al componente principal a través de conexiones diagonales
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+4. Impacto de los 
+\begin_inset Quotes fls
+\end_inset
+
+gaps
+\begin_inset Quotes frs
+\end_inset
+
+ (huecos):
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Observando la matriz original, hay un gap en la fila 4, columna 3 (valor 0) que crea una interrupción:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+\begin{array}{c}
+\text{Fila 3:} \quad [1, 1, 1, ...] \\
+\text{Fila 4:} \quad [0, 1, \mathbf{0}, 1, ...] \\
+\text{Fila 5:} \quad [0, 0, 0, 0, ...]
+\end{array}
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Con 
+\series bold
+conectividad 4
+\series default
+: Este gap rompe completamente la conexión vertical hacia abajo 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Con 
+\series bold
+conectividad 8
+\series default
+: Las conexiones diagonales pueden 
+\begin_inset Quotes fls
+\end_inset
+
+saltar
+\begin_inset Quotes frs
+\end_inset
+
+ este gap, manteniendo la continuidad 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+5. Sensibilidad al ruido y forma:
+\series default
+ - 
+\series bold
+Conectividad 4
+\series default
+ es más sensible a pequeñas interrupciones en la conectividad rectilínea - 
+\series bold
+Conectividad 8
+\series default
+ es más robusta y tolerante a huecos pequeños, uniendo regiones que perceptualmente parecen conectadas
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Pregunta 4: ¿Qué regiones que estaban separadas en conectividad 4 se fusionaron en conectividad 8? Justifique su respuesta.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "pregunta-4-quuxe9-regiones-que-estaban-separadas-en-conectividad-4-se-fusionaron-en-conectividad-8-justifique-su-respuesta."
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Regiones fusionadas:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las dos regiones que estaban separadas con conectividad 4 y se fusionaron con conectividad 8 son:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset FormulaMacro
+\def\labelenumi {\arabic{enumi}.}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Región superior
+\series default
+ (Etiqueta 1 en conectividad 4):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Filas 1-5, formando el componente principal 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Incluye el píxel aislado en (1,6) que se conecta horizontalmente en fila 3 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang spanish
+
+\series bold
+Región inferior
+\series default
+ (Etiqueta 4 en conectividad 4):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Filas 6-7, formando un bloque en la parte inferior izquierda 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Justificación de la fusión:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La fusión ocurre debido a las 
+\series bold
+conexiones diagonales
+\series default
+ que permiten unir estas regiones. Específicamente:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Punto de conexión crítico 1: Entre filas 3 y 7
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Analizando las posiciones: - Fila 3, columna 2: valor = 1 - Fila 4, columna 2: valor = 1 - \SpecialChar ldots
+continúa hacia abajo - Fila 7, columna 2: valor = 1
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Aunque hay una interrupción en fila 5-6, columna 2 (valores = 0), la conexión diagonal permite el puente.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Punto de conexión crítico 2: Diagonal entre (4,2) y (6,3)
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Con conectividad 8: - Píxel (4,2) = 1 (parte de región superior) - Píxel (6,3) = 1 (parte de región inferior) - Aunque no son adyacentes directamente, la cadena diagonal a través de otros píxeles conecta ambas regiones
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis visual de la fusión:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Conectividad 4 (2 componentes):
+\end_layout
+
+\begin_layout Verbatim
+    Componente 1: [===1===]  (superior, en rojo)
+\end_layout
+
+\begin_layout Verbatim
+    Componente 4: [===4===]  (inferior, en azul)
+\end_layout
+
+\begin_layout Verbatim
+    Gap: No hay puente horizontal/vertical
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+Conectividad 8 (1 componente):
+\end_layout
+
+\begin_layout Verbatim
+    Componente 1: [===1===]
+\end_layout
+
+\begin_layout Verbatim
+                    
+\backslash
+  /     (conexiones diagonales)
+\end_layout
+
+\begin_layout Verbatim
+                     
+\backslash
+/
+\end_layout
+
+\begin_layout Verbatim
+                  [===1===]
+\end_layout
+
+\begin_layout Verbatim
+    Las diagonales crean un puente continuo
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Razón matemática:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para dos píxeles 
+\begin_inset Formula \(p_1\)
+\end_inset
+
+ y 
+\begin_inset Formula \(p_2\)
+\end_inset
+
+, están conectados en conectividad 8 si:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset Formula \[
+|x_1 - x_2| \leq 1 \quad \text{y} \quad |y_1 - y_2| \leq 1 \quad \text{y} \quad (x_1,y_1) \neq (x_2,y_2)
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esta condición permite las conexiones diagonales que unen las regiones que la conectividad 4 (que requiere 
+\begin_inset Formula \(|x_1 - x_2| + |y_1 - y_2| = 1\)
+\end_inset
+
+) no puede alcanzar.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang spanish
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "50line%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish
+Pregunta 5: ¿Qué implicaciones podrían tener estas diferencias en aplicaciones como el conteo de objetos o el análisis de formas?
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "pregunta-5-quuxe9-implicaciones-podruxedan-tener-estas-diferencias-en-aplicaciones-como-el-conteo-de-objetos-o-el-anuxe1lisis-de-formas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Las diferencias entre conectividad 4 y 8 tienen 
+\series bold
+implicaciones significativas
+\series default
+ en aplicaciones prácticas:
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+1. Conteo de objetos
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+1. Conteo de objetos
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "conteo-de-objetos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Impacto directo en resultados:
+\series default
+ - En este ejemplo: conectividad 4 cuenta 2 objetos, conectividad 8 cuenta 1 objeto - 
+\series bold
+Error de conteo
+\series default
+: Diferencia del 100% en el resultado - 
+\series bold
+Decisión crítica
+\series default
+: Elegir el tipo incorrecto de conectividad puede duplicar o reducir a la mitad el conteo
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Aplicaciones afectadas:
+\series default
+ - 
+\series bold
+Microbiología
+\series default
+: Contar células o colonias bacterianas - Conectividad 4: Puede sobre-contar células que se tocan solo en las esquinas - Conectividad 8: Puede sub-contar células que están realmente separadas
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+
+\series bold
+Control de calidad industrial
+\series default
+: Contar defectos en superficies
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+Conectividad 4: Defectos diagonalmente adyacentes se cuentan separadamente 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Conectividad 8: Pueden agruparse incorrectamente como un solo defecto grande 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\series bold
+Agricultura de precisión
+\series default
+: Contar frutos o plantas
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang spanish
+
+\begin_inset Argument listpreamble:1
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+\end_inset
+
+La elección afecta directamente estimaciones de rendimiento 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+2. Análisis de formas
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+2. Análisis de formas
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "anuxe1lisis-de-formas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Mediciones geométricas afectadas:
+\series default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+a) Área del objeto:
+\series default
+ - 
+\series bold
+Conectividad 4
+\series default
+: 2 componentes con áreas individuales 
+\begin_inset Formula \(A_1\)
+\end_inset
+
+ y 
+\begin_inset Formula \(A_2\)
+\end_inset
+
+ - 
+\series bold
+Conectividad 8
+\series default
+: 1 componente con área total 
+\begin_inset Formula \(A_{total} = A_1 + A_2\)
+\end_inset
+
+ - Las estadísticas de distribución de tamaños cambian completamente
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+b) Perímetro:
+\series default
+ - La fusión de componentes altera drásticamente el perímetro - Perímetro de dos objetos separados 
+\begin_inset Formula \(\neq\)
+\end_inset
+
+ perímetro de objeto fusionado - Afecta métricas como circularidad: 
+\begin_inset Formula \(C = \frac{4\pi A}{P^2}\)
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+c) Compacidad y excentricidad:
+\series default
+ - Dos objetos pequeños y compactos (conectividad 4) vs.
+\begin_inset space ~
+
+\end_inset
+
+uno grande y alargado (conectividad 8) - Clasificadores de forma darían resultados completamente diferentes
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+d) Centro de masa (centroide):
+\series default
+ - Conectividad 4: Dos centroides diferentes - Conectividad 8: Un solo centroide en posición intermedia - Crítico para aplicaciones de robótica y manipulación de objetos
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+3. Clasificación y reconocimiento de patrones
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+3. Clasificación y reconocimiento de patrones
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "clasificaciuxf3n-y-reconocimiento-de-patrones"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Vectores de características diferentes:
+\series default
+ - Features extraídos (área, perímetro, momentos de Hu, etc.) serán diferentes - Modelos de machine learning entrenados con un tipo de conectividad fallarán con el otro - 
+\series bold
+Inconsistencia en datasets
+\series default
+: Si un dataset usa conectividad 4 y otro usa 8, no son comparables
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+4. Filtrado de ruido
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+4. Filtrado de ruido
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "filtrado-de-ruido"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Eliminación de componentes pequeños:
+\series default
+ - 
+\series bold
+Conectividad 4
+\series default
+: Puede eliminar fragmentos legítimos clasificados como ruido - 
+\series bold
+Conectividad 8
+\series default
+: Puede preservar ruido conectado diagonalmente a objetos reales
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Ejemplo:
+\series default
+
+\end_layout
+
+\begin_layout Verbatim
+Si se filtran componentes con área < 5 píxeles:
+\end_layout
+
+\begin_layout Verbatim
+- Conectividad 4: Componente inferior (área ≈ 9) se preserva
+\end_layout
+
+\begin_layout Verbatim
+- Conectividad 8: Todo se fusiona, nada se elimina
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+5. Segmentación semántica
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+5. Segmentación semántica
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "segmentaciuxf3n-semuxe1ntica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Separación de objetos tocándose:
+\series default
+ - 
+\series bold
+Escenarios de multitud
+\series default
+: Personas, vehículos o animales agrupados - Conectividad 4 puede separar objetos que solo se tocan en esquinas - Conectividad 8 los fusionaría incorrectamente
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+6. Aplicaciones médicas
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+6. Aplicaciones médicas
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "aplicaciones-muxe9dicas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis de imágenes histológicas:
+\series default
+ - 
+\series bold
+Tumores o lesiones
+\series default
+: - Conectividad 8 puede fusionar lesiones separadas → subestimación del problema - Conectividad 4 puede fragmentar una lesión grande → sobreestimación
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Análisis de vasos sanguíneos o neuronas:
+\series default
+ - Conectividad 8 mejor para estructuras ramificadas complejas - Mantiene continuidad en estructuras que se curvan
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+7. Recomendaciones prácticas
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+7. Recomendaciones prácticas
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "recomendaciones-pruxe1cticas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Cuándo usar Conectividad 4:
+\series default
+ - Objetos bien separados con bordes definidos - Cuando la precisión en bordes rectilíneos es crítica - Documentos escaneados, caracteres OCR - Circuitos impresos, patrones geométricos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Cuándo usar Conectividad 8:
+\series default
+ - Objetos naturales con formas orgánicas - Cuando se espera continuidad perceptual - Imágenes médicas, satelitales, biológicas - Seguimiento de objetos en video
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Solución híbrida:
+\series default
+ - Algunos algoritmos usan 
+\series bold
+conectividad condicional
+\series default
+: cambian entre 4 y 8 según el contexto local - 
+\series bold
+Post-procesamiento morfológico
+\series default
+: Aplicar operaciones de cierre antes del etiquetado para unir gaps pequeños
+\end_layout
+
+\begin_layout Paragraph
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+texorpdfstring{
+\end_layout
+
+\end_inset
+
+
+\series bold
+8. Impacto en métricas de rendimiento
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}{
+\end_layout
+
+\end_inset
+
+8. Impacto en métricas de rendimiento
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset CommandInset label
+LatexCommand label
+name "impacto-en-muxe9tricas-de-rendimiento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En aplicaciones de visión por computador evaluadas contra ground truth: - 
+\series bold
+Precisión (Precision)
+\series default
+ y 
+\series bold
+Recall
+\series default
+ varían significativamente - IoU (Intersection over Union) cambia según la conectividad - F1-score puede diferir en 10-30% solo por la elección de conectividad
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\series bold
+Conclusión:
+\series default
+ La elección entre conectividad 4 y 8 no es trivial; debe basarse en: 1. Naturaleza física de los objetos 2. Resolución de la imagen 3. Requisitos de la aplicación 4. Validación experimental con datos reales
+\end_layout
+
+\end_body
+\end_document
